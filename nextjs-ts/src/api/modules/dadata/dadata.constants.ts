@@ -1,0 +1,1 @@
+export const SAINT_PETERSBURG_FIAS_ID = 'c2deb16a-0330-4f05-821f-1d09c93331e6'

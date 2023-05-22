@@ -1,0 +1,6 @@
+declare module 'vue-verification-code-input'
+declare module 'vuetable-2'
+declare module 'vuejs-datepicker'
+declare module 'vue-clickaway'
+declare module 'vuejs-paginate'
+declare module 'vue-js-modal'

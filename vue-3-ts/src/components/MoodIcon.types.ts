@@ -1,0 +1,9 @@
+import { TIME_INTERVAL_MOOD } from '@/api/modules/time-intervals/constants'
+
+export const MOOD_COLORS = {
+  [TIME_INTERVAL_MOOD.VERY_BAD]: '#FF8181',
+  [TIME_INTERVAL_MOOD.BAD]: '#FF9B70',
+  [TIME_INTERVAL_MOOD.NORMAL]: '#FFCC4A',
+  [TIME_INTERVAL_MOOD.GOOD]: '#68C038',
+  [TIME_INTERVAL_MOOD.VERY_GOOD]: '#3BE88A'
+}

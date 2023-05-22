@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.idea
+.env
+.vscode
+*.code-workspace
+docker-compose.yml
+*.log
+Dockerfile
+stats.html
+ROLLUP_BUNDLE_VISUALIZER_STATS.html

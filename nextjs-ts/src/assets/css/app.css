@@ -1,0 +1,60 @@
+html,
+body,
+#__next {
+  @apply flex h-full w-full flex-col;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  @apply !outline-none;
+}
+
+.container {
+  @apply mx-auto !max-w-[1236px] px-16;
+}
+
+button[disabled] {
+  @apply !cursor-not-allowed;
+}
+
+time {
+  @apply block;
+}
+
+address {
+  @apply not-italic;
+}
+
+.shadow-20-006 {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+}
+
+body.mobile-menu-expanded {
+  @apply fixed overflow-hidden lg:static lg:overflow-auto;
+}
+
+button[aria-controls='ReactQueryDevtoolsPanel'][aria-expanded='false'] {
+  @apply opacity-0;
+}
+
+#nprogress .peg {
+  @apply !hidden;
+}
+
+.mask-image-gradient {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+/* second header has fixed position and ignores padding added by HeadlessUI dialogs */
+html[style*='padding-right: 6px'] .second-header-fixed {
+  @apply pr-6;
+}
+
+.no-spinbutton::-webkit-outer-spin-button,
+.no-spinbutton::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinbutton[type='number'] {
+  -moz-appearance: textfield;
+}

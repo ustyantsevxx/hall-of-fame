@@ -1,0 +1,84 @@
+{
+  "root": true,
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended",
+    "plugin:nuxt/recommended",
+    "plugin:unicorn/recommended",
+    "plugin:tailwindcss/recommended",
+    "prettier",
+    "prettier/vue"
+  ],
+
+  "plugins": [
+    "prettier",
+    "vuejs-accessibility",
+    "simple-import-sort",
+    "tailwindcss"
+  ],
+
+  "rules": {
+    "no-console": "warn",
+    "curly": "error",
+    "camelcase": "off",
+    "no-unused-vars": "off",
+    "import/order": "off",
+
+    "tailwindcss/no-custom-classname": "off",
+
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "varsIgnorePattern": "^_" }
+    ],
+
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+
+    "vue/v-for-delimiter-style": ["error", "in"],
+    "vue/v-on-function-call": ["error", "never"],
+    "vue/no-useless-mustaches": ["error", { "ignoreStringEscape": true }],
+    "vue/custom-event-name-casing": ["error", "kebab-case", { "ignores": [] }],
+    "vue/new-line-between-multi-line-property": [
+      "error",
+      { "minLineOfMultilineProperty": 2 }
+    ],
+    "vue/no-v-html": "off",
+    "vue/padding-line-between-blocks": "error",
+    "vue/component-name-in-template-casing": [
+      "error",
+      "PascalCase",
+      { "registeredComponentsOnly": false }
+    ],
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ],
+    "vue/component-tags-order": [
+      "error",
+      { "order": ["template", "script", "style"] }
+    ],
+
+    "unicorn/prefer-module": "off",
+    "unicorn/prefer-node-protocol": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-null": "off"
+  }
+}

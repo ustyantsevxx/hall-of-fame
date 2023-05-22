@@ -1,0 +1,19 @@
+.fade-enter-active,
+.fade-leave-active {
+  @apply transition-opacity;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  @apply opacity-0;
+}
+
+.fade-slide-down-enter-active,
+.fade-slide-down-leave-active {
+  @apply transition;
+}
+
+.fade-slide-down-enter-from,
+.fade-slide-down-leave-to {
+  @apply -translate-y-2 opacity-0;
+}

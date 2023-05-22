@@ -1,0 +1,17 @@
+* {
+  @apply motion-reduce:!transition-none motion-reduce:scroll-auto disabled:cursor-not-allowed scroll-smooth;
+}
+
+time {
+  @apply block;
+}
+
+address {
+  @apply not-italic;
+}
+
+html,
+body,
+#__xx {
+  @apply h-full flex flex-col;
+}

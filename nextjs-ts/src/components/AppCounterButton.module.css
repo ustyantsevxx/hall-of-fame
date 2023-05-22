@@ -1,0 +1,7 @@
+.normal {
+  @apply h-[36px] w-[36px];
+}
+
+.mini {
+  @apply h-[32px] w-[32px];
+}

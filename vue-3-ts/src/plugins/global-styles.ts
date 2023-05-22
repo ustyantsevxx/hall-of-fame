@@ -1,0 +1,7 @@
+import '@/assets/css/tailwind.css'
+import '@/assets/css/app.css'
+import '@/assets/css/focus-visible.css'
+import '@/assets/css/custom-scrollbars.css'
+import '@/assets/css/fonts.css'
+import '@/assets/css/vue-transitions.css'
+import '@/assets/css/utils.css'

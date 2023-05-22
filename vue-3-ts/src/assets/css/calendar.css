@@ -1,0 +1,74 @@
+.app-calendar {
+  /* NAVIGATION ARROWS  */
+  .vc-arrows-container {
+    @apply flex pr-9 pt-8;
+
+    .vc-arrow {
+      @apply flex items-center justify-center border-0 transition-colors pointer-events-none;
+
+      &:hover {
+        background: none;
+       }
+    }
+  }
+
+  /* CONTAINER  */
+  &.vc-container {
+    @apply border-0;
+    font-family: inherit;
+  }
+
+  /* HEADER */
+  .vc-header {
+    @apply flex h-45 items-center px-10 pt-0;
+  }
+
+  /* TITLE */
+  .vc-title {
+    @apply capitalize text-black !text-medium-15;
+  }
+
+  /* WEEKDAYS CONTAINER */
+  .vc-weeks {
+    @apply px-6 pb-0 pt-16;
+
+    /* WEEKDAY */
+    .vc-weekday {
+      @apply pt-0 pb-0 font-normal capitalize text-black text-15 laptop:text-14;
+    }
+  }
+
+  /* DAY CELL */
+  .vc-day {
+    @apply mt-6 h-40 w-48 px-3 text-black/60;
+
+    &.weekday-position-1 {
+      @apply pl-5;
+    }
+    &.weekday-position-7 {
+      @apply pr-5;
+    }
+
+    &.on-top,
+    &.on-bottom {
+      @apply pt-0;
+    }
+
+    &.is-not-in-month * {
+      @apply opacity-60;
+    }
+
+    .vc-day-content {
+      @apply font-normal;
+    }
+
+    /* DAY CELL DOTS */
+    .vc-dots {
+      @apply pb-6;
+
+      .vc-dot {
+        @apply h-4 w-4 text-main-primary;
+      }
+    }
+  }
+}

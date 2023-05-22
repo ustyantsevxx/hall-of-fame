@@ -1,0 +1,23 @@
+.app-input-layout {
+  @apply relative flex flex-col;
+}
+
+.app-input-layout label {
+  @apply pointer-events-none absolute left-18 top-1/2 origin-top-left -translate-y-1/2 text-black/25 transition-all text-regular-17;
+}
+
+.app-input-layout input,
+.app-input-layout textarea {
+  @apply bg-transparent placeholder:text-transparent;
+}
+
+.app-input-layout input:focus,
+.app-input-layout textarea:focus,
+.app-input-layout .has-value {
+  @apply border-black/10 bg-transparent;
+}
+
+.app-input-layout:focus-within label,
+.app-input-layout input:not(:placeholder-shown) + label {
+  @apply !left-12 !top-0 -translate-y-1/2 rounded-12 bg-white px-6 !text-regular-15;
+}

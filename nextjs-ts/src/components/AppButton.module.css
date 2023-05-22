@@ -1,0 +1,23 @@
+.primary {
+  @apply rounded-100 bg-green  text-white transition-colors text-medium-17 hover:bg-green-button-hover disabled:bg-green/50;
+}
+
+.normal {
+  @apply px-18 pt-11 pb-9 text-medium-17;
+}
+
+.mini {
+  @apply px-16 pt-7 pb-5 text-regular-15 sm:pt-9 sm:pb-7 sm:text-medium-15;
+}
+
+.mini-with-big-text {
+  @apply px-16 pt-9 pb-7 text-medium-17;
+}
+
+.secondary {
+  @apply rounded-100 border border-green text-green transition-colors hover:text-white enabled:hover:bg-green disabled:border-green/50 disabled:text-green/50;
+}
+
+a.secondary {
+  @apply hover:bg-green hover:text-white;
+}

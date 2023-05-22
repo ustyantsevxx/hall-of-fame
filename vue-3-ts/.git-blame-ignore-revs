@@ -1,0 +1,7 @@
+# add commit hashes here to ignore them from git blame
+# use to hide garbage commits like "FIX ESLINT ERRORS", "Prettier reformat" etc
+
+71ff0865e145637f3943123fb7f92cf39727a903
+1c802a2d96c5a2a04561e74f214ea3690e2920d8
+1f073eb72a182023386ae122c223260b71d3f914
+d802bd8a0768bb854bcd1818116371d7e5c1d026

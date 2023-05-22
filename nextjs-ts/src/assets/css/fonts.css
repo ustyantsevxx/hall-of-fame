@@ -1,0 +1,17 @@
+/* Value Sans Pro */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Value Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ValueSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Value Sans Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/ValueSansPro-Medium.ttf');
+}

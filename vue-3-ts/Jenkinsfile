@@ -1,0 +1,27 @@
+library 'helpers'
+
+pipeline {
+  agent any
+
+  stages {
+    stage('Test') {
+      when {
+        branch 'ci'
+      }
+
+      steps {
+        sendTelegramMessage 'testing...'
+      }
+
+      post {
+        success {
+            sendTelegramMessage 'testing success'
+        }
+
+        failure {
+            sendTelegramMessage 'testing failed'
+        }
+      }
+    }
+  }
+}

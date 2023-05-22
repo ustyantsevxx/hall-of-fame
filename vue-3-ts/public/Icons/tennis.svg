@@ -1,0 +1,45 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0)">
+            <circle cx="39" cy="41" r="5" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M37.5 45V42.75C37.5 41.7835 38.2835 41 39.25 41V41C40.2165 41 41 40.2165 41 39.25V36.5"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+            <ellipse cx="30.0701" cy="17.9289" rx="12" ry="15"
+                     transform="rotate(45 30.0701 17.9289)"
+                     stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round" />
+            <path d="M35.0215 4.4939L16.9903 22.5251" stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M41.3848 20.7574L27.2426 6.61525" stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M43.5059 12.9792L25.4746 31.0104" stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M32.9004 29.2426L18.7583 15.1005" stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M40.6777 7.32233L19.4645 28.5355" stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M38.5566 26.4142L21.5861 9.44362" stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M16.9902 23.9393V23.9393C15.9521 27.872 13.8899 31.4591 11.0139 34.3351L5.32297 40.026C4.59074 40.7582 4.59074 41.9454 5.32297 42.6777V42.6777"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+            <path d="M24.0605 31.0104V31.0104C20.1279 32.0486 16.5408 34.1108 13.6648 36.9868L7.97387 42.6777C7.24163 43.4099 6.05445 43.4099 5.32222 42.6777V42.6777"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+      </g>
+      <defs>
+            <clipPath id="clip0">
+                  <path d="M0 8C0 3.58172 3.58172 0 8 0H42C46.4183 0 50 3.58172 50 8V42C50 46.4183 46.4183 50 42 50H8C3.58172 50 0 46.4183 0 42V8Z"
+                        fill="currentColor" />
+            </clipPath>
+      </defs>
+</svg>

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* disable container shrinking => disable responsiveness */
+.container {
+  width: 1110px !important;
+  max-width: none !important;
+}
+
+/* accessibility outline keyboard only using focus-visible polyfill */
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none !important;
+}
+
+/* fix the scrollbar => resolve jumping scrollbar issue */
+html {
+  overflow-y: scroll !important;
+
+  /* base typography styles ("Paragraph" from design) */
+  font-size: 16px;
+  line-height: 25px;
+}
+
+time {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}

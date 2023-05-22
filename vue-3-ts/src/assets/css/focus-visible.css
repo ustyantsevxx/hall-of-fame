@@ -1,0 +1,14 @@
+/* 
+  — Accessibility accent with keyboard only using `focus-visible` polyfill
+  — Remove ugly outline; force-enable nice box-shadows via `ring` utils
+  — Use `no-default-ring` class to disable default box-shadow onfocus
+*/
+
+[data-focus-visible-added],
+.js-focus-visible :focus:not(.focus-visible) {
+  @apply outline-none !important;
+}
+
+[data-focus-visible-added]:not(.no-default-ring) {
+  @apply ring ring-subcolor-rose ring-opacity-80 !important;
+}
