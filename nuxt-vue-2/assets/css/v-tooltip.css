@@ -1,0 +1,31 @@
+.x-popover[x-placement^='top'] .x-popover-arrow,
+.x-popover[x-placement^='top'] .tooltip-arrow {
+  bottom: -4px;
+  left: calc(50% - 4px);
+}
+
+.x-popover[x-placement^='bottom'] .x-popover-arrow,
+.x-popover[x-placement^='bottom'] .tooltip-arrow {
+  top: -4px;
+  left: calc(50% - 4px);
+}
+
+.x-popover[aria-hidden='true'] {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s, visibility 0.15s;
+}
+
+.x-popover[aria-hidden='false'] {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.15s;
+}
+
+.v-popover .trigger {
+  display: block !important;
+}
+
+.tooltip-arrow {
+  @apply absolute h-8 w-8 rotate-45 bg-light-30;
+}

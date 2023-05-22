@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <path d="M5 18V8H19V18H5Z" stroke="white" />
+  <path d="M12 11V15M12 15L10 13.2222M12 15L14 13.2222" stroke="white" />
+  <path d="M5 6V7H9V6H5Z" stroke="white" />
+  <path opacity="0.2" d="M10 6V7H14V6H10Z" stroke="white" />
+</svg>

@@ -1,0 +1,26 @@
+@import 'quill/dist/quill.core.css';
+@import 'quill/dist/quill.snow.css';
+
+.ql-editor * {
+  @apply !font-sans;
+}
+
+.ql-editor > :first-child {
+  @apply !mt-0;
+}
+
+.ql-editor a {
+  @apply !inline-block rounded-6 border border-white/30 py-13 px-20 text-white !no-underline transition text-input hover:border-white active:border-white/70 sm:px-28 sm:text-button;
+}
+
+.ql-editor p {
+  @apply !text-main;
+}
+
+.ql-editor h1 {
+  @apply !text-h1;
+}
+
+.ql-editor h2 {
+  @apply !text-h2;
+}

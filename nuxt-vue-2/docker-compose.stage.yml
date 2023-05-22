@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  xxx:
+    container_name: xxx
+    image: node:lts-alpine
+    restart: always
+    working_dir: /var/www
+    command: yarn stage
+    volumes:
+      - ./:/var/www:cached
+    ports:
+      - "34567:3000"

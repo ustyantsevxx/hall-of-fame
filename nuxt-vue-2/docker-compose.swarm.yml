@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  xxx:
+    image: localhost:5000/xxx:1
+    ports:
+      - '9090:3000'
+    command: yarn start
+    deploy:
+      replicas: 1
+      update_config:
+        parallelism: 1
+        order: start-first
+        failure_action: rollback
+        delay: 10s
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:3000']
+      interval: 10s
+      timeout: 10s
+      retries: 5

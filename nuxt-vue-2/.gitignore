@@ -1,0 +1,10 @@
+.nuxt
+.vscode
+.idea
+node_modules
+docker-compose.yml
+.env
+*.code-workspace
+dist
+yarn-error.log*
+static/sw.js

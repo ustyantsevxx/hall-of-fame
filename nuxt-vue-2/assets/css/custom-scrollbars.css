@@ -1,0 +1,29 @@
+/* WebKit/Blink */
+
+::-webkit-scrollbar {
+  @apply h-4 w-4;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(188, 208, 222, 0.14);
+  @apply rounded-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-2 bg-white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/70;
+}
+
+::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
+
+/* Gecko */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+}

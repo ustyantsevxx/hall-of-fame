@@ -1,0 +1,66 @@
+.container {
+  @apply !w-[1440px] !max-w-none;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  @apply !outline-none;
+}
+
+* {
+  @apply transition-shadow;
+}
+
+.focus-visible {
+  @apply outline-none ring ring-yellow ring-opacity-80;
+}
+
+html,
+body,
+#__nuxxt,
+#__layout {
+  @apply h-full;
+}
+
+html {
+  @apply bg-light-full text-white sm:!overflow-hidden;
+}
+
+time {
+  @apply block;
+}
+
+address {
+  @apply not-italic;
+}
+
+.__nuxt-error-page {
+  @apply bg-none !text-white;
+}
+
+.__nuxt-error-page svg {
+  @apply inline;
+}
+
+.nuxt__build_indicator {
+  @apply !bg-light-20 !font-sans !text-cyan;
+}
+
+.nuxt-progress {
+  @apply !h-2 sm:!h-3;
+}
+
+button[disabled] {
+  @apply !cursor-not-allowed;
+}
+
+.vm--overlay {
+  @apply bg-[#040618] opacity-80 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: white !important;
+  @apply transition duration-[5000s] ease-in-out;
+}

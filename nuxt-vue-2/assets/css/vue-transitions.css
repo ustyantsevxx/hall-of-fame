@@ -1,0 +1,9 @@
+.default-fade-enter-active,
+.default-fade-leave-active {
+  @apply !transition;
+}
+
+.default-fade-leave-to,
+.default-fade-enter {
+  @apply !opacity-0;
+}

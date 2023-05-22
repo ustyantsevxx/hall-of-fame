@@ -1,0 +1,15 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.7" y="0.7" width="14.6" height="14.6" rx="3.3" stroke="white"
+        stroke-width="1.4" />
+  <path d="M0.571777 5.71484H15.4289" stroke="white" stroke-width="1.4" />
+  <rect x="3.71387" y="8" width="1.71429" height="1.71429" fill="white" />
+  <rect opacity="0.4" x="3.71436" y="10.8574" width="1.71429" height="1.71429"
+        fill="white" />
+  <rect x="7.14258" y="8" width="1.71429" height="1.71429" fill="white" />
+  <rect opacity="0.4" x="7.14258" y="10.8574" width="1.71429" height="1.71429"
+        fill="white" />
+  <rect x="10.5723" y="8" width="1.71429" height="1.71429" fill="white" />
+  <rect opacity="0.4" x="10.5723" y="10.8574" width="1.71429" height="1.71429"
+        fill="white" />
+</svg>
