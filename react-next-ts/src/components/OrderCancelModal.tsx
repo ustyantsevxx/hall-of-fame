@@ -46,7 +46,7 @@ export const OrderCancelModal: FC<Props> = ({ onClose, opened, order }) => {
 
   return (
     <AppModal
-      title="Отмена заказа"
+      title="xx xx"
       emptyFocusTrap
       contentWrapperClassName="grow flex flex-col"
       panelClassName={clsx(
@@ -59,12 +59,12 @@ export const OrderCancelModal: FC<Props> = ({ onClose, opened, order }) => {
     >
       <form className="flex h-full w-full grow flex-col" onSubmit={cancelOrder}>
         <Dialog.Description className="mt-4 text-black/50">
-          Сумма вашего заказа придет на выбранную в способе оплаты карту в
-          течение 3 дней
+          xx xx xx xx xx xx xx xx xx xx xx
+          xx 3 xx
         </Dialog.Description>
 
         <AppTextarea
-          placeholder="Пожалуйста, напишите причину отмены заказа"
+          placeholder="xx, xx xx xx xx"
           className="mt-24 h-[130px] w-full resize-none"
           {...register('reason')}
         />
@@ -74,14 +74,14 @@ export const OrderCancelModal: FC<Props> = ({ onClose, opened, order }) => {
           disabled={!formState.isValid}
           onClick={cancelOrder}
         >
-          Отменить заказ
+          xx xx
         </AppButton>
       </form>
 
       <ModalNotification
         opened={notificationOpened}
-        title="Заказ отменен"
-        description="Напишите в службу поддержки, если возврат денежных средств не произойдет в течение 3 дней"
+        title="xx xx"
+        description="xx xx xx xx, xx xx xx xx xx xx xx xx 3 xx"
         onClose={setNotificationOpened}
         onClosed={() => onClose(false)}
       />

@@ -4,18 +4,18 @@
       :model-value="owner?.id"
       :options="timerOptions"
       track-by="id"
-      placeholder="Выберите таймер"
+      placeholder="xx xx"
       variant="elevated"
       class="bg-white"
       @update:model-value="handleTimerChange"
     />
 
     <slot name="name-input" v-bind="slotProps">
-      <FormGroup v-slot="{ id }" label="Название задачи" class="mt-16">
+      <FormGroup v-slot="{ id }" label="xx xx" class="mt-16">
         <Input
           :id="id"
           v-model="name"
-          placeholder="Например, написать эссе"
+          placeholder="xx, xx xx"
           variant="bottom-line"
           multiline
         />
@@ -43,7 +43,7 @@
       <slot name="actions">
         <div class="flex">
           <Button variant="primary" class="px-38 laptop:!px-59">
-            <span>Добавить задачу</span>
+            <span>xx xx</span>
           </Button>
         </div>
       </slot>
@@ -77,10 +77,8 @@ const emit = defineEmits<{
 }>()
 
 const validationSchema = {
-  owner: object().nullable().required('Выберите таймер'),
-  name: string()
-    .required('Задача должна иметь название')
-    .max(120, 'Максимальная длина названия задачи 120 символов'),
+  owner: object().nullable().required('xx xx'),
+  name: string().required('xx xx xx xx').max(120, 'xx xx xx xx 120 xx'),
   finishDateTime: date().nullable(),
   notificationDateTime: date().nullable()
 }

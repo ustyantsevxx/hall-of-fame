@@ -2,11 +2,11 @@
   <div>
     <PageHeader>
       <template #title>
-        <slot name="title">Акции и новости</slot>
+        <slot name="title">xx xx xx</slot>
       </template>
       <template #subtitle>
         <slot name="subtitle">
-          Следите за акциями и новостями, участвуйте в наших акциях.
+          xx xx xx xx xx, xx xx xx xx.
         </slot>
       </template>
     </PageHeader>
@@ -26,7 +26,7 @@
         />
       </template>
 
-      <p v-else class="text-subtitle text-gray">Список новостей пуст</p>
+      <p v-else class="text-subtitle text-gray">xx xx xx</p>
     </section>
 
     <section class="flex justify-center my-30">

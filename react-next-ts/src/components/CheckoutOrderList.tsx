@@ -97,7 +97,7 @@ export const CheckoutOrderList: FC<Props> = ({ className }) => {
     })) || []),
     {
       id: PERSON_COUNT_PRODUCT_ID,
-      name: 'Приборы',
+      name: 'xx',
       price: 0,
       sale_price: 0,
       quantity: personCount ?? 1,
@@ -123,12 +123,12 @@ export const CheckoutOrderList: FC<Props> = ({ className }) => {
   const messages = [
     {
       key: 'promocode',
-      text: 'Промокод применен',
+      text: 'xx xx',
       visible: checkoutContext.calculations?.promocode_used
     },
     {
       key: 'bonuscoins',
-      text: `Списано ${getValues('bonusCoinsToUse')}`,
+      text: `xx ${getValues('bonusCoinsToUse')}`,
       visible: checkoutContext.calculations?.coins_sub
     }
   ]
@@ -141,7 +141,7 @@ export const CheckoutOrderList: FC<Props> = ({ className }) => {
     >
       <AppTransition show={!isLoading}>
         <h2 className="text-black/50 text-regular-17 md:text-black md:text-regular-26">
-          Ваш заказ на {formatRuble(total || localTotal)}
+          xx xx xx {formatRuble(total || localTotal)}
         </h2>
 
         <div className="mt-16 border-t md:mt-8 md:border-t-0">
@@ -165,7 +165,7 @@ export const CheckoutOrderList: FC<Props> = ({ className }) => {
 
       {isLoading && (
         <p className="text-black/50 text-regular-17 md:text-black md:text-regular-26">
-          Загрузка...
+          xx...
         </p>
       )}
     </div>

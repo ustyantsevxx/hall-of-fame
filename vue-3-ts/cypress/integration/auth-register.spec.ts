@@ -21,31 +21,31 @@ describe('Register page', () => {
 
   it('Performs register flow', () => {
     register('test@test.test', '12345678')
-    cy.contains('Ссылка для подтверждения регистрации отправлена на ваш Email')
+    cy.contains('xx xx xx xx xx xx xx Email')
   })
 
   it('Displays error message when password is empty', () => {
     register('test@test.test')
-    cy.contains('Вы не ввели новый пароль')
+    cy.contains('xx xx xx xx xx')
   })
 
   it('Displays error message when password contains restricted symbols', () => {
     register('test@test.test', '₽₽₽₽₽₽₽₽₽')
-    cy.contains('Пароль может содержать только латинские буквы и спецсимволы')
+    cy.contains('xx xx xx xx xx xx xx xx')
   })
 
   it('Displays error message when password contains less than 8 symbols', () => {
     register('test@test.test', '1234567')
-    cy.contains('Минимальная длина пароля 8 символов')
+    cy.contains('xx xx xx 8 xx')
   })
 
   it('Displays error message when password contains more than 20 symbols', () => {
     register('test@test.test', '1'.repeat(21))
-    cy.contains('Максимальная длина пароля 20 символов')
+    cy.contains('xx xx xx 20 xx')
   })
 
   it('Displays error message when typed in-use email', () => {
     register('email@email.com', '12345678')
-    cy.contains('Данный "E-mail" уже используется')
+    cy.contains('xx "E-mail" xx xx')
   })
 })

@@ -2,8 +2,8 @@
   <TaskFormFieldDatetime
     v-bind="$attrs"
     :modal-initial-value="initialValue"
-    label="Дата и время"
-    modal-title="Дата и время"
+    label="xx xx xx"
+    modal-title="xx xx xx"
   >
     <template #icon>
       <SvgCalendar />
@@ -35,17 +35,17 @@ useTimeoutPoll(() => {
 
 const dateVariants = [
   {
-    label: 'Сегодня',
+    label: 'xx',
     isActive: value => dayjs(value).isToday(),
     getValue: () => new Date()
   },
   {
-    label: 'Завтра',
+    label: 'xx',
     isActive: value => dayjs(value).isTomorrow(),
     getValue: () => dayjs().add(1, 'day').toDate()
   },
   {
-    label: 'Следующая неделя',
+    label: 'xx xx',
     isActive: value => dayjs(value).week() - dayjs().week() === 1,
     getValue: () => dayjs().add(1, 'week').startOf('week').toDate()
   }

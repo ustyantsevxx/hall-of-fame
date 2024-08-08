@@ -76,7 +76,7 @@ export const ModalSignInFormCodeForm: FC<Props> = ({
     >
       <div className="grow">
         <FormGroup
-          errorMessage={codeError && 'Код введен неверно'}
+          errorMessage={codeError && 'xx xx xx'}
           onReset={handleResetCode}
         >
           <InputMasked
@@ -84,7 +84,7 @@ export const ModalSignInFormCodeForm: FC<Props> = ({
             mask="0000"
             type="tel"
             disabled={!phone}
-            placeholder="Код из СМС"
+            placeholder="xx xx xx"
             className="w-full"
             onAccept={value => {
               codeError && setCodeError(false)
@@ -112,7 +112,7 @@ export const ModalSignInFormCodeForm: FC<Props> = ({
         disabled={!phone || !formState.isValid || loginLoading}
         className="mt-auto w-full md:mt-20"
       >
-        Войти в профиль
+        xx xx xx
       </AppButton>
     </form>
   )

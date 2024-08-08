@@ -2,7 +2,7 @@
   <div>
     <main class="container flex-grow flex-shrink-0">
       <div class="flex justify-between">
-        <h1 class="text-h1">Настройки</h1>
+        <h1 class="text-h1">xx</h1>
       </div>
 
       <div class="grid grid-cols-12 mt-30">

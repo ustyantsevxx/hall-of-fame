@@ -5,12 +5,12 @@
     <LegalCardsTableTd classes="py-12 pr-20">
       <Button
         type="button"
-        title="Изменить параметры карты"
+        title="xx xx xx"
         class="text-description"
         link
         @click="editCardParams"
       >
-        Изменить
+        xx
       </Button>
 
       <ModalCardParamsEdit
@@ -23,12 +23,12 @@
     <LegalCardsTableTd classes="py-12 pr-20">
       <Button
         type="button"
-        title="Изменить статус карты"
+        title="xx xx xx"
         class="text-description"
         link
         @click="editCardStatus"
       >
-        Изменить
+        xx
       </Button>
 
       <ModalCardStatusEdit
@@ -41,12 +41,12 @@
     <LegalCardsTableTd colspan="2" classes="py-12 pr-20">
       <Button
         type="button"
-        title="Добавить/удалить марку нефтепродукта"
+        title="xx/xx xx xx"
         class="text-description"
         link
         @click="editCardMarks"
       >
-        Изменить
+        xx
       </Button>
 
       <EditCardMarksModal
@@ -65,12 +65,12 @@
       <div v-if="!cardIsOfLiterType" class="flex justify-end">
         <Button
           type="button"
-          title="Пополнить/списать баланс"
+          title="xx/xx xx"
           class="text-description"
           link
           @click="editCardLimitBalances"
         >
-          Управлять
+          xx
         </Button>
 
         <ModalCardLimitBalanceEdit

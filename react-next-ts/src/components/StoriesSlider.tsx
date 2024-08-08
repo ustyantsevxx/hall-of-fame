@@ -101,7 +101,7 @@ export const StoriesSlider: FC<Props> = ({ className }) => {
             <StoriesSliderNavButton
               ref={e => setNavPrevEl(e)}
               className="-translate-x-[24px]"
-              title="Назад"
+              title="xx"
             >
               <ArrowCardsLeftSvg />
             </StoriesSliderNavButton>
@@ -109,7 +109,7 @@ export const StoriesSlider: FC<Props> = ({ className }) => {
             <StoriesSliderNavButton
               ref={e => setNavNextEl(e)}
               className="right-0 translate-x-[24px]"
-              title="Вперед"
+              title="xx"
             >
               <ArrowCardsRightSvg />
             </StoriesSliderNavButton>

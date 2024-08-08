@@ -1,11 +1,11 @@
 <template>
   <main class="container">
     <PageHeader>
-      <template #title>Личные данные</template>
+      <template #title>xx xx</template>
       <template #subtitle>
-        Вы можете отредактировать имя, фамилию и отчество. Для изменения даты
-        рождения или номера телефона обратитесь в
-        <Link to="/support">службу поддержки.</Link>
+        xx xx xx xx, xx xx xx. xx xx xx
+        xx xx xx xx xx xx
+        <Link to="/support">xx xx.</Link>
       </template>
     </PageHeader>
 
@@ -14,29 +14,29 @@
         <div class="grid grid-cols-3 gap-x-30 gap-y-34">
           <InputDefault
             v-model="$v.editData.firstName.$model"
-            label="Имя"
+            label="xx"
             :invalid="$v.editData.firstName.$error"
           />
           <InputDefault
             v-model="$v.editData.lastName.$model"
-            label="Фамилия"
+            label="xx"
             :invalid="$v.editData.lastName.$error"
           />
-          <InputDefault v-model="editData.patronymic" label="Отчество" />
+          <InputDefault v-model="editData.patronymic" label="xx" />
 
           <div>
-            <p class="mb-3 text-description text-gray">Телефон</p>
+            <p class="mb-3 text-description text-gray">xx</p>
             <p class="text-subtitle">{{ phoneFormatted }}</p>
           </div>
 
           <div>
-            <p class="mb-3 text-description text-gray">Дата рождения</p>
+            <p class="mb-3 text-description text-gray">xx xx</p>
             <p>{{ dateOfBirthFormatted }}</p>
           </div>
         </div>
 
         <Button gradient class="mt-92" :disabled="!submitAvailable">
-          Сохранить
+          xx
         </Button>
       </form>
     </section>
@@ -65,7 +65,7 @@ import { formatPhone } from '~/logic/utils/phone'
   },
 
   head: {
-    title: 'Личные данные'
+    title: 'xx xx'
   },
 
   validations: {

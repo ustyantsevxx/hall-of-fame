@@ -4,9 +4,7 @@
   >
     <SvgInstagram class="h-36 w-36" />
 
-    <p class="mt-5 text-center text-17">
-      Подписывайтесь и&nbsp;следите за&nbsp;новостями
-    </p>
+    <p class="mt-5 text-center text-17">xx xx&nbsp;xx xx&nbsp;xx</p>
   </div>
 </template>
 

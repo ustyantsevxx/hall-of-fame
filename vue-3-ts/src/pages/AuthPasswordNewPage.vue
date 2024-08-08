@@ -1,18 +1,18 @@
 <template>
-  <AuthWrapper title="Восстановление пароля">
+  <AuthWrapper title="xx xx">
     <form
       v-if="!passwordChanged"
       class="mt-18 flex min-h-[618px] flex-col justify-between divide-y divide-white divide-opacity-20"
       @submit.prevent="onSubmit"
     >
       <div class="space-y-35">
-        <p>Придумайте и подтвердите новый пароль</p>
+        <p>xx xx xx xx xx</p>
 
         <div class="space-y-15">
           <InputPassword
             v-model="password"
             v-model:password-revealed="passwordRevealed"
-            placeholder="Новый пароль"
+            placeholder="xx xx"
             autocomplete="new-password"
             filled
           />
@@ -20,32 +20,26 @@
           <InputPassword
             v-model="passwordConfirmation"
             v-model:password-revealed="passwordRevealed"
-            placeholder="Подтверждение пароля"
+            placeholder="xx xx"
             autocomplete="confirm-password"
             filled
           />
 
           <ErrorList v-if="form.meta.value.touched" :errors="errorList" />
 
-          <Button :loading="form.isSubmitting.value" class="w-full">
-            Сохранить
-          </Button>
+          <Button :loading="form.isSubmitting.value" class="w-full">xx</Button>
         </div>
       </div>
 
       <div class="mb-15 flex justify-center pt-35">
-        <RouterLink to="/auth/login" class="underline">
-          Войти в систему
-        </RouterLink>
+        <RouterLink to="/auth/login" class="underline">xx xx xx</RouterLink>
       </div>
     </form>
 
     <div v-else class="mt-10 divide-y divide-white divide-opacity-20">
-      <p>Новый пароль успешно сохранен</p>
+      <p>xx xx xx xx</p>
       <div class="mb-15 mt-30 flex justify-center pt-35">
-        <RouterLink to="/auth/login" class="underline">
-          Войти в систему
-        </RouterLink>
+        <RouterLink to="/auth/login" class="underline">xx xx xx</RouterLink>
       </div>
     </div>
   </AuthWrapper>
@@ -91,10 +85,7 @@ const { getPasswordRules } = useAuthValidation()
 
 const rules = {
   password: getPasswordRules(),
-  passwordConfirmation: string().oneOf(
-    [ruleRef('password')],
-    'Пароли не совпадают'
-  )
+  passwordConfirmation: string().oneOf([ruleRef('password')], 'xx xx xx')
 }
 
 const { form, useFormField, errorList, onSubmit } = useValidation({

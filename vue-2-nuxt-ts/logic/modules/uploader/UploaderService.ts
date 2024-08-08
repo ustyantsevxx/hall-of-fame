@@ -155,7 +155,7 @@ export class _UploaderService extends BaseService<_UploaderApi> {
     if (response.status === 200) {
       return response.data.data.id
     } else {
-      throw new Error('Ошибка при регистрации файла')
+      throw new Error('xx xx xx xx')
     }
   }
 
@@ -188,7 +188,7 @@ export class _UploaderService extends BaseService<_UploaderApi> {
           if (response.status !== 200) {
             const errorDescription = response.data
               ? response.data[0].description
-              : 'Ошибка загрузки файла'
+              : 'xx xx xx'
             reject(errorDescription)
           } else {
             resolve(response.data)
@@ -204,7 +204,7 @@ export class _UploaderService extends BaseService<_UploaderApi> {
     const { status } = await this.api.finishFileUploading({ uploadId })
 
     if (status !== 200) {
-      throw new Error('Ошибка загрузки файла')
+      throw new Error('xx xx xx')
     }
   }
 }

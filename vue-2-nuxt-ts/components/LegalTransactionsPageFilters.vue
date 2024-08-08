@@ -3,7 +3,7 @@
     <section v-if="bonusCards.length > 1" style="width: 350px">
       <InputSelect
         v-model="bonusCardSelectValue"
-        label="Выберите карту"
+        label="xx xx"
         :options="bonusCardsOptions"
         @change="handleBonusCardSelectInput"
         @open="fetchBonusCards"
@@ -13,8 +13,8 @@
     <section style="width: 295px">
       <InputSelect
         v-model.number="dateFilterModeId"
-        label="Фильтр по датам"
-        title="Диапазон дат"
+        label="xx xx xx"
+        title="xx xx"
         :options="dateFilterModeOptions"
         @change="changeDateFilterMode"
       />
@@ -28,8 +28,8 @@
       >
         <InputDateRange
           v-model="filters.dateRange"
-          label="Укажите диапазон дат"
-          placeholder="Выберите диапазон"
+          label="xx xx xx"
+          placeholder="xx xx"
           format="DD.MM.YYYY HH:mm"
           edit-time
         />
@@ -88,11 +88,11 @@ export default class LegalTransactionsPageFilters extends mixins(
 
     return [
       {
-        label: 'Все действующие',
+        label: 'xx xx',
         value: null
       },
       {
-        label: 'Все архивные',
+        label: 'xx xx',
         value: ARCHIVED_CARDS_OPTION
       },
       ...bonusCardsOptions

@@ -27,5 +27,5 @@ import { useHabitDataStore } from '@/stores/habit-data'
 
 const habitDataStore = useHabitDataStore()
 
-const nameSuggestions = ['Отжимания', 'Чтение', 'Зарядка', 'Новые слова']
+const nameSuggestions = ['xx', 'xx', 'xx', 'xx xx']
 </script>

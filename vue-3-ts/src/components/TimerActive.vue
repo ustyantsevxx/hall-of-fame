@@ -15,7 +15,7 @@
               {{ popupTitle }}
             </div>
 
-            <button class="h-24 w-24" title="Закрыть" @click="closeForm">
+            <button class="h-24 w-24" title="xx" @click="closeForm">
               <SvgClose class="h-full w-full text-main-primary" />
             </button>
           </div>
@@ -62,7 +62,7 @@
           <ProgressPlayPause
             :progress="progress"
             :running="running"
-            :title="running ? 'Остановить таймер' : 'Запустить таймер'"
+            :title="running ? 'xx xx' : 'xx xx'"
             @play="startTimer"
             @pause="pauseTimer"
           />
@@ -106,8 +106,8 @@ const popupVisible = ref(false)
 
 const popupTitle = computed(() => {
   const config = {
-    [TimerActiveFormMode.Editing]: 'Комментарий',
-    [TimerActiveFormMode.Finishing]: 'Завершение таймера'
+    [TimerActiveFormMode.Editing]: 'xx',
+    [TimerActiveFormMode.Finishing]: 'xx xx'
   }
 
   return formMode.value !== null ? config[formMode.value] : ''

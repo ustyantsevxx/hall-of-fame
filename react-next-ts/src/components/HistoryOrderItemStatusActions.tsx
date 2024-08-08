@@ -37,16 +37,16 @@ export const HistoryOrderItemActions: FC<Props> = ({
   const orderActionConfig: Record<OrderActions, OrderActionConfig> = {
     [OrderActions.CANCEL]: {
       variant: 'secondary',
-      children: 'Отменить',
+      children: 'xx',
       onClick: onCancel
     },
     [OrderActions.REPEAT]: {
       variant: 'secondary',
-      children: 'Повторить',
+      children: 'xx',
       onClick: onRepeat
     },
     [OrderActions.RATE]: {
-      children: 'Оценить',
+      children: 'xx',
       variant: 'primary',
       onClick: onRate
     }

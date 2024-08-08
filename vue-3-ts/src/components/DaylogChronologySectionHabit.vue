@@ -29,7 +29,7 @@
 
         <!--          <div class="!ml-28 text-black/40">09:00 - 17:12</div>-->
         <!--          <div class="text-black/40">&bull;</div>-->
-        <!--          <div class="text-main-primary">8 ч 12 мин</div>-->
+        <!--          <div class="text-main-primary">8 xx 12 xx</div>-->
         <!--        </div>-->
         <!--      </div>-->
 

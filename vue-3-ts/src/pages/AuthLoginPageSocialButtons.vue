@@ -5,7 +5,7 @@
       :href="socialUrls.facebook"
     >
       <SvgFacebook />
-      <span>Продолжить через Facebook</span>
+      <span>xx xx Facebook</span>
     </AuthLoginPageSocialButtonsItem>
 
     <AuthLoginPageSocialButtonsItem
@@ -13,7 +13,7 @@
       :href="socialUrls.google"
     >
       <SvgGoogle />
-      <span>Продолжить через Google</span>
+      <span>xx xx Google</span>
     </AuthLoginPageSocialButtonsItem>
 
     <AuthLoginPageSocialButtonsItem
@@ -21,7 +21,7 @@
       :href="socialUrls.apple"
     >
       <SvgApple />
-      <span>Продолжить через Apple</span>
+      <span>xx xx Apple</span>
     </AuthLoginPageSocialButtonsItem>
   </div>
 </template>

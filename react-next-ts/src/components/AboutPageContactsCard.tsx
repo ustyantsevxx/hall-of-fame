@@ -23,7 +23,7 @@ export const AboutPageContactsCard: FC<Props> = ({ className }) => {
       className={clsx('rounded-18 bg-gray pt-26 md:pr-32 md:pb-30', className)}
     >
       <h2 className="pl-23 text-black/50 text-regular-20 md:pl-36 md:text-black md:text-regular-26">
-        Контакты
+        xx
       </h2>
 
       <ul className="mt-12 text-regular-17">

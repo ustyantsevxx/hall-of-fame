@@ -16,11 +16,11 @@ type Props = {
 }
 
 const links = [
-  { name: 'Доставка', href: '/delivery' },
-  { name: 'О нас', href: '/about' },
-  { name: 'Акции', href: '/stocks' }
-  // { name: 'Отзывы', href: '/' }, // TODO: Add correct link
-  // { name: 'Вакансии', href: '/' } // TODO: Add correct link
+  { name: 'xx', href: '/delivery' },
+  { name: 'xx xx', href: '/about' },
+  { name: 'xx', href: '/stocks' }
+  // { name: 'xx', href: '/' }, // TODO: Add correct link
+  // { name: 'xx', href: '/' } // TODO: Add correct link
 ]
 
 export const LayoutDefaultHeaderMobileMenu: FC<Props> = ({

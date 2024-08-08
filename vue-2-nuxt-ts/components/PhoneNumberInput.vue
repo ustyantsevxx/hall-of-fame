@@ -2,7 +2,7 @@
   <input
     type="tel"
     name="phone"
-    placeholder="Номер телефона"
+    placeholder="xx xx"
     @input="onPhoneInput"
     @keydown="onPhoneKeyDown"
     @paste="onPhonePaste"

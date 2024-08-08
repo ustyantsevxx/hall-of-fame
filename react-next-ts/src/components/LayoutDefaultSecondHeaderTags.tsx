@@ -153,13 +153,13 @@ export const LayoutDefaultSecondHeaderTags: FC<Props> = ({ className }) => {
       <LayoutDefaultSecondHeaderTagsNavButton
         ref={el => setNavPrevEl(el)}
         className="rotate-180"
-        title="Назад"
+        title="xx"
       />
 
       <LayoutDefaultSecondHeaderTagsNavButton
         ref={el => setNavNextEl(el)}
         className="right-0"
-        title="Вперед"
+        title="xx"
       />
     </div>
   )

@@ -4,8 +4,8 @@
       <div class="grid grid-cols-3 gap-30">
         <InputDefault
           v-model="oldPassword"
-          label="Старый пароль"
-          placeholder="Старый"
+          label="xx xx"
+          placeholder="xx"
           name="old-password"
           type="password"
           size="md"
@@ -15,8 +15,8 @@
         />
         <InputDefault
           v-model="newPassword"
-          label="Новый пароль"
-          placeholder="Новый"
+          label="xx xx"
+          placeholder="xx"
           name="new-password"
           autocomplete="new-password"
           type="password"
@@ -27,8 +27,8 @@
         />
         <InputDefault
           v-model="newPasswordConfirmation"
-          label="Подтверждение пароля"
-          placeholder="Подтверждение"
+          label="xx xx"
+          placeholder="xx"
           name="confirm-password"
           autocomplete="new-password"
           type="password"
@@ -48,22 +48,22 @@
           <br />
         </span>
         <span v-if="$v.oldPassword.$anyError">
-          Неверный формат старого пароля
+          xx xx xx xx
           <br />
         </span>
         <span v-if="$v.newPassword.$anyError">
           <template v-if="!$v.newPassword.notSameAsOld">
-            Введите пароль, отличный от текущего.
+            xx xx, xx xx xx.
           </template>
-          <template v-else>Неверный формат нового пароля</template>
+          <template v-else>xx xx xx xx</template>
           <br />
         </span>
         <span v-if="!$v.newPasswordConfirmation.sameAsNewPassword">
-          Подтверждение пароля неверное.
+          xx xx xx.
         </span>
       </p>
 
-      <Button class="mt-40" outline :disabled="loading">Сменить пароль</Button>
+      <Button class="mt-40" outline :disabled="loading">xx xx</Button>
     </form>
   </div>
 </template>
@@ -139,7 +139,7 @@ export default class LegalSettingsDetailsTab extends mixins(
 
       if (response.success) {
         await this.$auth.fetchUser()
-        this.showToastMessage('Пароль успешно изменен.')
+        this.showToastMessage('xx xx xx.')
         this.resetForm()
       } else {
         this.handleServerError(response.error as any)

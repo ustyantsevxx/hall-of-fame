@@ -1,12 +1,12 @@
 <template>
-  <AuthWrapper title="Забыли пароль?">
+  <AuthWrapper title="xx xx?">
     <form
       v-if="!sendToEmail"
       class="mt-18 flex min-h-[618px] flex-col justify-between divide-y divide-white divide-opacity-20"
       @submit.prevent="onSubmit"
     >
       <div class="space-y-35">
-        <p>Чтобы задать новый пароль, введите Email своего аккаунта xxx</p>
+        <p>xx xx xx xx, xx Email xx xx xxx</p>
 
         <div class="space-y-15">
           <Input
@@ -24,32 +24,28 @@
             class="w-full"
             :loading="form.isSubmitting.value"
             :disabled="email === ''"
-            :title="email === '' ? 'Введите email' : ''"
+            :title="email === '' ? 'xx email' : ''"
             data-test="submit-button"
           >
-            Сбросить пароль
+            xx xx
           </Button>
         </div>
       </div>
 
       <div class="mb-15 flex justify-center pt-35">
-        <RouterLink to="/auth/login" class="underline">
-          Войти в систему
-        </RouterLink>
+        <RouterLink to="/auth/login" class="underline">xx xx xx</RouterLink>
       </div>
     </form>
 
     <div v-else class="mt-10 divide-y divide-white divide-opacity-20">
       <p class="text-[15px] leading-[18px]">
-        Ссылка для восстановления пароля отправлена
+        xx xx xx xx xx
         <br />
-        на ваш Email
+        xx xx Email
       </p>
 
       <div class="mb-15 mt-30 flex justify-center pt-35">
-        <RouterLink to="/auth/login" class="underline">
-          Войти в систему
-        </RouterLink>
+        <RouterLink to="/auth/login" class="underline">xx xx xx</RouterLink>
       </div>
     </div>
   </AuthWrapper>
@@ -74,9 +70,7 @@ const sendToEmail = ref(false)
 
 const { form, useFormField, onSubmit, errorList } = useValidation({
   validationSchema: {
-    email: string()
-      .email('Некорректный "E-mail"')
-      .required('Вы не ввели "E-mail"')
+    email: string().email('xx "E-mail"').required('xx xx xx "E-mail"')
   },
   submitCallback: () => restorePassword()
 })

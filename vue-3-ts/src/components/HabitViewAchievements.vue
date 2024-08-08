@@ -1,11 +1,9 @@
 <template>
   <div class="mt-32">
     <div class="flex justify-between">
-      <span class="text-medium-15">Награды</span>
+      <span class="text-medium-15">xx</span>
 
-      <RouterLink to="/" class="text-main-primary text-15">
-        Показать все
-      </RouterLink>
+      <RouterLink to="/" class="text-main-primary text-15">xx xx</RouterLink>
     </div>
 
     <div class="mt-18 flex justify-between">

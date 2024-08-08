@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FormGroup label="Когда повторять">
+    <FormGroup label="xx xx">
       <Select v-model="repeatType" :options="repeatTypeOptions" />
     </FormGroup>
 
@@ -40,8 +40,8 @@ import { shortWeekDays } from '@/utils/datetime'
 const habitDataStore = useHabitDataStore()
 
 const repeatTypeOptions = [
-  { title: 'Ежедневно', value: HABIT_REPEAT_TYPES.DAILY },
-  { title: 'По дням', value: HABIT_REPEAT_TYPES.BY_DAYS }
+  { title: 'xx', value: HABIT_REPEAT_TYPES.DAILY },
+  { title: 'xx xx', value: HABIT_REPEAT_TYPES.BY_DAYS }
 ]
 const repeatType = ref(HABIT_REPEAT_TYPES.DAILY)
 watch(repeatType, value => {

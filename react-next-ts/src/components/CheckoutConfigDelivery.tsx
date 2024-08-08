@@ -61,7 +61,7 @@ export const CheckoutConfigDelivery: FC<Props> = ({ className }) => {
     <div className={clsx(className)}>
       <AppTransition show={!isLoading}>
         <AppRadioGroup
-          label="Адрес доставки"
+          label="xx xx"
           value={selectedMethodOption}
           options={deliveryMethodOptions}
           nameRenderer={option => (
@@ -81,7 +81,7 @@ export const CheckoutConfigDelivery: FC<Props> = ({ className }) => {
       </AppTransition>
 
       {isLoading && (
-        <p className="mt-11 h-25 text-black/50 text-regular-17">Загрузка...</p>
+        <p className="mt-11 h-25 text-black/50 text-regular-17">xx...</p>
       )}
     </div>
   )

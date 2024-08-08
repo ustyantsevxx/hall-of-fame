@@ -8,12 +8,12 @@
     @before-open="initForm"
     @closed="reset"
   >
-    <p class="text-blue">Управление лимитами</p>
+    <p class="text-blue">xx xx</p>
 
     <form @submit.prevent="save">
       <InputSelect
         v-model.number="mode"
-        title="Статус карты"
+        title="xx xx"
         class="mt-17 mb-24"
         size="md"
         style="width: 128px"
@@ -102,7 +102,7 @@
         "
       >
         <span class="flex items-center space-x-5">
-          <span>Применить</span>
+          <span>xx</span>
         </span>
       </Button>
     </form>
@@ -139,13 +139,13 @@ enum MODES {
 
 const modesInfo = {
   [MODES.ADD]: {
-    emptyMessage: 'Нет доступных элементов для добавления'
+    emptyMessage: 'xx xx xx xx xx'
   },
   [MODES.EDIT]: {
-    emptyMessage: 'Нет доступных элементов для изменения'
+    emptyMessage: 'xx xx xx xx xx'
   },
   [MODES.DELETE]: {
-    emptyMessage: 'Нет доступных элементов для удаления'
+    emptyMessage: 'xx xx xx xx xx'
   }
 }
 
@@ -188,9 +188,9 @@ export default class ModalCardLimitsEdit extends mixins(
 
   get modeOptions() {
     return [
-      { value: this.MODES.ADD, label: 'Добавление' },
-      { value: this.MODES.EDIT, label: 'Изменение' },
-      { value: this.MODES.DELETE, label: 'Удаление' }
+      { value: this.MODES.ADD, label: 'xx' },
+      { value: this.MODES.EDIT, label: 'xx' },
+      { value: this.MODES.DELETE, label: 'xx' }
     ]
   }
 

@@ -66,7 +66,7 @@ export const IndexPageMenu: FC<Props> = ({ className }) => {
           ))
         ) : (
           <div className="text-center text-black/50 text-medium-30">
-            Меню пустое
+            xx xx
           </div>
         )}
       </div>

@@ -9,12 +9,12 @@
     @closed="reset"
   >
     <form @submit.prevent="save">
-      <p class="text-blue">Параметры карты</p>
+      <p class="text-blue">xx xx</p>
 
       <InputDefault
         v-model="cardName"
-        label="Наименование карты"
-        placeholder="Наименование карты"
+        label="xx xx"
+        placeholder="xx xx"
         size="md"
         class="mt-10"
         hide-label
@@ -22,13 +22,13 @@
         :invalid="$v.cardName.$anyError"
       />
 
-      <p class="mt-30 text-gray-500">Смена пин-кода</p>
+      <p class="mt-30 text-gray-500">xx xx-xx</p>
 
       <div class="grid grid-cols-2 gap-30 mt-6">
         <InputDefault
           v-model.lazy="pin"
-          label="Пин-код"
-          placeholder="Пин-код"
+          label="xx-xx"
+          placeholder="xx-xx"
           size="md"
           type="password"
           hide-label
@@ -38,8 +38,8 @@
 
         <InputDefault
           v-model="pinConfirmation"
-          label="Повтор пин-кода"
-          placeholder="Повторите"
+          label="xx xx-xx"
+          placeholder="xx"
           size="md"
           type="password"
           hide-label
@@ -58,12 +58,12 @@
         </span>
 
         <span v-if="$v.pin.$error">
-          Неверный формат текущего пин-кода.
+          xx xx xx xx-xx.
           <br />
         </span>
 
         <template v-if="$v.pinConfirmation.$error">
-          <span v-if="!$v.pinConfirmation.sameAs">Пин-коды не совпадают.</span>
+          <span v-if="!$v.pinConfirmation.sameAs">xx-xx xx xx.</span>
         </template>
       </p>
 
@@ -74,7 +74,7 @@
         class="mt-60"
         :disabled="loading"
       >
-        Сохранить
+        xx
       </Button>
     </form>
   </ModalBase>

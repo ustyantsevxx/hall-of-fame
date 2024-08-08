@@ -22,19 +22,19 @@ const props = defineProps({
 
 const dateTypeOptions: RadioGroupInputItem[] = compact([
   !props.disableDay && {
-    label: 'День',
+    label: 'xx',
     value: InputDateTypeDateType.Day
   },
   !props.disableWeek && {
-    label: 'Неделя',
+    label: 'xx',
     value: InputDateTypeDateType.Week
   },
   !props.disableMonth && {
-    label: 'Месяц',
+    label: 'xx',
     value: InputDateTypeDateType.Month
   },
   !props.disableYear && {
-    label: 'Год',
+    label: 'xx',
     value: InputDateTypeDateType.Year
   }
 ])

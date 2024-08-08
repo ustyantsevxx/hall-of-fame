@@ -4,7 +4,7 @@ export const VERIFIED_USER_PASSWORD = 'password'
 
 export const VERIFIED_USER = {
   id: VERIFIED_USER_ID,
-  username: 'Ада Лавлейс',
+  username: 'xx xx',
   email: VERIFIED_USER_EMAIL,
   email_verified: true,
   has_data: true,

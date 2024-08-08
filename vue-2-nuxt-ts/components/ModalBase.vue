@@ -26,7 +26,7 @@
     <button
       v-if="closeButton"
       type="button"
-      title="Закрыть диалоговое окно"
+      title="xx xx xx"
       class="flex absolute top-15 right-15 justify-center items-center w-30 h-30"
       @click="hide"
     >

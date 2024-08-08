@@ -8,8 +8,8 @@ export const DeliveryLegendPickup: FC = () => {
 
   const cities = [
     {
-      name: 'г. Санкт-Петербург',
-      waitTime: '25 мин ожидания',
+      name: 'xx. xx-xx',
+      waitTime: '25 xx xx',
       restaurants: restaurants || []
     }
   ]

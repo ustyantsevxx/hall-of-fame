@@ -35,7 +35,7 @@ export const CartItemRemovable: FC<Props> = ({
           passHref
         >
           <a
-            aria-label={`Открыть информацию о "${item.product.name}"`}
+            aria-label={`xx xx xx "${item.product.name}"`}
             className="mt-3 text-regular-17"
           >
             {item.product.name}
@@ -45,7 +45,7 @@ export const CartItemRemovable: FC<Props> = ({
         {!hideRemove && (
           <button
             className="ml-10 text-black/30"
-            title="Удалить из списка"
+            title="xx xx xx"
             onClick={onRemove}
           >
             <CloseNavSvg className="h-24 w-24" />

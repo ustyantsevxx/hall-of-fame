@@ -51,20 +51,20 @@ const edit = (task: Task) => emit('edit', task)
 const taskGroups = computed<TaskGroup[]>(() => {
   return [
     {
-      name: 'Просроченные',
+      name: 'xx',
       tasks: groupedTasks.value.missed
     },
     {
-      name: 'Сегодня',
+      name: 'xx',
       tasks: groupedTasks.value.today,
       defaultOpen: true
     },
     {
-      name: 'Завтра',
+      name: 'xx',
       tasks: groupedTasks.value.tomorrow
     },
     {
-      name: 'Предстоящие',
+      name: 'xx',
       tasks: groupedTasks.value.comingUp
     }
   ]

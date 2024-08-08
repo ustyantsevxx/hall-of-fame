@@ -8,7 +8,7 @@
       class="rounded-6 bg-main-primary/10 px-9 py-5 text-main-primary transition-colors text-15 hover:bg-main-primary/20 active:bg-main-primary/30 laptop:text-14"
       @click="emit('current')"
     >
-      Сегодня
+      xx
     </button>
 
     <CalendarWeeklyControlsArrow @click="emit('next')">

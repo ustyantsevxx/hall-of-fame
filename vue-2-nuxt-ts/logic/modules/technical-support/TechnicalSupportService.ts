@@ -19,7 +19,7 @@ export class _TechnicalSupportService extends BaseService<_TechnicalSupportApi> 
   indexRequestsPerPage = 9
 
   getLastMessageSender(request: ShortRequest) {
-    return request.unread_message_count > 0 ? 'Администратор' : 'Вы'
+    return request.unread_message_count > 0 ? 'xx' : 'xx'
   }
 
   async getMyRequests({ page }: GetMyRequestsOptionsType) {

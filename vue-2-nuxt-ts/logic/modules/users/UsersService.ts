@@ -12,7 +12,7 @@ import {
 export class _UsersService extends BaseService<_UsersApi> {
   getContractName(options: { contractNumber: string; startDate: number }) {
     if (options.contractNumber && options.startDate) {
-      return `№ ${options.contractNumber} от ${xDayjs
+      return `№ ${options.contractNumber} xx ${xDayjs
         .unix(options.startDate)
         .format('DD.MM.YYYY')}`
     }

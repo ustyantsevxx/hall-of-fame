@@ -39,7 +39,7 @@ export const CheckoutConfigBonusCoins: FC<Props> = memo(({ className }) => {
       {!checkoutContext.calculations?.promocode_used && (
         <div className={clsx(className)}>
           <div className="flex text-black/50">
-            <div className="">Списать</div>
+            <div className="">xx</div>
             <BonusCoinLogoSvg width={24} height={24} className="ml-2" />
           </div>
 

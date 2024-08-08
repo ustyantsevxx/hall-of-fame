@@ -56,7 +56,7 @@ export const HistoryOrderItem: FC<Props> = ({ order, className }) => {
 
   // eslint-disable-next-line unicorn/consistent-function-scoping
   const handleRateOrder = () => {
-    // TODO доделать реализацию когда опишут ТЗ
+    // TODO xx xx xx xx xx
   }
 
   return (

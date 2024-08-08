@@ -30,8 +30,8 @@
       </div>
 
       <p v-if="!message.error" class="mt-2 h-20 text-description text-gray-300">
-        <span v-if="message.__pending">Идет отправка...</span>
-        <span v-if="message.wasEdited">Изменено</span>
+        <span v-if="message.__pending">xx xx...</span>
+        <span v-if="message.wasEdited">xx</span>
       </p>
 
       <SupportChatMessageError
@@ -100,7 +100,7 @@ export default class SupportChatMessage extends Vue {
   }
 
   get senderName() {
-    return this.message.isMine ? this.fullName : 'Администратор'
+    return this.message.isMine ? this.fullName : 'xx'
   }
 
   get sendTime() {

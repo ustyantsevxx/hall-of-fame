@@ -4,7 +4,7 @@
       <div class="flex flex-col space-y-30">
         <InputDefault
           v-model="contactPerson"
-          placeholder="Контактное лицо"
+          placeholder="xx xx"
           size="md"
           hide-label
           style="width: 100%"
@@ -15,7 +15,7 @@
 
         <InputDefault
           v-model="email"
-          placeholder="Почта"
+          placeholder="xx"
           type="email"
           size="md"
           style="width: 295px"
@@ -25,8 +25,8 @@
         />
         <InputDefault
           v-model="phone"
-          label="Телефон"
-          placeholder="Телефон"
+          label="xx"
+          placeholder="xx"
           type="tel"
           size="md"
           mask="+7 (###) ### ## ##"
@@ -46,16 +46,16 @@
           <br />
         </span>
         <span v-if="$v.email.$anyError">
-          Указан некорректный формат почты.
+          xx xx xx xx.
           <br />
         </span>
         <span v-if="$v.phone.$anyError">
-          Указан некорректный номер телефона.
+          xx xx xx xx.
           <br />
         </span>
       </p>
 
-      <Button class="mt-40" outline :disabled="loading">Редактировать</Button>
+      <Button class="mt-40" outline :disabled="loading">xx</Button>
     </form>
   </div>
 </template>
@@ -148,7 +148,7 @@ export default class LegalSettingsDetailsTab extends mixins(
 
       if (response.success) {
         await this.$auth.fetchUser()
-        this.showToastMessage('Контактные данные успешно изменены.')
+        this.showToastMessage('xx xx xx xx.')
       } else {
         this.handleServerError(response.error as any)
       }

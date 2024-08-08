@@ -1,11 +1,11 @@
 <template>
   <main class="container">
     <PageHeader>
-      <template #title>Справка</template>
+      <template #title>xx</template>
 
       <template #subtitle>
-        Скоро в этом разделе вы сможете скачать сертификаты топлива и другую
-        полезную информацию.
+        xx xx xx xx xx xx xx xx xx xx xx
+        xx xx.
       </template>
     </PageHeader>
   </main>
@@ -19,7 +19,7 @@ import PageHeader from '~/components/PageHeader.vue'
 @Component({
   components: { PageHeader },
   head: {
-    title: 'Справка'
+    title: 'xx'
   },
 
   layout: 'legal'

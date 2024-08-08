@@ -27,8 +27,8 @@ export const AppCounter: FC<Props> = ({
   size = 'normal',
   min = 0,
   max = Number.POSITIVE_INFINITY,
-  minusButtonTitle = 'Уменьшить',
-  plusButtonTitle = 'Увеличить'
+  minusButtonTitle = 'xx',
+  plusButtonTitle = 'xx'
 }) => {
   const reachedMin = value === min
   const reachedMax = value === max

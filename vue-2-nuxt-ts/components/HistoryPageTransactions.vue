@@ -79,46 +79,46 @@ export default class HistoryPageTransactions extends Vue {
     return [
       {
         key: 'cardAndTime',
-        title: 'Карта и время',
+        title: 'xx xx xx',
         width: 180
       },
       {
         key: 'operation',
-        title: 'Операция',
+        title: 'xx',
         width: 280
       },
       {
         key: 'fuel',
-        title: 'Тип топлива',
+        title: 'xx xx',
         width: 90
       },
       {
         key: 'amount',
-        title: 'Литры',
+        title: 'xx',
         class: 'text-right',
         width: 60
       },
       {
         key: 'price',
-        title: 'Цена, ₽/Л',
+        title: 'xx, ₽/xx',
         class: 'text-right',
         width: 70
       },
       {
         key: 'totalPaid',
-        title: 'Оплачено, ₽',
+        title: 'xx, ₽',
         class: 'text-right',
         width: 130
       },
       {
         key: 'bonusAdded',
-        title: 'Начисление бонусов, ₽',
+        title: 'xx xx, ₽',
         class: 'text-right',
         width: 90
       },
       {
         key: 'bonusRemoved',
-        title: 'Списание бонусов, ₽',
+        title: 'xx xx, ₽',
         class: 'text-right',
         width: 90
       }
@@ -143,7 +143,7 @@ export default class HistoryPageTransactions extends Vue {
           value: t.total_price,
           discount: isDiscount ? `(${t.discount?.value}%)` : undefined,
           discountValue: isDiscount
-            ? `скидка = ${t.discount?.price}`
+            ? `xx = ${t.discount?.price}`
             : undefined
         },
         bonusAdded: {

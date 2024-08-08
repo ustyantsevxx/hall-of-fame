@@ -15,8 +15,8 @@ export const LEGAL_BONUS_CARD_TYPES = {
 }
 
 export const BONUS_CARD_TYPE_NAMES = {
-  [BONUS_CARD_TYPES.BONUS]: 'Бонусная',
-  [BONUS_CARD_TYPES.DISCOUNT]: 'Скидочная'
+  [BONUS_CARD_TYPES.BONUS]: 'xx',
+  [BONUS_CARD_TYPES.DISCOUNT]: 'xx'
 }
 
 export const LEGAL_BONUS_CARD_RUBLE_TYPES = [
@@ -46,9 +46,9 @@ export const BONUS_CARD_BONUS_STATUSES = {
 }
 
 export const BONUS_CARD_BONUS_STATUS_NAMES = {
-  [BONUS_CARD_BONUS_STATUSES.BRONZE]: 'Бронзовый статус',
-  [BONUS_CARD_BONUS_STATUSES.SILVER]: 'Серебряный статус',
-  [BONUS_CARD_BONUS_STATUSES.GOLDEN]: 'Золотой статус'
+  [BONUS_CARD_BONUS_STATUSES.BRONZE]: 'xx xx',
+  [BONUS_CARD_BONUS_STATUSES.SILVER]: 'xx xx',
+  [BONUS_CARD_BONUS_STATUSES.GOLDEN]: 'xx xx'
 }
 
 export const BONUS_CARD_STATUSES = {
@@ -57,8 +57,8 @@ export const BONUS_CARD_STATUSES = {
 }
 
 export const BONUS_CARD_STATUS_NAMES = {
-  [BONUS_CARD_STATUSES.ACTIVE]: 'В работе',
-  [BONUS_CARD_STATUSES.BLOCKED]: 'Черный список'
+  [BONUS_CARD_STATUSES.ACTIVE]: 'xx xx',
+  [BONUS_CARD_STATUSES.BLOCKED]: 'xx xx'
 }
 
 export const BONUS_CARD_LIMIT_TYPES = {
@@ -68,9 +68,9 @@ export const BONUS_CARD_LIMIT_TYPES = {
 }
 
 export const BONUS_CARD_LIMIT_TYPES_NAMES = {
-  [BONUS_CARD_LIMIT_TYPES.NO_LIMIT]: 'Нет',
-  [BONUS_CARD_LIMIT_TYPES.DAILY]: 'Суточный',
-  [BONUS_CARD_LIMIT_TYPES.MONTHLY]: 'Месячный'
+  [BONUS_CARD_LIMIT_TYPES.NO_LIMIT]: 'xx',
+  [BONUS_CARD_LIMIT_TYPES.DAILY]: 'xx',
+  [BONUS_CARD_LIMIT_TYPES.MONTHLY]: 'xx'
 }
 
 export const BONUS_CARD_NAME_MAX_LENGTH = 100

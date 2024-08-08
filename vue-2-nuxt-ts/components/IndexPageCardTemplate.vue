@@ -22,7 +22,7 @@
         @click="$emit('show-info')"
       >
         <CircleInfoSVG />
-        <span class="text-white">Информация о карте</span>
+        <span class="text-white">xx xx xx</span>
       </button>
     </div>
 
@@ -46,10 +46,10 @@
 
     <div v-if="cardCount > 1" class="place-self-end">
       <div class="flex space-x-20">
-        <button title="Предыдущая карта" @click="$emit('next')">
+        <button title="xx xx" @click="$emit('next')">
           <CircleArrowLeftSVG />
         </button>
-        <button title="Следующая карта" @click="$emit('prev')">
+        <button title="xx xx" @click="$emit('prev')">
           <CircleArrowRightSVG />
         </button>
       </div>

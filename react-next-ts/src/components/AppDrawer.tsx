@@ -34,7 +34,7 @@ export const AppDrawer: FC<Props> = ({
       <div className="sticky top-0 flex w-full items-center bg-white px-16 md:hidden">
         <div className="flex w-full border-b border-black/10 py-12">
           <button
-            title="Закрыть"
+            title="xx"
             className="flex items-center justify-center"
             onClick={() => onClose(false)}
           >

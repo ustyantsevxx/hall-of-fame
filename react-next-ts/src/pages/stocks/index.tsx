@@ -24,11 +24,11 @@ const StocksPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('Акции')}</title>
+        <title>{constructPageTitle('xx')}</title>
       </Head>
 
       <div className="container mt-4 md:mt-28">
-        <PageTitle title="Акции" />
+        <PageTitle title="xx" />
 
         <AppTransition show={stocks.length > 0}>
           <InfiniteScroll
@@ -46,8 +46,8 @@ const StocksPage: NextPageWithGetLayout = () => {
         </AppTransition>
 
         <p className="mt-20 pl-52 text-black/50">
-          {isLoading && 'Акции загружаются...'}
-          {!isLoading && stocks.length === 0 && 'Нет акций'}
+          {isLoading && 'xx xx...'}
+          {!isLoading && stocks.length === 0 && 'xx xx'}
         </p>
       </div>
     </>

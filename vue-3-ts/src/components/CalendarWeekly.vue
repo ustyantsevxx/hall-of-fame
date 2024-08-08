@@ -9,7 +9,7 @@
       />
 
       <div class="ml-auto mr-30 text-main-primary text-15 laptop:text-14">
-        Неделя {{ displayedWeek }}
+        xx {{ displayedWeek }}
       </div>
 
       <CalendarWeeklyControls

@@ -4,8 +4,8 @@
     :title="title"
     :description="description"
     classes="pl-[200px] mr-36 flex justify-center items-center md:pl-0 md:justify-end"
-    confirm-text="Да"
-    cancel-text="Нет"
+    confirm-text="xx"
+    cancel-text="xx"
     :max-width="350"
   />
 </template>

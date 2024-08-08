@@ -7,15 +7,11 @@
             :icon="habitDataStore.habit.icon"
             :color="habitDataStore.habit.color"
           />
-          <FormGroup
-            v-slot="{ id }"
-            label="Название привычки"
-            class="ml-14 flex-grow"
-          >
+          <FormGroup v-slot="{ id }" label="xx xx" class="ml-14 flex-grow">
             <Input
               :id="id"
               v-model="habitDataStore.habit.name"
-              placeholder="Например, отжимания"
+              placeholder="xx, xx"
               variant="bottom-line"
               multiline
             />
@@ -64,13 +60,13 @@
           <button
             class="min-w-[200px] rounded-12 bg-main-primary py-10 px-20 text-white text-17 laptop:px-33 laptop:py-8 laptop:text-14"
           >
-            {{ habitDataStore.editing ? 'Готово' : 'Создать привычку' }}
+            {{ habitDataStore.editing ? 'xx' : 'xx xx' }}
           </button>
 
           <button
             v-if="habitDataStore.editing"
             class="ml-15 rounded-12 border border-subcolor-orange-cancel p-10 text-subcolor-orange-cancel transition-colors hover:bg-subcolor-orange-cancel hover:text-white laptop:py-6 laptop:px-8"
-            title="Удалить привычку"
+            title="xx xx"
             type="button"
             @click="showConfirmDeleteModal"
           >
@@ -82,8 +78,8 @@
 
     <DrawerModalConfirmationDelete
       :ref="registerDeleteModalSafeRef"
-      title="Удаление привычки"
-      description="Удалить привычку без возможности восстановления?"
+      title="xx xx"
+      description="xx xx xx xx xx?"
       :max-width="290"
     />
   </div>
@@ -129,10 +125,10 @@ const habitDataStore = useHabitDataStore()
 const { form, onSubmit, errorList, useFormField } = useValidation({
   validationSchema: {
     endingTypeId: number(),
-    name: string().required('Привычка должна иметь название'),
+    name: string().required('xx xx xx xx'),
     endDate: date().when('endingTypeId', {
       is: HABIT_ENDING_TYPES.ON_DATE,
-      then: date().required('Укажите корректную дату окончания')
+      then: date().required('xx xx xx xx')
     })
   },
   submitCallback: () => {

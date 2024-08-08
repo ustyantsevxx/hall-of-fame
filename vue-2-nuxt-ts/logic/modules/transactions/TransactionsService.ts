@@ -58,9 +58,9 @@ export class _TransactionsService extends BaseService<_TransactionsApi> {
 
   transactionNameConstructors = {
     [TRANSACTION_TYPES.FUEL_REFILL]: (t: Transaction) =>
-      `Заправка на ${t.station?.name} (${t.station?.address})`,
+      `xx xx ${t.station?.name} (${t.station?.address})`,
     [TRANSACTION_TYPES.GOODS_AND_SERVICES]: (t: Transaction) =>
-      `Покупка товара/услуги на ${t.station?.name} (${t.station?.address})`
+      `xx xx/xx xx ${t.station?.name} (${t.station?.address})`
   }
 
   public getOperationName(transaction: Transaction): string | null {

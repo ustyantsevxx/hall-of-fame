@@ -66,11 +66,11 @@ export class _BonusCardsService extends BaseService<_BonusCardsApi> {
   getBonusCardNameByType(typeId: number) {
     const items = [
       {
-        name: 'Рублевая',
+        name: 'xx',
         types: LEGAL_BONUS_CARD_RUBLE_TYPES
       },
       {
-        name: 'Литровая',
+        name: 'xx',
         types: LEGAL_BONUS_CARD_LITER_TYPES
       }
     ]
@@ -93,7 +93,7 @@ export class _BonusCardsService extends BaseService<_BonusCardsApi> {
         types: LEGAL_BONUS_CARD_RUBLE_TYPES
       },
       {
-        name: 'л',
+        name: 'xx',
         types: LEGAL_BONUS_CARD_LITER_TYPES
       }
     ]

@@ -1,6 +1,6 @@
 <template>
   <div class="mt-42">
-    <span class="text-medium-15">Напоминания</span>
+    <span class="text-medium-15">xx</span>
 
     <div class="mt-12 grid auto-cols-max grid-flow-col gap-10">
       <HabitViewRemindersItem

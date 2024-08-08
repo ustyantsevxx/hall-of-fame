@@ -151,7 +151,7 @@ class _AuthService extends Service {
   }
 
   async changePassword(data: ChangePasswordRequest) {
-    // TODO проверить когда сделают бэк
+    // TODO xx xx xx xx
     return this.axios.post(this.e('password/change'), data)
   }
 

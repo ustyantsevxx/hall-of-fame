@@ -53,11 +53,11 @@ const moods = [
 ]
 
 const moodTitles: Record<number, string> = {
-  [TIME_INTERVAL_MOOD.VERY_BAD]: 'Очень плохое',
-  [TIME_INTERVAL_MOOD.BAD]: 'Плохое',
-  [TIME_INTERVAL_MOOD.NORMAL]: 'Нормальное',
-  [TIME_INTERVAL_MOOD.GOOD]: 'Хорошее',
-  [TIME_INTERVAL_MOOD.VERY_GOOD]: 'Очень хорошее'
+  [TIME_INTERVAL_MOOD.VERY_BAD]: 'xx xx',
+  [TIME_INTERVAL_MOOD.BAD]: 'xx',
+  [TIME_INTERVAL_MOOD.NORMAL]: 'xx',
+  [TIME_INTERVAL_MOOD.GOOD]: 'xx',
+  [TIME_INTERVAL_MOOD.VERY_GOOD]: 'xx xx'
 }
 
 const emit = defineEmits<{

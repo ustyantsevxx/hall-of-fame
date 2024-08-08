@@ -57,7 +57,7 @@ export const DeliverySelectAddressModalSearchInput: FC<Props> = ({
       <div className="relative grow">
         <AppInput
           id={inputId}
-          placeholder="Адрес"
+          placeholder="xx"
           className={clsx('w-full', searchString.length > 0 && 'pr-40')}
           value={searchString}
           onChange={e => setSearchString(e.target.value)}
@@ -74,7 +74,7 @@ export const DeliverySelectAddressModalSearchInput: FC<Props> = ({
       </div>
 
       <AppButton className="ml-16 hidden md:block" disabled={loading}>
-        Проверить адрес
+        xx xx
       </AppButton>
 
       <div className="absolute bottom-0 left-0 right-0 px-16 pb-10 pt-26 md:hidden">
@@ -84,11 +84,11 @@ export const DeliverySelectAddressModalSearchInput: FC<Props> = ({
             disabled={loading}
             onClick={onGoToRestaurantsInfo}
           >
-            Посмотреть точки самовывоза
+            xx xx xx
           </AppButton>
         ) : (
           <AppButton className="w-full" disabled={loading}>
-            {loading ? 'Загрузка...' : 'Проверить адрес'}
+            {loading ? 'xx...' : 'xx xx'}
           </AppButton>
         )}
       </div>

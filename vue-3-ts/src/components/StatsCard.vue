@@ -5,7 +5,7 @@
   >
     <ButtonHeadless
       class="absolute right-8 top-15 p-5 xl:right-20"
-      title="Сохранить статистику"
+      title="xx xx"
     >
       <SvgShare />
     </ButtonHeadless>
@@ -16,10 +16,10 @@
 
     <div class="mt-20 flex">
       <div class="grid grid-cols-[94px,96px] grid-rows-[80px,80px] gap-10">
-        <InfoCard label="Всего" :value="item.tags.total" />
-        <InfoCard label="Интервалы" :value="item.tags.intervalCount" />
-        <InfoCard label="В фокусе" :value="item.tags.focus" />
-        <InfoCard label="Настроение">
+        <InfoCard label="xx" :value="item.tags.total" />
+        <InfoCard label="xx" :value="item.tags.intervalCount" />
+        <InfoCard label="xx xx" :value="item.tags.focus" />
+        <InfoCard label="xx">
           <template #value>
             <div class="rounded-full bg-white p-2">
               <MoodIcon :type="item.tags.mood" class="h-28 w-28" />

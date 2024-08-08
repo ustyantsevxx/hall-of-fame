@@ -20,16 +20,16 @@ export const LoyaltyPageCoinsBalanceCard: FC<Props> = ({ className }) => {
       {!user ? (
         <div>
           <p className="text-regular-17">
-            Авторизуйтесь, чтобы узнать ваш баланс
+            xx, xx xx xx xx
           </p>
 
           <AppButton className="mt-18" onClick={() => setAuthModalOpened(true)}>
-            Узнать мой баланс
+            xx xx xx
           </AppButton>
         </div>
       ) : (
         <div className="flex items-center justify-between">
-          <p className="text-black/50 text-regular-17">Баланс</p>
+          <p className="text-black/50 text-regular-17">xx</p>
           <div
             className="flex items-center space-x-10"
             title={UserService.getFormattedUserCoinCount(user)}

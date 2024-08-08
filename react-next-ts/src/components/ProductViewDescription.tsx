@@ -32,7 +32,7 @@ export const ProductViewDescription: FC<Props> = ({ className, product }) => {
             'pb-10': !expanded
           })}
         >
-          {!expanded ? 'Подробнее' : 'Скрыть'}
+          {!expanded ? 'xx' : 'xx'}
         </button>
       )}
     </div>

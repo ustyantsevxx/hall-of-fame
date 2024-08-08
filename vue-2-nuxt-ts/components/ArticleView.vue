@@ -39,7 +39,7 @@
 
         <div class="mt-36">
           <h2 class="mb-23 text-h2">
-            Список заправок, которые участвуют в акции
+            xx xx, xx xx xx xx
           </h2>
 
           <ul v-if="stations && stations.length">
@@ -52,7 +52,7 @@
         </div>
 
         <div class="mt-36">
-          <h2 class="mb-23 text-h2">Срок проведения акции</h2>
+          <h2 class="mb-23 text-h2">xx xx xx</h2>
           <p>{{ formattedAvailableDates }}</p>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default class ArticleView extends Vue {
   @Prop({ type: Object, required: true }) article!: Article
   @Prop({ type: Array, required: true }) stations!: Station[]
   @Prop({ type: String, required: true }) articleListPath!: string
-  @Prop({ type: String, default: 'Новости' }) goBackText!: string
+  @Prop({ type: String, default: 'xx' }) goBackText!: string
 
   get formattedCreateDate() {
     return this.article?.start_at
@@ -103,7 +103,7 @@ export default class ArticleView extends Vue {
 
     const format = startAndEndInSameYear ? 'D MMMM' : 'D MMMM YYYY'
 
-    return `С ${start.format(format)} по ${end.format(format)} ${
+    return `xx ${start.format(format)} xx ${end.format(format)} ${
       startAndEndInSameYear ? start.year() : ''
     }`
   }

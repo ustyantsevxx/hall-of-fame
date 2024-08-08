@@ -35,7 +35,7 @@ export const makeServer = ({ environment = 'development' } = {}) => {
     factories: {
       user: Factory.extend({
         id: 1,
-        username: 'Ада Лавлейс',
+        username: 'xx xx',
         email: 'email@email.com',
         email_verified: true,
         has_data: true,

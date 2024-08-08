@@ -18,11 +18,11 @@ export const OrderActiveShortInfo: FC<Props> = ({ order, onClick }) => {
     )
 
   const message = [
-    `Заказ ${ORDER_STATUS_NAMES[order.status.id].toLowerCase()}`,
+    `xx ${ORDER_STATUS_NAMES[order.status.id].toLowerCase()}`,
     deliveryTimeDate && [
-      ', доставим ',
+      ', xx ',
       !deliveryTimeDate.isToday() && deliveryTimeDate.format('DD MMMM'),
-      ` к ${deliveryTimeDate.format('HH:mm')}`
+      ` xx ${deliveryTimeDate.format('HH:mm')}`
     ]
   ]
     .flat()

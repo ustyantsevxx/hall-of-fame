@@ -7,15 +7,11 @@
             :color="timerDataStore.timer.color"
             :icon="timerDataStore.timer.icon"
           />
-          <FormGroup
-            v-slot="{ id }"
-            label="Название таймера"
-            class="ml-14 flex-grow"
-          >
+          <FormGroup v-slot="{ id }" label="xx xx" class="ml-14 flex-grow">
             <Input
               :id="id"
               v-model="timerDataStore.timer.name"
-              placeholder="Например, отжимания"
+              placeholder="xx, xx"
               variant="bottom-line"
               multiline
             />
@@ -32,7 +28,7 @@
         <div class="mt-32 divide-y divide-black divide-opacity-5 laptop:mt-27">
           <div class="pb-12">
             <div class="flex items-center justify-between">
-              <p class="text-17 laptop:text-14">Ежедневная цель</p>
+              <p class="text-17 laptop:text-14">xx xx</p>
               <Switch v-model="timerDataStore.timer.dailyGoalEnabled" />
             </div>
 
@@ -41,9 +37,9 @@
               class="mt-12 flex items-center justify-between"
             >
               <p class="w-[280px] text-black/40 text-17 laptop:text-14">
-                Установленная ежедневная
+                xx xx
                 <br />
-                цель
+                xx
               </p>
               <InputTime v-model="timerDataStore.timer.dailyGoal" />
             </div>
@@ -51,7 +47,7 @@
 
           <div class="pb-12">
             <div class="flex items-center justify-between pt-12">
-              <p class="text-17 laptop:text-14">Включить уведомления</p>
+              <p class="text-17 laptop:text-14">xx xx</p>
               <Switch v-model="timerDataStore.timer.notificationsEnabled" />
             </div>
 
@@ -60,18 +56,16 @@
               class="mt-7 flex items-center justify-between"
             >
               <p class="w-[280px] text-black/40 text-17 laptop:text-14">
-                Интервал напоминаний
+                xx xx
                 <br />
-                о работе таймера
+                xx xx xx
               </p>
               <InputTime v-model="timerDataStore.timer.notifyAt" />
             </div>
           </div>
 
           <div class="pt-25">
-            <p class="text-medium-17 laptop:text-medium-14">
-              Завершение таймера
-            </p>
+            <p class="text-medium-17 laptop:text-medium-14">xx xx</p>
 
             <div
               class="mt-10 divide-y divide-black divide-opacity-5 laptop:mt-0"
@@ -100,19 +94,19 @@
           v-if="!timerDataStore.editing"
           class="rounded-12 bg-main-primary py-10 px-20 text-white text-17 laptop:px-33 laptop:py-8 laptop:text-14 xl:px-40"
         >
-          Создать таймер
+          xx xx
         </button>
 
         <div v-else class="flex">
           <button
             class="min-w-[200px] rounded-12 bg-main-primary py-10 px-20 text-white text-17 laptop:px-33 laptop:py-8 laptop:text-14"
           >
-            Готово
+            xx
           </button>
 
           <button
             class="ml-15 rounded-12 border border-subcolor-orange-cancel p-10 text-subcolor-orange-cancel transition-colors hover:bg-subcolor-orange-cancel hover:text-white laptop:py-6 laptop:px-8"
-            title="Удалить таймер"
+            title="xx xx"
             type="button"
             @click="deleteTimer"
           >
@@ -124,8 +118,8 @@
 
     <DrawerModalConfirmationDelete
       :ref="registerSafeRef"
-      title="Удаление таймера"
-      description="Удалить таймер без возможности восстановления?"
+      title="xx xx"
+      description="xx xx xx xx xx?"
       classes="pl-[200px] mr-62 flex justify-center items-center md:pl-0 md:justify-end"
       :max-width="290"
     />
@@ -163,7 +157,7 @@ const timerDataStore = useTimerDataStore()
 
 const { form, onSubmit, errorList, useFormField } = useValidation({
   validationSchema: {
-    name: string().required('Таймер должен иметь название')
+    name: string().required('xx xx xx xx')
   },
   submitCallback: () => {
     if (timerDataStore.editing) {
@@ -186,15 +180,15 @@ watch(
 
 const settings = ref([
   {
-    title: 'Редактировать время',
+    title: 'xx xx',
     value: false
   },
   {
-    title: 'Отслеживать настроение',
+    title: 'xx xx',
     value: false
   },
   {
-    title: 'Добавить заметку',
+    title: 'xx xx',
     value: false
   }
 ])

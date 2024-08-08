@@ -69,7 +69,7 @@ import InputDefault from '~/components/InputDefault.vue'
 export default class InputTextInputList extends Vue {
   @Prop({ type: Array, required: true }) value!: any[]
   @Prop({ type: String, default: undefined }) valueKey!: string
-  @Prop({ type: String, default: 'Добавить элемент' }) buttonTitle!: string
+  @Prop({ type: String, default: 'xx xx' }) buttonTitle!: string
   @Prop({ type: Number, default: 1 }) minCount!: number
   @Prop({ type: Number, default: 1 }) maxCount!: number
   @Prop({ type: Boolean, default: false }) disabled!: boolean

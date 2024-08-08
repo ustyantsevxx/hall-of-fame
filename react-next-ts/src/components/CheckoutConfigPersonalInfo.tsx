@@ -25,15 +25,15 @@ export const CheckoutConfigPersonalInfo: FC<Props> = ({ className }) => {
 
   return (
     <div className={clsx(className)}>
-      <h2 className="sr-only">Данные профиля</h2>
+      <h2 className="sr-only">xx xx</h2>
 
       <div className="grid gap-26 md:grid-cols-2 md:gap-20">
         <FormGroup>
-          <FormFloatingLabel label="Ваше имя">
+          <FormFloatingLabel label="xx xx">
             {({ id }) => (
               <AppInput
                 id={id}
-                placeholder="Ваше имя"
+                placeholder="xx xx"
                 className="w-full"
                 {...register('personalInfo.name')}
               />
@@ -42,13 +42,13 @@ export const CheckoutConfigPersonalInfo: FC<Props> = ({ className }) => {
         </FormGroup>
 
         <FormGroup>
-          <FormFloatingLabel label="Номер телефона">
+          <FormFloatingLabel label="xx xx">
             {({ id }) => (
               <InputPhoneNumber
                 id={id}
                 key={user?.id}
                 type="tel"
-                placeholder="Номер телефона"
+                placeholder="xx xx"
                 className="block w-full grow"
                 defaultValue={user?.phone || ''}
                 readOnly

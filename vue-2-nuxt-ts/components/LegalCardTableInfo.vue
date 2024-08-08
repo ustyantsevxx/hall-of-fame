@@ -11,9 +11,9 @@
     >
       <template v-if="name">{{ name }}</template>
       <template v-else>
-        Наименование не
+        xx xx
         <br />
-        указано
+        xx
       </template>
     </span>
 
@@ -25,7 +25,7 @@
 
       <button
         type="button"
-        title="Переключить отображение пин-кода"
+        title="xx xx xx-xx"
         class="overflow-hidden relative w-30 h-20"
         @click="togglePinRevealed"
       >

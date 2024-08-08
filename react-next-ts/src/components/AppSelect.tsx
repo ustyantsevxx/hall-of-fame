@@ -94,7 +94,7 @@ export const AppSelect: FC<Props> = ({
           </ul>
         ) : (
           <div className="h-full items-center justify-center text-black/50">
-            Нет доступных элементов
+            xx xx xx
           </div>
         )}
       </AppModal>

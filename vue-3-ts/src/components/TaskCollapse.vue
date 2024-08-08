@@ -34,7 +34,7 @@
         </template>
 
         <template v-else>
-          <div class="text-black/40">Список задач пуст</div>
+          <div class="text-black/40">xx xx xx</div>
         </template>
       </div>
     </template>

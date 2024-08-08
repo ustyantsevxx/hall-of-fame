@@ -29,7 +29,7 @@ import { MetaPagination } from '~/logic/types/api-meta'
 
   head() {
     return {
-      title: 'Служба поддержки'
+      title: 'xx xx'
     }
   },
 

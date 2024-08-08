@@ -26,12 +26,12 @@ export const CheckoutConfigDeliveryCourier: FC<Props> = ({ className }) => {
         name: makeAddressString(address),
         description:
           (address.delivery_polygon?.delivery_time &&
-            `Бесплатно доставим за ${address.delivery_polygon?.delivery_time} мин`) ||
+            `xx xx xx ${address.delivery_polygon?.delivery_time} xx`) ||
           ''
       })) || []),
       {
         key: NEW_ADDRESS_KEY.toString(),
-        name: 'Новый адрес'
+        name: 'xx xx'
       }
     ]
   }, [addresses])
@@ -82,7 +82,7 @@ export const CheckoutConfigDeliveryCourier: FC<Props> = ({ className }) => {
   return (
     <div className={clsx(className, 'mt-32')}>
       <AppRadioGroup
-        label="Адрес доставки"
+        label="xx xx"
         value={selectedOption}
         options={addressOptions}
         onChange={option => selectOption(+option.key)}

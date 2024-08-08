@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    title="Закрыть"
+    title="xx"
     class="group flex h-24 w-24 items-center justify-center rounded-full bg-main-placeholder transition-colors hover:bg-black/10"
   >
     <SvgClose

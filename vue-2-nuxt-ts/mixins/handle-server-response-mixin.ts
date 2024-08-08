@@ -15,7 +15,7 @@ export class HandleServerResponseMixin extends Vue {
     this.serverValidationMessage =
       error.status !== 500
         ? error.message
-        : 'Произошла ошибка. Обратитесь в службу поддержки'
+        : 'xx xx. xx xx xx xx'
   }
 
   resetServerValidationMessage() {

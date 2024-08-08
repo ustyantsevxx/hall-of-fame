@@ -16,7 +16,7 @@ import { PRODUCT_ID_QUERYSTRING_KEY } from './IndexPageMenu'
 import { ProductTags } from './ProductTags'
 import { ProductViewAttributes } from './ProductViewAttributes'
 import { ProductViewDescription } from './ProductViewDescription'
-import { ProductViewCompositionProducts } from './ProductViewСompositionProducts'
+import { ProductViewCompositionProducts } from './ProductViewxxompositionProducts'
 
 type Props = {
   opened: boolean
@@ -90,7 +90,7 @@ export const ModalProductView: FC<Props> = ({ onClose, opened, productId }) => {
 
           {product && !imageUrl && (
             <div className="relative flex h-full w-full items-center justify-center text-black/50">
-              Нет изображения
+              xx xx
             </div>
           )}
         </div>
@@ -115,7 +115,7 @@ export const ModalProductView: FC<Props> = ({ onClose, opened, productId }) => {
           )}
 
           <div className="mt-15 flex items-center justify-between md:hidden">
-            <p className="text-regular-17">Цена</p>
+            <p className="text-regular-17">xx</p>
 
             <div className="flex items-center text-regular-17">
               {localProduct?.sale_price && localProduct.price ? (
@@ -150,7 +150,7 @@ export const ModalProductView: FC<Props> = ({ onClose, opened, productId }) => {
             {count > 0 ? (
               <AppCounter value={count} onChange={setCount} />
             ) : (
-              <AppButton onClick={() => addToCart()}>Добавить</AppButton>
+              <AppButton onClick={() => addToCart()}>xx</AppButton>
             )}
           </div>
 
@@ -167,7 +167,7 @@ export const ModalProductView: FC<Props> = ({ onClose, opened, productId }) => {
                 className="mx-auto w-[345px] max-w-full"
                 onClick={() => addToCart()}
               >
-                Добавить в корзину за{' '}
+                xx xx xx xx{' '}
                 {formatRuble(localProduct?.sale_price || localProduct?.price)}
               </AppButton>
             )}

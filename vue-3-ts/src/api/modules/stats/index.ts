@@ -22,9 +22,9 @@ export const getStatsMock = () => {
     index: i,
     date: dayjs().subtract(i, 'days').format('D MMMM'),
     tags: {
-      total: `${faker.datatype.number(50)}ч`,
+      total: `${faker.datatype.number(50)}xx`,
       intervalCount: faker.datatype.number(50).toString(),
-      focus: `${faker.datatype.number(23)}ч ${faker.datatype.number(60)}м`,
+      focus: `${faker.datatype.number(23)}xx ${faker.datatype.number(60)}xx`,
       mood: faker.datatype.number({
         min: TIME_INTERVAL_MOOD.VERY_BAD,
         max: TIME_INTERVAL_MOOD.VERY_GOOD

@@ -15,7 +15,7 @@
             ref="textarea"
             :value="message"
             class="outline-none resize-none"
-            placeholder="Ваше сообщение..."
+            placeholder="xx xx..."
             rows="1"
             @focus="textareaFocused = true"
             @blur="textareaFocused = false"
@@ -45,7 +45,7 @@
       <template #toggle>
         <button
           tabindex="-1"
-          title="Прикрепить файлы"
+          title="xx xx"
           class="hover:opacity-80 active:opacity-60"
           :disabled="uploadFilesButtonDisabled"
           @click.prevent

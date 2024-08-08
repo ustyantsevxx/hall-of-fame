@@ -21,7 +21,7 @@ export const ProfileAddressListItem: FC<Props> = ({
       <p className="mt-3 text-regular-17">{makeAddressString(address)}</p>
       <button
         className="ml-12 h-24 w-24 text-black/30"
-        title="Удалить адрес"
+        title="xx xx"
         onClick={() => onRemove()}
       >
         <NavCloseSvg />

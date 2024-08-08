@@ -8,11 +8,11 @@ const Error404Page: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('Страница не найдена')}</title>
+        <title>{constructPageTitle('xx xx xx')}</title>
       </Head>
 
       <div className="container flex grow items-center justify-center">
-        <p className="text-black/50">Страница не найдена</p>
+        <p className="text-black/50">xx xx xx</p>
       </div>
     </>
   )

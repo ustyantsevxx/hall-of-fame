@@ -99,7 +99,7 @@ const checkCanAddBeforeSection = ({
   nextSection: ChronologySection
   first: boolean
 }): boolean => {
-  // TODO уточнить логику по ТЗ
+  // TODO xx xx xx xx
   const canInsertSectionBetweenCurrentAndPrevious = previousSection
     ? checkIsEnoughTimeDifferenceToAddNewSection(
         previousSection.endDatetime,
@@ -131,7 +131,7 @@ const checkCanAddAfterSection = ({
   last: boolean
   currentTime: Date
 }): boolean => {
-  // TODO уточнить логику по ТЗ
+  // TODO xx xx xx xx
   const canInsertSectionBetweenNextSectionAndCurrentTime =
     last &&
     checkIsEnoughTimeDifferenceToAddNewSection(

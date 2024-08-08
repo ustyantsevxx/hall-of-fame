@@ -65,7 +65,7 @@ export const CartConfigurationItemsExtra: FC = () => {
     <>
       {extraProducts && extraProducts.length > 0 && cartItems && (
         <>
-          <div className="mt-36 text-black/50">Дополнительно</div>
+          <div className="mt-36 text-black/50">xx</div>
           <div className="mt-14 space-y-14">
             {extraProducts.map(item => (
               <CartItem

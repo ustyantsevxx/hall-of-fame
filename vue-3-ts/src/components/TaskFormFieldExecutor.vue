@@ -1,7 +1,7 @@
 <template>
   <div>
     <FieldValueViewer
-      label="Исполнитель"
+      label="xx"
       @edit="modalVisible = true"
       @reset="emit('update:modelValue', null)"
     >

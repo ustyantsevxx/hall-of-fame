@@ -2,17 +2,17 @@
   <footer class="footer">
     <div class="container grid grid-cols-3 text-description">
       <div>
-        <Link :href="MAIN_WEBSITE_LINK">Перейти на основной сайт</Link>
+        <Link :href="MAIN_WEBSITE_LINK">xx xx xx xx</Link>
       </div>
 
       <div class="flex justify-center">
         <p class="block text-gray">
-          &copy; ООО «XXX», 2012—{{ currentYear }}
+          &copy; xx «XXX», 2012—{{ currentYear }}
         </p>
       </div>
 
       <div class="flex justify-end">
-        <Link :href="PRIVACY_POLICY_LINK">Политика конфиденциальности</Link>
+        <Link :href="PRIVACY_POLICY_LINK">xx xx</Link>
       </div>
     </div>
   </footer>

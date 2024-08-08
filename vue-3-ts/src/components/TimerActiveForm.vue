@@ -12,7 +12,7 @@
     <FormSection class="h-[115px] px-15 py-13">
       <Textarea
         v-model="formData.comment"
-        placeholder="Комментарий к таймеру"
+        placeholder="xx xx xx"
         class="w-full"
       />
     </FormSection>
@@ -20,7 +20,7 @@
     <MoodSelector v-model="formData.mood" class="!mt-13" />
 
     <Button :variant="'primary'" class="!mt-28 !px-59 !py-8 !text-14">
-      Сохранить
+      xx
     </Button>
   </form>
 </template>

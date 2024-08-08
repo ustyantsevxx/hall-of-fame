@@ -12,9 +12,9 @@ import { LayoutDefaultHeaderActions } from './LayoutDefaultHeaderActions'
 import { LayoutDefaultHeaderMobileMenu } from './LayoutDefaultHeaderMobileMenu'
 
 const links = [
-  { name: 'Доставка', href: '/delivery' },
-  { name: 'Акции', href: '/stocks' },
-  { name: 'О нас', href: '/about' }
+  { name: 'xx', href: '/delivery' },
+  { name: 'xx', href: '/stocks' },
+  { name: 'xx xx', href: '/about' }
 ]
 
 type Props = {
@@ -46,7 +46,7 @@ export const LayoutDefaultHeader = forwardRef<HTMLElement, Props>(
             <div className="flex w-full items-center">
               <AppLink
                 href="/"
-                title="На главную"
+                title="xx xx"
                 className={clsx(
                   'flex justify-center py-10 transition-all duration-300 lg:py-30',
                   { grow: mobileMenuExpanded }
@@ -78,7 +78,7 @@ export const LayoutDefaultHeader = forwardRef<HTMLElement, Props>(
             <div className="absolute right-16 top-0 flex items-center lg:hidden">
               <button
                 className="-mx-16 py-10 px-16 text-white"
-                title={mobileMenuExpanded ? 'Скрыть меню' : 'Показать меню'}
+                title={mobileMenuExpanded ? 'xx xx' : 'xx xx'}
                 onClick={() => toggleMobileMenu(!mobileMenuExpanded)}
               >
                 <span className="relative block h-24 w-24">

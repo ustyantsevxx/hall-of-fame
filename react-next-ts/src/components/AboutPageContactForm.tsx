@@ -36,9 +36,9 @@ export const AboutPageContactsForm: FC<Props> = ({ className }) => {
           className
         )}
       >
-        <h2 className="text-regular-20 md:text-regular-26">Стать партнером</h2>
+        <h2 className="text-regular-20 md:text-regular-26">xx xx</h2>
         <p className="mt-11 text-black/50 text-regular-15 md:text-regular-17">
-          По вопросам сотрудничества, аренды и поставок
+          xx xx xx, xx xx xx
         </p>
 
         <form
@@ -47,12 +47,12 @@ export const AboutPageContactsForm: FC<Props> = ({ className }) => {
         >
           <AppInput
             className="!border-black/10 bg-transparent"
-            placeholder="Имя"
+            placeholder="xx"
             {...register('name', { required: true })}
           />
           <InputPhoneNumber
             className="!border-black/10 bg-transparent"
-            placeholder="Номер телефона"
+            placeholder="xx xx"
             onAccept={value => {
               setValue('phone', value)
               trigger('phone')
@@ -65,19 +65,19 @@ export const AboutPageContactsForm: FC<Props> = ({ className }) => {
           <AppTextarea
             rows={5}
             className="!border-black/10 bg-transparent"
-            placeholder="Ваше сообщение"
+            placeholder="xx xx"
             {...register('message', { required: true })}
           />
           <AppButton className="w-full" disabled={!formState.isValid}>
-            Перезвоните мне
+            xx xx
           </AppButton>
         </form>
       </div>
 
       <ModalConfirmation
-        title="Анкета отправлена"
-        description="Менеджер свяжется с вами в течение 24 часов"
-        confirmButtonText="Буду ждать"
+        title="xx xx"
+        description="xx xx xx xx xx xx 24 xx"
+        confirmButtonText="xx xx"
         opened={modalOpened}
         contentContainerClassName="md:max-w-[300px] mx-auto"
         onClose={() => {

@@ -32,7 +32,7 @@ const LoyaltyPage: NextPageWithGetLayout = () => {
   const { user } = useAuth()
   const { data } = useLoyaltyPageContent()
 
-  const pageTitle = data?.title || 'Программа лояльности'
+  const pageTitle = data?.title || 'xx xx'
 
   return (
     <>

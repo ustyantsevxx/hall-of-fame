@@ -1,9 +1,5 @@
 <template>
-  <TaskFormFieldDatetime
-    v-bind="$attrs"
-    label="Напоминание"
-    modal-title="Напоминание"
-  >
+  <TaskFormFieldDatetime v-bind="$attrs" label="xx" modal-title="xx">
     <template #icon>
       <SvgNotification24 />
     </template>
@@ -45,7 +41,7 @@ const props = defineProps({
 
 const timeVariants = [
   {
-    label: 'За 15 минут',
+    label: 'xx 15 xx',
     isActive: ({ date, time }: { date: Date; time: number }) => {
       const differenceInMinute = getDateDifferenceWithFinishDateInMinute({
         date,
@@ -60,7 +56,7 @@ const timeVariants = [
     }
   },
   {
-    label: 'За 30 минут',
+    label: 'xx 30 xx',
     isActive: ({ date, time }) => {
       const differenceInMinute = getDateDifferenceWithFinishDateInMinute({
         date,
@@ -75,7 +71,7 @@ const timeVariants = [
     }
   },
   {
-    label: 'За 1 час',
+    label: 'xx 1 xx',
     isActive: ({ date, time }) => {
       const differenceInMinute = getDateDifferenceWithFinishDateInMinute({
         date,

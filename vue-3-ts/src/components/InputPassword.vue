@@ -11,7 +11,7 @@
     <button
       type="button"
       class="absolute right-0 flex h-full w-50 items-center justify-center shift-center-y"
-      :title="localPasswordRevealed ? 'Скрыть пароль' : 'Показать пароль'"
+      :title="localPasswordRevealed ? 'xx xx' : 'xx xx'"
       data-test="password-toggle-button"
       @click="updatePasswordRevealed(!localPasswordRevealed)"
     >

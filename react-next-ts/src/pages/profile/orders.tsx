@@ -46,11 +46,11 @@ const ProfileOrdersPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('История заказов')}</title>
+        <title>{constructPageTitle('xx xx')}</title>
       </Head>
 
       <div className="container mt-18 md:mt-33">
-        <PageTitle title="История заказов" goBackHref="/profile" />
+        <PageTitle title="xx xx" goBackHref="/profile" />
 
         <AppTransition show={!isLoading}>
           <InfiniteScroll
@@ -72,7 +72,7 @@ const ProfileOrdersPage: NextPageWithGetLayout = () => {
               </div>
             ) : (
               <div className="mt-20 pl-52 text-black/50 text-regular-17">
-                <p>История заказов пуста</p>
+                <p>xx xx xx</p>
               </div>
             )}
           </InfiniteScroll>
@@ -80,7 +80,7 @@ const ProfileOrdersPage: NextPageWithGetLayout = () => {
 
         {(isLoading || isFetchingNextPage) && (
           <div className="mt-20 w-full pl-52 text-black/50 text-regular-17 md:w-[757px]">
-            Загрузка...
+            xx...
           </div>
         )}
       </div>

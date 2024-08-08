@@ -56,14 +56,14 @@ export const ProfileAddressList: FC<Props> = ({ className }) => {
   return (
     <div className={clsx(className)}>
       <div className="flex items-center">
-        <h2 className="text-medium-20">Адреса доставки</h2>
+        <h2 className="text-medium-20">xx xx</h2>
         <ProfileAddressListButtonAdd onClick={openFormAndScrollToIt} />
       </div>
 
       <ModalConfirmation
-        title="Удаление адреса"
-        description={`Вы уверены, что хотите удалить адрес ${addressToRemoveString}?`}
-        confirmButtonText="Удалить адрес"
+        title="xx xx"
+        description={`xx xx, xx xx xx xx ${addressToRemoveString}?`}
+        confirmButtonText="xx xx"
         opened={removeModalOpened}
         onClose={() => setRemoveModalOpened(false)}
         onClosed={() => setAddressToRemove(null)}
@@ -84,7 +84,7 @@ export const ProfileAddressList: FC<Props> = ({ className }) => {
         ) : (
           <div className="my-auto">
             <p className="mt-28 h-25 text-black/50 text-regular-15">
-              Добавьте адрес доставки
+              xx xx xx
             </p>
           </div>
         )}
@@ -92,7 +92,7 @@ export const ProfileAddressList: FC<Props> = ({ className }) => {
 
       {isLoading && (
         <p className="mt-11 h-25 text-black/50 text-regular-17 md:mt-28">
-          Загрузка...
+          xx...
         </p>
       )}
 

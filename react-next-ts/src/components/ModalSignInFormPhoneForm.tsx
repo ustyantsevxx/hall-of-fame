@@ -42,7 +42,7 @@ export const ModalSignInFormPhoneForm: FC<Props> = ({
     >
       <InputPhoneNumber
         disabled={smsCodeSent}
-        placeholder="Номер телефона"
+        placeholder="xx xx"
         className="block w-full flex-1"
         onAccept={value => {
           setValue('phone', value)
@@ -57,11 +57,11 @@ export const ModalSignInFormPhoneForm: FC<Props> = ({
       <AppButton
         className="mt-14 w-full md:mt-0 md:ml-16 md:w-[146px]"
         variant="secondary"
-        title={smsCodeSent ? 'Подождите' : ''}
+        title={smsCodeSent ? 'xx' : ''}
         disabled={submitDisabled}
       >
         {!smsCodeSent ? (
-          'Получить код'
+          'xx xx'
         ) : (
           <Countdown
             date={dayjs().add(SMS_SEND_INTERVAL, 'seconds').toDate()}

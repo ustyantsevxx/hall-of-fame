@@ -6,7 +6,7 @@ export const dateFilterModes = {
   fixedRanges: {
     allTime: {
       id: 1,
-      label: 'За все время',
+      label: 'xx xx xx',
       range: {
         startDate: null,
         endDate: null
@@ -14,7 +14,7 @@ export const dateFilterModes = {
     },
     currentMonth: {
       id: 2,
-      label: 'Текущий месяц',
+      label: 'xx xx',
       range: {
         startDate: xDayjs().startOf('month'),
         endDate: xDayjs().endOf('month')
@@ -22,7 +22,7 @@ export const dateFilterModes = {
     },
     lastMonth: {
       id: 3,
-      label: 'Прошлый месяц',
+      label: 'xx xx',
       range: {
         startDate: xDayjs().subtract(1, 'month').startOf('month'),
         endDate: xDayjs().subtract(1, 'month').endOf('month')
@@ -33,7 +33,7 @@ export const dateFilterModes = {
   special: {
     customRange: {
       id: 4,
-      label: 'Диапазон дат'
+      label: 'xx xx'
     }
   }
 }

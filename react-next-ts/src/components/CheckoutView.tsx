@@ -55,7 +55,7 @@ export const CheckoutView: FC<Props> = ({ onSubmit }) => {
               ))}
             </>
           ) : (
-            <p className="text-red">Проверьте корректность введенных данных</p>
+            <p className="text-red">xx xx xx xx</p>
           )}
         </div>
       )}
@@ -66,8 +66,8 @@ export const CheckoutView: FC<Props> = ({ onSubmit }) => {
           onClick={onSubmit}
         >
           {checkoutContext.loading
-            ? 'Загрузка...'
-            : `Оформить заказ на ${formatRuble(total || localTotal)}`}
+            ? 'xx...'
+            : `xx xx xx ${formatRuble(total || localTotal)}`}
         </AppButton>
       </div>
     </>

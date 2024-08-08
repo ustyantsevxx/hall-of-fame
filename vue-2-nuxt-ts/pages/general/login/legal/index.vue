@@ -1,21 +1,21 @@
 <template>
   <main class="container">
     <div class="flex justify-between mt-40">
-      <h1 class="self-center text-h1">Авторизация</h1>
-      <Link headless :href="MAIN_WEBSITE_LINK" title="XXX Основной сайт">
+      <h1 class="self-center text-h1">xx</h1>
+      <Link headless :href="MAIN_WEBSITE_LINK" title="XXX xx xx">
         <LogoSVG />
       </Link>
     </div>
 
     <p class="mb-25 text-subtitle" style="width: 730px">
-      Для авторизации укажите ИНН организации и предоставленный вам пароль
+      xx xx xx xx xx xx xx xx xx
     </p>
 
     <form style="width: 540px" @submit.prevent="submit">
       <InputDefault
         v-model="idNumber"
-        label="ИНН"
-        placeholder="ИНН"
+        label="xx"
+        placeholder="xx"
         class="mb-21"
         hide-label
         :mask="innMask"
@@ -26,8 +26,8 @@
 
       <InputPassword
         v-model="password"
-        label="Пароль"
-        placeholder="Пароль"
+        label="xx"
+        placeholder="xx"
         class="mb-21"
         hide-label
         :invalid="$v.password.$anyError"
@@ -38,7 +38,7 @@
         <span
           class="text-description text-black hover:text-red transition-colors"
         >
-          Забыли пароль?
+          xx xx?
         </span>
       </Button>
 
@@ -49,7 +49,7 @@
           type="submit"
           class="mr-30"
         >
-          Войти
+          xx
         </Button>
 
         <p
@@ -61,10 +61,10 @@
             <br />
           </span>
           <span v-if="$v.idNumber.$anyError">
-            Неверный формат ИНН.
+            xx xx xx.
             <br />
           </span>
-          <span v-if="$v.password.$anyError">Неверный формат пароля.</span>
+          <span v-if="$v.password.$anyError">xx xx xx.</span>
         </p>
       </div>
     </form>
@@ -100,7 +100,7 @@ import { STRATEGIES } from '~/plugins/nuxt-auth'
   },
 
   head: {
-    title: 'Авторизация'
+    title: 'xx'
   },
 
   auth: 'guest',
@@ -187,7 +187,7 @@ export default class LoginLegalIndexPage extends Vue {
       this.serverValidationMessage =
         error.response.status !== 500
           ? error.response.data[0].description
-          : 'Произошла ошибка. Обратитесь в службу поддержки'
+          : 'xx xx. xx xx xx xx'
     } finally {
       this.loading = false
       this.$auth.options.redirect = authRedirectDefaultState

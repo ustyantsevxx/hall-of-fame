@@ -103,14 +103,14 @@ export const CartConfigurationPromocode: FC<Props> = ({
           className="grow"
           successMessage={codeApplied}
           errorMessage={
-            !context.loading && !codeApplied && promoCodeNotFound && 'Ошибка'
+            !context.loading && !codeApplied && promoCodeNotFound && 'xx'
           }
           onReset={resetCode}
         >
           <AppInput
             value={localPromoCode}
             className="w-full disabled:cursor-not-allowed disabled:!opacity-100"
-            placeholder="Промокод"
+            placeholder="xx"
             disabled={codeApplied}
             onChange={handleChange}
           />
@@ -127,15 +127,15 @@ export const CartConfigurationPromocode: FC<Props> = ({
                 promoCodeNotFound
               }
             >
-              Применить промокод
+              xx xx
             </AppButton>
           ) : (
             <button
               className="w-full p-10"
-              title="Сбросить промокод"
+              title="xx xx"
               onClick={resetCode}
             >
-              Сбросить промокод
+              xx xx
             </button>
           )}
         </div>

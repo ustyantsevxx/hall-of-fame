@@ -47,45 +47,45 @@ export default class LegalTransactionsPageTable extends Vue {
     return [
       {
         key: 'time',
-        title: 'Дата',
+        title: 'xx',
         width: 120
       },
       {
         key: 'card',
-        title: 'Карта',
+        title: 'xx',
         width: 64
       },
       {
         key: 'operation',
-        title: 'AЗС',
+        title: 'Axx',
         width: 355
       },
       {
         key: 'fuel',
-        title: 'Тип топлива',
+        title: 'xx xx',
         width: 102
       },
       {
         key: 'amount',
-        title: 'Объем, Л',
+        title: 'xx, xx',
         class: 'text-right',
         width: 65
       },
       {
         key: 'weight',
-        title: 'Масса, Кг',
+        title: 'xx, xx',
         class: 'text-right',
         width: 75
       },
       {
         key: 'price',
-        title: 'Цена, ₽',
+        title: 'xx, ₽',
         class: 'text-right',
         width: 70
       },
       {
         key: 'totalPaid',
-        title: 'Сумма, ₽',
+        title: 'xx, ₽',
         class: 'text-right',
         width: 70
       }

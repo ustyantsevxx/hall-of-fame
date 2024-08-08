@@ -38,9 +38,9 @@ export const CheckoutConfigDeliveryCourierErrors: FC<Props> = () => {
         <>
           {checkoutContext.calculations?.delivery_polygon?.min_order && (
             <p className={clsx('mt-12 text-black/50 text-regular-15')}>
-              Бесплатно доставим за{' '}
+              xx xx xx{' '}
               {checkoutContext.calculations?.delivery_polygon?.delivery_time}{' '}
-              мин
+              xx
             </p>
           )}
         </>
@@ -51,7 +51,7 @@ export const CheckoutConfigDeliveryCourierErrors: FC<Props> = () => {
           {noDeliveryToSelectedAddress && (
             <CheckoutAlert
               variant="error"
-              text="На выбранный адрес доставка не осуществляется"
+              text="xx xx xx xx xx xx"
               className="mt-20 !text-black"
             />
           )}
@@ -63,7 +63,7 @@ export const CheckoutConfigDeliveryCourierErrors: FC<Props> = () => {
           {totalPrinceNotEnough && (
             <CheckoutAlert
               variant="error"
-              text={`Минимальная сумма заказа для вашей зоны на доставку составляет ${formatRuble(
+              text={`xx xx xx xx xx xx xx xx xx ${formatRuble(
                 checkoutContext.calculations?.delivery_polygon?.min_order
               )}`}
               className="mt-20 !text-black"

@@ -7,7 +7,7 @@
       path="/articles"
       @page-change="handlePageChange"
     >
-      <template #title>Новости</template>
+      <template #title>xx</template>
     </ArticleList>
   </main>
 </template>
@@ -27,7 +27,7 @@ import { MetaPagination } from '~/logic/types/api-meta'
   components: { ArticleList, Pagination, ArticleCard, PageHeader },
 
   head: {
-    title: 'Новости'
+    title: 'xx'
   },
   layout: 'legal',
 

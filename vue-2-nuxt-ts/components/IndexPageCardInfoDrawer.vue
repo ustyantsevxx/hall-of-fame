@@ -12,7 +12,7 @@
 
         <button
           class="absolute top-30 right-30"
-          title="Закрыть"
+          title="xx"
           @click="emitClose"
         >
           <CardInfoCloseSVG />

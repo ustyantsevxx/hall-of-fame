@@ -30,7 +30,7 @@
             <button
               class="relative flex h-40 w-40 items-center justify-center rounded-full laptop:h-36 laptop:w-36"
               style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15)"
-              title="Запустить таймер"
+              title="xx xx"
               @click="startTimer"
             >
               <CircleProgress
@@ -58,7 +58,7 @@
       <div>
         <button
           class="flex h-55 w-55 items-center justify-center rounded-15 bg-white laptop:h-50 laptop:w-50"
-          title="Редактировать таймер"
+          title="xx xx"
           style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)"
           @click="emit('edit', timer.id)"
         >

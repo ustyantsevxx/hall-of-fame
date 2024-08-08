@@ -15,7 +15,7 @@ export const HistoryOrderItemStatusHeaderReadyToPickup: FC<Props> = ({
         className
       )}
     >
-      <div className="whitespace-nowrap">Готов к выдаче</div>
+      <div className="whitespace-nowrap">xx xx xx</div>
     </div>
   )
 }

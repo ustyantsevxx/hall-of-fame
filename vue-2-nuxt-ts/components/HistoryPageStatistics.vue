@@ -2,26 +2,26 @@
   <div class="grid grid-cols-3 gap-x-30">
     <HistoryPageStatisticsItem
       :item="statistics.expenses"
-      title="Расходы"
-      total-label="Общая сумма"
+      title="xx"
+      total-label="xx xx"
       total-unit="₽"
     />
     <HistoryPageStatisticsItem
       :item="statistics.liters"
-      title="Литры"
-      total-label="Общее количество"
+      title="xx"
+      total-label="xx xx"
     />
     <HistoryPageStatisticsItem
       v-if="bonusesStatisticsVisible"
       :item="statistics.bonuses"
-      title="Начислено бонусов"
-      total-label="Общее количество"
+      title="xx xx"
+      total-label="xx xx"
     />
     <HistoryPageStatisticsItem
       v-if="discountStatisticsVisible"
       :item="statistics.discount"
-      title="Сумма скидок"
-      total-label="Общее количество"
+      title="xx xx"
+      total-label="xx xx"
       total-unit="₽"
     />
   </div>

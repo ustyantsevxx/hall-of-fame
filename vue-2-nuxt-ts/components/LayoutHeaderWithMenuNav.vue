@@ -17,7 +17,7 @@
           <span
             class="text-transparent group-hover:text-red bg-clip-text bg-gradient transition-colors"
           >
-            Выйти
+            xx
           </span>
         </Button>
       </li>
@@ -43,32 +43,32 @@ export default class LayoutHeaderWithMenuNav extends Vue {
   menuItems = [
     {
       to: '/',
-      displayName: 'Транзакции',
+      displayName: 'xx',
       exact: true
     },
     {
       to: '/cards',
-      displayName: 'Карты'
+      displayName: 'xx'
     },
     {
       to: '/funds',
-      displayName: 'Средства'
+      displayName: 'xx'
     },
     {
       to: '/articles',
-      displayName: 'Новости'
+      displayName: 'xx'
     },
     {
       to: '/help',
-      displayName: 'Справка'
+      displayName: 'xx'
     },
     {
       to: '/support',
-      displayName: 'Служба поддержки'
+      displayName: 'xx xx'
     },
     {
       to: '/settings',
-      displayName: 'Настройки'
+      displayName: 'xx'
     }
   ]
 

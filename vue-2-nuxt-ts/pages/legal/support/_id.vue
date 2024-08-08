@@ -4,9 +4,9 @@
       <div>
         <Link to="/support" class="flex items-center space-x-10 w-max">
           <SlimArrowRightSVG />
-          <span>Назад</span>
+          <span>xx</span>
         </Link>
-        <h1 class="mt-25 text-h1">Обращение №{{ request.id }}</h1>
+        <h1 class="mt-25 text-h1">xx №{{ request.id }}</h1>
         <p class="mt-30 text-gray">
           <template v-if="request.topic">
             {{ request.topic.name }}
@@ -20,7 +20,7 @@
           :status-id="request.status.id"
           class="px-20 pt-12 pb-13 rounded-25"
         >
-          {{ `${statusName} обращение` }}
+          {{ `${statusName} xx` }}
         </SupportRequestStatusBadge>
       </div>
     </section>
@@ -71,7 +71,7 @@ export default class LegalSupportChatPage extends Vue {
 
   head() {
     return {
-      title: `Обращение №${this.request?.id}` ?? undefined
+      title: `xx №${this.request?.id}` ?? undefined
     }
   }
 

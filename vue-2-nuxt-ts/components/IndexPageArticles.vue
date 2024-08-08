@@ -1,6 +1,6 @@
 <template>
   <section class="mt-70">
-    <p class="text-h2">Акции и новости</p>
+    <p class="text-h2">xx xx xx</p>
 
     <div class="grid grid-cols-2 gap-30 mt-32">
       <ArticleCard
@@ -16,7 +16,7 @@
       button
       class="flex justify-center items-center mt-40 space-x-11 w-full"
     >
-      <span>Все акции и новости</span>
+      <span>xx xx xx xx</span>
       <SlimArrowRightSVG />
     </Link>
   </section>

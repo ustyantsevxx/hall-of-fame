@@ -4,15 +4,15 @@
 
     <div class="mt-29 space-y-6">
       <p class="block text-black text-opacity-50">
-        Дата рождения: {{ dateOfBirthFormatted }}
+        xx xx: {{ dateOfBirthFormatted }}
       </p>
       <p class="block text-black text-opacity-50">
-        Телефон: {{ phoneFormatted }}
+        xx: {{ phoneFormatted }}
       </p>
     </div>
 
     <div class="flex mt-33 space-x-21">
-      <Link button to="/profile" class="px-20">Редактировать</Link>
+      <Link button to="/profile" class="px-20">xx</Link>
     </div>
   </section>
 </template>

@@ -4,7 +4,7 @@
       <template #title>{{ title }}</template>
     </PageHeader>
 
-    <Link href="/" self>Перейти на главную</Link>
+    <Link href="/" self>xx xx xx</Link>
   </main>
 </template>
 
@@ -28,8 +28,8 @@ export default class Error404 extends Vue {
 
   get title() {
     return this.error.statusCode === 404
-      ? 'Страница не найдена'
-      : 'Произошла ошибка'
+      ? 'xx xx xx'
+      : 'xx xx'
   }
 
   head() {

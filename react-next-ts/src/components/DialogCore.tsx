@@ -109,7 +109,7 @@ export const DialogCore: FC<Props> = ({
 
           {emptyFocusTrap && (
             <button
-              title="Закрыть"
+              title="xx"
               className="sr-only"
               onClick={() => onClose(false)}
             >

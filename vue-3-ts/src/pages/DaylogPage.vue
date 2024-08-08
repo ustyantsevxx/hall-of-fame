@@ -11,25 +11,25 @@
         <div>
           <div class="grid grid-cols-4 gap-10">
             <InfoCard
-              label="Всего:"
-              :value="'30ч'"
+              label="xx:"
+              :value="'30xx'"
               :inline="infoCardsInline"
               :value-first="!infoCardsInline && valueFirst"
             />
             <InfoCard
-              label="В фокусе:"
-              :value="'20ч 25м'"
+              label="xx xx:"
+              :value="'20xx 25xx'"
               :inline="infoCardsInline"
               :value-first="!infoCardsInline && valueFirst"
             />
             <InfoCard
-              label="Выполнено:"
+              label="xx:"
               :value="'3/5'"
               :inline="infoCardsInline"
               :value-first="!infoCardsInline && valueFirst"
             />
             <InfoCard
-              label="Настроение:"
+              label="xx:"
               :inline="infoCardsInline"
               :value-first="!infoCardsInline && valueFirst"
             >
@@ -88,22 +88,22 @@ const valueFirst = computed(() => !md.value)
 const tabs: TabItem[] = [
   {
     key: 'all',
-    label: 'Все',
+    label: 'xx',
     panelComponent: 'div'
   },
   {
     key: 'study',
-    label: 'Учеба',
+    label: 'xx',
     panelComponent: 'div'
   },
   {
     key: 'work',
-    label: 'Работа',
+    label: 'xx',
     panelComponent: 'div'
   },
   {
     key: 'rest',
-    label: 'Отдых',
+    label: 'xx',
     panelComponent: 'div'
   }
 ]
@@ -116,7 +116,7 @@ const timeIntervalsAndHabitSections = ref<DaylogItem[]>([
     start_time: dateToUnixSeconds(dayjs().hour(2).minute(30).toDate()),
     end_time: dateToUnixSeconds(dayjs().hour(2).minute(45).toDate()),
     mood: 5,
-    comment: "Слушал 'кис-кис кис-кис. ты котик, я котик.'"
+    comment: "xx 'xx-xx xx-xx. xx xx, xx xx.'"
   },
   {
     id: '3x4mpl30-f1d3-n71f-1c47-1231231312312',
@@ -130,7 +130,7 @@ const timeIntervalsAndHabitSections = ref<DaylogItem[]>([
 const timers: Timer[] = [
   {
     id: '0bb0904a-9ec5-4877-9ca6-9cb0fa651ce0',
-    name: 'Отжимания',
+    name: 'xx',
     icon: 'football',
     color: '#3BE88A',
     index: 0,
@@ -181,7 +181,7 @@ const timers: Timer[] = [
 const habits: Habit[] = [
   {
     id: '3061a002-ba86-4954-a4e0-468e78d0b639',
-    name: 'Зарядка',
+    name: 'xx',
     icon: 'skiing',
     color: '#3BE88A',
     current_goal: 0,
@@ -197,7 +197,7 @@ const habits: Habit[] = [
   },
   {
     id: '8975f066-d0e7-4c6f-a3a7-6f8245f4096c',
-    name: 'Чтение',
+    name: 'xx',
     icon: 'basketball',
     color: '#FF82A7',
     current_goal: 1,
@@ -214,17 +214,17 @@ const habits: Habit[] = [
 ]
 
 const addItem = ({ item, index }) => {
-  // TODO добавить запрос на апи
+  // TODO xx xx xx xx
   timeIntervalsAndHabitSections.value.splice(index, 0, item)
 }
 
 const updateItem = ({ item, index }) => {
-  // TODO добавить запрос на апи
+  // TODO xx xx xx xx
   Object.assign(timeIntervalsAndHabitSections.value[index], item)
 }
 
 const removeItem = ({ index }) => {
-  // TODO добавить запрос на апи
+  // TODO xx xx xx xx
   timeIntervalsAndHabitSections.value.splice(index, 1)
 }
 </script>

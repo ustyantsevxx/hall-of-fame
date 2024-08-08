@@ -1,11 +1,11 @@
 <template>
   <form @submit.prevent="submit">
-    <div class="text-medium-15">Изменить пароль</div>
+    <div class="text-medium-15">xx xx</div>
 
     <Input
       v-model="currentPassword"
       :invalid="formMeta.touched && !!currentPasswordError"
-      placeholder="Старый пароль"
+      placeholder="xx xx"
       type="password"
       autocomplete="current-password"
       class="mt-12"
@@ -13,7 +13,7 @@
     <Input
       v-model="newPassword"
       :invalid="formMeta.touched && !!newPasswordError"
-      placeholder="Новый пароль"
+      placeholder="xx xx"
       type="password"
       autocomplete="new-password"
       class="mt-10"
@@ -27,7 +27,7 @@
       :loading="isSubmitting"
       :disabled="buttonDisabled"
     >
-      <span>Сохранить</span>
+      <span>xx</span>
     </Button>
   </form>
 </template>
@@ -43,16 +43,16 @@ import ErrorList from '@/components/ErrorList.vue'
 import Input from '@/components/Input.vue'
 
 const schema = object({
-  currentPassword: string().required('Вы не ввели старый пароль'),
+  currentPassword: string().required('xx xx xx xx xx'),
   newPassword: string()
     .test(
       'onlyAllowedSymbols',
-      'Пароль может содержать только латинские буквы и спецсимволы',
+      'xx xx xx xx xx xx xx xx',
       (value: string | undefined) => AuthService.validatePassword(value || '')
     )
-    .min(8, 'Минимальная длина нового пароля 8 символов')
-    .max(20, 'Максимальная длина нового пароля 20 символов')
-    .required('Вы не ввели новый пароль')
+    .min(8, 'xx xx xx xx 8 xx')
+    .max(20, 'xx xx xx xx 20 xx')
+    .required('xx xx xx xx xx')
 })
 
 const {
@@ -88,10 +88,10 @@ const submit = handleSubmit(async (values, actions) => {
   }
 
   try {
-    // TODO проверить когда сделают бэк
+    // TODO xx xx xx xx
     await savePassword()
   } catch {
-    actions.setFieldError('newPassword', 'Что-то пошло не так')
+    actions.setFieldError('newPassword', 'xx-xx xx xx xx')
   }
 })
 </script>

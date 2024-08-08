@@ -31,7 +31,7 @@ import ModalDatePicker from '@/components/ModalDatePicker.vue'
 const props = defineProps({
   modelValue: { type: Date, default: undefined },
   label: { type: String, required: true },
-  placeholder: { type: String, default: 'Выберите дату' },
+  placeholder: { type: String, default: 'xx xx' },
   displayFormat: { type: String, default: 'DD MMMM YYYY' },
   modalAttach: { type: String, default: undefined }
 })

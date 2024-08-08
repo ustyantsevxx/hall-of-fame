@@ -14,19 +14,19 @@ export const settingsRoutes = {
     path: '',
     component: () => import('@/pages/SettingsProfilePage.vue'),
     name: 'settings-profile',
-    meta: { title: 'Профиль' }
+    meta: { title: 'xx' }
   },
   preferences: {
     path: 'preferences',
     component: () => import('@/pages/SettingsPreferencesPage.vue'),
     name: 'settings-preferences',
-    meta: { title: 'Настройки' }
+    meta: { title: 'xx' }
   },
   feedback: {
     path: 'feedback',
     component: () => import('@/pages/SettingsFeedbackPage.vue'),
     name: 'settings-feedback',
-    meta: { title: 'Обратная связь' }
+    meta: { title: 'xx xx' }
   }
 }
 
@@ -38,27 +38,27 @@ export const routes: Array<RouteRecordRaw> = [
         {
           path: '/',
           component: () => import('@/pages/IndexPage.vue'),
-          meta: { title: 'Таймеры' }
+          meta: { title: 'xx' }
         },
         {
           path: '/daylog',
           component: () => import('@/pages/DaylogPage.vue'),
-          meta: { title: 'Дневник' }
+          meta: { title: 'xx' }
         },
         {
           path: '/tasks',
           component: () => import('@/pages/TasksPage.vue'),
-          meta: { title: 'Задачи' }
+          meta: { title: 'xx' }
         },
         {
           path: '/stats',
           component: () => import('@/pages/StatsPage.vue'),
-          meta: { title: 'Статистика' }
+          meta: { title: 'xx' }
         },
         {
           path: '/settings',
           component: () => import('@/pages/SettingsPage.vue'),
-          meta: { title: 'Статистика' },
+          meta: { title: 'xx' },
           children: Object.values(settingsRoutes)
         }
       ]

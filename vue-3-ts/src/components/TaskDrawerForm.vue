@@ -51,7 +51,7 @@ const emit = defineEmits<{
 }>()
 
 const drawerTitle = computed(() =>
-  props.editingTask === undefined ? 'Новая задача' : 'Редактирование задачи'
+  props.editingTask === undefined ? 'xx xx' : 'xx xx'
 )
 
 const { timers } = useTimers()

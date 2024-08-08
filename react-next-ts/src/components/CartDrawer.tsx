@@ -32,7 +32,7 @@ export const CartDrawer: FC<Props> = ({ opened, onOpenedChanged }) => {
   }
 
   return (
-    <AppDrawer title="Корзина" opened={opened} onClose={onOpenedChanged}>
+    <AppDrawer title="xx" opened={opened} onClose={onOpenedChanged}>
       <div className="flex h-full w-full px-16 pt-17 md:px-30">
         {cartEmpty ? (
           <CartEmptyMessage onGoToMenu={handleGoToMenu} />

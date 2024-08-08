@@ -7,8 +7,8 @@
 
     <template v-if="searchString.length < MIN_SEARCH_STRING_LENGTH">
       <div class="text-center">
-        Минимальная длина запроса
-        {{ MIN_SEARCH_STRING_LENGTH }} символа
+        xx xx xx
+        {{ MIN_SEARCH_STRING_LENGTH }} xx
       </div>
     </template>
 
@@ -28,7 +28,7 @@
         />
       </template>
 
-      <div v-else class="text-center">Ничего не найдено</div>
+      <div v-else class="text-center">xx xx xx</div>
     </template>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <button
-    title="Добавить временной интервал"
+    title="xx xx xx"
     type="button"
     class="ml-21 flex h-28 w-28 items-center justify-center rounded-full bg-white transition-colors hover:bg-black/5"
     style="

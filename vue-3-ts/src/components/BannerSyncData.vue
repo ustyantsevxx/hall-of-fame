@@ -9,11 +9,9 @@
       <SvgTimer class="h-28 w-28" />
     </div>
 
-    <p class="mt-10 text-center text-[15px] leading-[17px] text-white">
-      Синхронизация данных
-    </p>
+    <p class="mt-10 text-center text-[15px] leading-[17px] text-white">xx xx</p>
     <p class="mt-5 text-center text-[15px] leading-[17px] text-white/60">
-      Узнайте о своем распорядке все
+      xx xx xx xx xx
     </p>
   </div>
 </template>

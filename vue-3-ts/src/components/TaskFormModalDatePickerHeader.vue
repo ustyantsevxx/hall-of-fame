@@ -18,7 +18,7 @@
 
     <TaskFormModalDatePickerClearButton
       v-if="resultDatetime"
-      title="Очистить значение даты и времени"
+      title="xx xx xx xx xx"
       class="ml-auto"
       @click="reset"
     />
@@ -43,12 +43,12 @@ const emit = defineEmits<{
 
 const resultDateTimeString = computed(() => {
   return dayjs(props.resultDatetime).calendar(null, {
-    sameDay: '[сегодня в] HH:mm',
-    nextDay: '[завтра в] HH:mm',
-    nextWeek: 'DD.MM.YYYY в HH:mm',
-    lastDay: '[вчера в] HH:mm',
-    lastWeek: 'DD.MM.YYYY в HH:mm',
-    sameElse: 'DD.MM.YYYY в HH:mm'
+    sameDay: '[xx xx] HH:mm',
+    nextDay: '[xx xx] HH:mm',
+    nextWeek: 'DD.MM.YYYY xx HH:mm',
+    lastDay: '[xx xx] HH:mm',
+    lastWeek: 'DD.MM.YYYY xx HH:mm',
+    sameElse: 'DD.MM.YYYY xx HH:mm'
   })
 })
 

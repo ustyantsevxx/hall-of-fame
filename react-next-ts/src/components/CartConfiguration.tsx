@@ -70,7 +70,7 @@ export const CartConfiguration: FC<Props> = ({ onGoToCheckout }) => {
   const handleServerError = (error: any) => {
     setPromocode(undefined)
 
-    const defaultMessage = 'Произошла ошибка. Попробуйте позже'
+    const defaultMessage = 'xx xx. xx xx'
     const firstErrorMessage =
       error.response.status !== 500
         ? error.response?.data?.[0].description || defaultMessage
@@ -123,7 +123,7 @@ export const CartConfiguration: FC<Props> = ({ onGoToCheckout }) => {
 
           <CartItem
             className="mt-36"
-            name="Приборы"
+            name="xx"
             priceHidden
             count={personCount}
             onCountChange={setPersonCount}
@@ -136,7 +136,7 @@ export const CartConfiguration: FC<Props> = ({ onGoToCheckout }) => {
           />
 
           <div className="mt-26 flex items-center justify-between md:mb-0">
-            <div className="text-black/50 text-regular-17">Итого</div>
+            <div className="text-black/50 text-regular-17">xx</div>
             <div
               className={clsx(
                 ' flex items-center space-x-11 text-black transition delay-200 text-medium-20',
@@ -160,7 +160,7 @@ export const CartConfiguration: FC<Props> = ({ onGoToCheckout }) => {
 
           {birthday && calculations && (
             <p className="mt-10 mb-18 text-pink text-medium-17">
-              Скидка {calculations.birth_day_discount}% на День рождения
+              xx {calculations.birth_day_discount}% xx xx xx
             </p>
           )}
           <div className="fixed bottom-0 left-0 right-0 border-t border-t-gray bg-white px-16 pt-2 pb-20 md:static md:mt-18 md:border-t-0 md:px-0 md:py-0 md:pb-0 ">
@@ -170,12 +170,12 @@ export const CartConfiguration: FC<Props> = ({ onGoToCheckout }) => {
               onClick={tryGoToCheckout}
             >
               {isLoading ? (
-                'Загрузка...'
+                'xx...'
               ) : (
                 <>
-                  <span className="hidden md:block">К оформлению заказа</span>
+                  <span className="hidden md:block">xx xx xx</span>
                   <span className="md:hidden">
-                    Оформить заказ на {formattedTotal}
+                    xx xx xx {formattedTotal}
                   </span>
                 </>
               )}

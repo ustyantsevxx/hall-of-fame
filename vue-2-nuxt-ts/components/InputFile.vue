@@ -72,7 +72,7 @@ export default class InputFile extends Vue {
       if (newTotalCount > this.maxCount) {
         const errorEvent = {
           error: new Error(
-            `Превышено максимальное количество файлов (${this.maxCount} шт.)`
+            `xx xx xx xx (${this.maxCount} xx.)`
           )
         }
         this.$emit('uploading-error', errorEvent)

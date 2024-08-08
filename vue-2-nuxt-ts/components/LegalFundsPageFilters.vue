@@ -3,8 +3,8 @@
     <section>
       <InputSelect
         v-model.number="dateFilterModeId"
-        label="Фильтр по датам"
-        title="Диапазон дат"
+        label="xx xx xx"
+        title="xx xx"
         :options="dateFilterModeOptions"
         @change="changeDateFilterMode"
       />
@@ -14,8 +14,8 @@
       <section v-if="rangeModeSelected">
         <InputDateRange
           v-model="filters.dateRange"
-          label="Укажите диапазон дат"
-          placeholder="Выберите диапазон"
+          label="xx xx xx"
+          placeholder="xx xx"
         />
       </section>
     </Transition>

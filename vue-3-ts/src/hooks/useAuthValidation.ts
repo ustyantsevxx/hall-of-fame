@@ -8,25 +8,25 @@ export const useAuthValidation = () => {
       string()
         .test(
           'onlyAllowedSymbols',
-          'Пароль может содержать только латинские буквы и спецсимволы',
+          'xx xx xx xx xx xx xx xx',
           (value: string | undefined) =>
             AuthService.validatePassword(value || '')
         )
-        .min(8, 'Минимальная длина пароля 8 символов')
-        .max(20, 'Максимальная длина пароля 20 символов')
-        .required('Вы не ввели новый пароль'),
+        .min(8, 'xx xx xx 8 xx')
+        .max(20, 'xx xx xx 20 xx')
+        .required('xx xx xx xx xx'),
     getEmailForRegistrationRules: () =>
       string()
         .test(
           'emailInUse',
-          'Данный "E-mail" уже используется',
+          'xx "E-mail" xx xx',
           async (value: string | undefined) => {
             return typeof value === 'string' && value?.length > 0
               ? !(await AuthService.checkEmailInUse(value))
               : true
           }
         )
-        .email('Некорректный "E-mail"')
-        .required('Вы не ввели "E-mail"')
+        .email('xx "E-mail"')
+        .required('xx xx xx "E-mail"')
   }
 }

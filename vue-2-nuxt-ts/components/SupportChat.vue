@@ -14,7 +14,7 @@
           ref="topBoundary"
           :visible="messages.length > 0 && !onFirstPageNow"
         >
-          Загрузка предыдущих сообщений
+          xx xx xx
         </ChatBoundaryLoader>
 
         <div v-for="group in groupedMessages" :key="group.date">
@@ -43,7 +43,7 @@
           class="pt-34"
           :visible="messages.length > 0 && !onLastPageNow"
         >
-          Загрузка следующих сообщений
+          xx xx xx
         </ChatBoundaryLoader>
       </div>
 
@@ -53,7 +53,7 @@
           class="absolute bottom-20 left-1/2 px-20 pt-12 pb-13 text-white bg-black bg-opacity-80 rounded-25 transform -translate-x-1/2"
           @click="goToEnd"
         >
-          Перейти в конец чата
+          xx xx xx xx
         </button>
       </Transition>
     </div>
@@ -68,7 +68,7 @@
         class="flex-1"
         @enter="trySendMessage"
       />
-      <Button gradient type="submit" :disabled="!sendAllowed">Отправить</Button>
+      <Button gradient type="submit" :disabled="!sendAllowed">xx</Button>
     </form>
   </div>
 </template>

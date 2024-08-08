@@ -27,16 +27,16 @@
     </div>
 
     <div class="mt-30 laptop:mt-22">
-      <p class="text-17 laptop:text-14">Общая статистика таймера</p>
+      <p class="text-17 laptop:text-14">xx xx xx</p>
 
       <div class="mt-15 grid grid-cols-2 gap-10">
         <InfoCard
-          label="Всего"
-          value="50 м"
+          label="xx"
+          value="50 xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-60"
         />
         <InfoCard
-          label="Настроение"
+          label="xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-60"
         >
           <template #value>
@@ -44,48 +44,48 @@
           </template>
         </InfoCard>
         <InfoCard
-          label="В среднем"
-          value="50 м"
+          label="xx xx"
+          value="50 xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-60"
         />
         <InfoCard
-          label="Ежедневная цель"
-          value="50 м"
+          label="xx xx"
+          value="50 xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-60"
         />
         <InfoCard
-          label="Разница с целью"
+          label="xx xx xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-60"
         >
           <template #value>
-            <span class="text-subcolor-green-done">20 м (5%)</span>
+            <span class="text-subcolor-green-done">20 xx (5%)</span>
           </template>
         </InfoCard>
       </div>
     </div>
 
     <div class="mt-30 laptop:mt-20">
-      <p class="text-17 laptop:text-14">Интервалы времени</p>
+      <p class="text-17 laptop:text-14">xx xx</p>
 
       <div class="mt-15 grid grid-cols-4 gap-10">
         <InfoCard
-          label="Кол-во"
+          label="xx-xx"
           value="1"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-65"
         />
         <InfoCard
-          label="Средний"
-          value="50 м"
+          label="xx"
+          value="50 xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-65"
         />
         <InfoCard
-          label="Мин"
+          label="xx"
           value="0"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-65"
         />
         <InfoCard
-          label="Макс"
-          value="50 м"
+          label="xx"
+          value="50 xx"
           class="laptop:h-50 xl:flex-nowrap xl:bg-white 2xl:h-65"
         />
       </div>

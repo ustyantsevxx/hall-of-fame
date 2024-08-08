@@ -3,22 +3,22 @@
     <div class="col-span-8 mt-22">
       <Link to="/support" class="flex items-center space-x-10 w-max">
         <SlimArrowRightSVG />
-        <span>Служба поддержки</span>
+        <span>xx xx</span>
       </Link>
 
-      <h1 class="mt-25 text-h1">Создать обращение</h1>
+      <h1 class="mt-25 text-h1">xx xx</h1>
 
       <InputSelect
         v-model="selectedStationId"
         class="mt-65"
-        placeholder="Выберите заправку (при необходимости)"
+        placeholder="xx xx (xx xx)"
         :options="stationsDropdownOptions"
       />
 
       <InputTextarea
         v-model="message"
         class="mt-50"
-        placeholder="Ваше сообщение..."
+        placeholder="xx xx..."
       />
 
       <div class="flex items-center mt-30 space-x-20">
@@ -33,14 +33,14 @@
             <Button outline class="">
               <span class="flex items-center space-x-10">
                 <ClipAngleSVG />
-                <span>Прикрепить файлы</span>
+                <span>xx xx</span>
               </span>
             </Button>
           </template>
         </InputFile>
 
         <p class="text-gray">
-          Форматы: PDF, JPG, PNG, DOC, DOCX, XLS. До 20 МБ
+          xx: PDF, JPG, PNG, DOC, DOCX, XLS. xx 20 xx
         </p>
       </div>
 
@@ -56,7 +56,7 @@
         :disabled="!submitAllowed"
         @click.prevent="createRequest"
       >
-        Создать обращение
+        xx xx
       </Button>
     </div>
   </main>
@@ -94,7 +94,7 @@ import FormWithFileUploaderMixin from '~/mixins/form-with-file-uploader-mixin'
 
   head() {
     return {
-      title: 'Создать обращение'
+      title: 'xx xx'
     }
   }
 })

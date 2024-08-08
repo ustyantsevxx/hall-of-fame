@@ -1,5 +1,5 @@
 <template>
-  <AuthWrapper v-if="!processingSocialCallback" title="Авторизация">
+  <AuthWrapper v-if="!processingSocialCallback" title="xx">
     <form class="mt-18" @submit.prevent="signIn">
       <AuthLoginPageSocialButtons />
 
@@ -20,7 +20,7 @@
         <InputPassword
           v-model="password"
           :invalid="!!errorMessage && errorOfInvalidCredentials"
-          placeholder="Пароль"
+          placeholder="xx"
           data-test="password"
           variant="primary"
           @input="resetErrors"
@@ -33,9 +33,9 @@
           class="mt-14 w-full"
           :loading="loading"
           :disabled="!submitAllowed"
-          :title="!submitAllowed ? 'Введите email и пароль' : ''"
+          :title="!submitAllowed ? 'xx email xx xx' : ''"
         >
-          Войти
+          xx
         </Button>
 
         <RouterLink
@@ -43,16 +43,14 @@
           class="mt-25 block w-max underline"
           data-test="restore-password-link"
         >
-          Забыли пароль?
+          xx xx?
         </RouterLink>
       </div>
 
       <div class="mb-15 flex justify-center pt-35">
-        <p>Нет аккаунта?</p>
+        <p>xx xx?</p>
         &nbsp;
-        <RouterLink to="/auth/register" class="underline">
-          Регистрация
-        </RouterLink>
+        <RouterLink to="/auth/register" class="underline">xx</RouterLink>
       </div>
     </form>
   </AuthWrapper>
@@ -125,7 +123,7 @@ const signIn = async () => {
     })
 
     if (!user.email_verified) {
-      errorMessage.value = 'Email не подтвержден'
+      errorMessage.value = 'Email xx xx'
       return
     }
 
@@ -135,7 +133,7 @@ const signIn = async () => {
     }
   } catch {
     errorOfInvalidCredentials.value = true
-    errorMessage.value = 'Неверный логин или пароль'
+    errorMessage.value = 'xx xx xx xx'
   } finally {
     loading.value = false
   }

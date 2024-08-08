@@ -25,7 +25,7 @@ export const CartButtonFab: FC<ButtonHTMLAttributes<HTMLButtonElement>> = ({
         'relative flex h-50 w-50 items-center justify-center rounded-full bg-green text-white',
         className
       )}
-      title="Открыть корзину"
+      title="xx xx"
       style={{ boxShadow: '0px 0px 14.459px rgba(0, 0, 0, 0.15)' }}
       {...buttonAttrs}
     >

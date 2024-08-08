@@ -28,10 +28,10 @@ const personalInfoFormSchema: SchemaOf<PersonalInfoFormData> = object({
         const date = dayjs(value)
         const now = dayjs()
         if (!date.isValid()) {
-          return createError({ message: 'Неверный формат' })
+          return createError({ message: 'xx xx' })
         }
         if (date.isAfter(now)) {
-          return createError({ message: 'Некорректная дата' })
+          return createError({ message: 'xx xx' })
         }
       }
       return true
@@ -86,16 +86,16 @@ export const ProfilePersonalInfoForm: FC<Props> = ({ className }) => {
 
   return (
     <div className={clsx(className)}>
-      <h2 className="sr-only">Данные профиля</h2>
+      <h2 className="sr-only">xx xx</h2>
 
       <form onSubmit={onSubmit}>
         <div className="space-y-30">
           <FormGroup errorMessage={errors.name?.message}>
-            <FormFloatingLabel label="Ваше имя">
+            <FormFloatingLabel label="xx xx">
               {({ id }) => (
                 <AppInput
                   id={id}
-                  placeholder="Ваше имя"
+                  placeholder="xx xx"
                   className="w-full"
                   {...register('name')}
                 />
@@ -103,13 +103,13 @@ export const ProfilePersonalInfoForm: FC<Props> = ({ className }) => {
             </FormFloatingLabel>
           </FormGroup>
 
-          <FormFloatingLabel label="Номер телефона">
+          <FormFloatingLabel label="xx xx">
             {({ id }) => (
               <InputPhoneNumber
                 id={id}
                 key={personalInfo?.phone}
                 defaultValue={personalInfo?.phone}
-                placeholder="Номер телефона"
+                placeholder="xx xx"
                 className="block w-full flex-1"
                 disabled
               />
@@ -117,16 +117,16 @@ export const ProfilePersonalInfoForm: FC<Props> = ({ className }) => {
           </FormFloatingLabel>
 
           <FormGroup errorMessage={errors.birthday?.message}>
-            <FormFloatingLabel label="Дата рождения">
+            <FormFloatingLabel label="xx xx">
               {({ id }) => (
                 <AppInput
                   id={id}
                   type="date"
-                  placeholder="Дата рождения"
+                  placeholder="xx xx"
                   className="min-h-[50px] w-full appearance-none text-left"
                   title={
                     !!personalInfo?.birth_date
-                      ? 'Дату рождения изменить нельзя'
+                      ? 'xx xx xx xx'
                       : undefined
                   }
                   disabled={!!personalInfo?.birth_date}
@@ -138,7 +138,7 @@ export const ProfilePersonalInfoForm: FC<Props> = ({ className }) => {
         </div>
 
         <AppButton className="mt-34 w-full" disabled={!haveDataToUpdate}>
-          Сохранить
+          xx
         </AppButton>
       </form>
     </div>

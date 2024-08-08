@@ -46,9 +46,9 @@
           type="button"
           @click="cancel"
         >
-          Отменить
+          xx
         </Button>
-        <Button variant="primary" class="ml-12 flex-grow">Сохранить</Button>
+        <Button variant="primary" class="ml-12 flex-grow">xx</Button>
       </div>
     </form>
   </Modal>

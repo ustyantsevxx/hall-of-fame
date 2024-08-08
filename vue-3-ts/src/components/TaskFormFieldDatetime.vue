@@ -61,12 +61,12 @@ const dateSelected = computed(() => {
 const displayedDate = computed(() => {
   return dateSelected.value
     ? dayjs(props.modelValue).calendar(null, {
-        sameDay: '[сегодня в] HH:mm',
-        nextDay: '[завтра в] HH:mm',
-        nextWeek: 'DD.MM.YYYY в HH:mm',
-        lastDay: '[вчера в] HH:mm',
-        lastWeek: 'DD.MM.YYYY в HH:mm',
-        sameElse: 'DD.MM.YYYY в HH:mm'
+        sameDay: '[xx xx] HH:mm',
+        nextDay: '[xx xx] HH:mm',
+        nextWeek: 'DD.MM.YYYY xx HH:mm',
+        lastDay: '[xx xx] HH:mm',
+        lastWeek: 'DD.MM.YYYY xx HH:mm',
+        sameElse: 'DD.MM.YYYY xx HH:mm'
       })
     : ''
 })

@@ -4,7 +4,7 @@
   >
     <SvgEmail class="h-36 w-36" />
 
-    <p class="mt-5 text-center text-17">Есть вопросы&nbsp;или предложения?</p>
+    <p class="mt-5 text-center text-17">xx xx&nbsp;xx xx?</p>
   </div>
 </template>
 

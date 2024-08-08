@@ -45,7 +45,7 @@ export const LayoutDefaultHeaderActions: FC<Props> = ({
                       authModalOpened ? 'text-pink' : 'text-white'
                     )}
                   >
-                    Войти
+                    xx
                   </span>
                 </span>
               </button>
@@ -58,7 +58,7 @@ export const LayoutDefaultHeaderActions: FC<Props> = ({
                 <span className="relative flex items-center md:space-x-8 ">
                   <ManSvg className="absolute -left-32 text-pink md:static" />
                   <span className="whitespace-nowrap">
-                    {user.name ?? 'Профиль'}
+                    {user.name ?? 'xx'}
                   </span>
                 </span>
               </AppLink>

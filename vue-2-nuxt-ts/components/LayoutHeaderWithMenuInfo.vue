@@ -2,7 +2,7 @@
   <div class="pt-20 pb-21">
     <div class="container flex justify-between items-end">
       <div class="flex items-end">
-        <Link headless to="/" class="pb-5" title="На главную">
+        <Link headless to="/" class="pb-5" title="xx xx">
           <LogoSVG />
         </Link>
 
@@ -16,14 +16,14 @@
             >
               {{ SUPPORT_PHONE.DISPLAYED }}
             </Link>
-            <span class="text-description text-gray-500">Служба поддержки</span>
+            <span class="text-description text-gray-500">xx xx</span>
           </div>
 
           <div v-if="balanceVisible" class="flex flex-col">
             <span class="mb-3 text-description">
               {{ formattedBalance }} &#8381;
             </span>
-            <span class="text-description text-gray-500">Текущий остаток</span>
+            <span class="text-description text-gray-500">xx xx</span>
           </div>
 
           <div v-if="availableFundsVisible" class="flex flex-col">
@@ -31,7 +31,7 @@
               {{ formattedAvailableFunds }} &#8381;
             </span>
             <span class="text-description text-gray-500">
-              Свободные средства
+              xx xx
             </span>
           </div>
         </div>
@@ -45,7 +45,7 @@
         >
           {{ name }}
         </div>
-        <div class="text-description text-gray-500">ИНН {{ inn }}</div>
+        <div class="text-description text-gray-500">xx {{ inn }}</div>
       </div>
     </div>
   </div>

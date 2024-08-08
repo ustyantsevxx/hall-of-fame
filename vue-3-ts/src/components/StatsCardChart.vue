@@ -74,7 +74,7 @@ const chartOptions = computed<ChartOptions<'doughnut'>>(() => ({
       formatter: (value, context) => {
         return (context.dataset as any).id !== null
           ? humanizePercentage(getPercentageOfSum(value))
-          : 'Нет данных'
+          : 'xx xx'
       },
       color(context) {
         return context.dataset.backgroundColor as string

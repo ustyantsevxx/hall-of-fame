@@ -40,7 +40,7 @@
 
             <div class="flex">
               <slot name="before-close"></slot>
-              <ButtonHeadless title="Закрыть" @click="close">
+              <ButtonHeadless title="xx" @click="close">
                 <SvgClose class="h-24 w-24 text-main-primary" />
               </ButtonHeadless>
             </div>

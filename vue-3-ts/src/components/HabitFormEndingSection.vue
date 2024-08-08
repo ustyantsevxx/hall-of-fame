@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FormGroup label="Когда закончить">
+    <FormGroup label="xx xx">
       <Select
         v-model="habitDataStore.habit.ending_type_id"
         :options="endingOptions"
@@ -9,7 +9,7 @@
       <InputDatePicker
         v-if="needToSelectedCertainDate"
         v-model="habitDataStore.habit.end_date"
-        label="Дата окончания"
+        label="xx xx"
       />
     </FormGroup>
   </div>
@@ -27,10 +27,10 @@ import { useHabitDataStore } from '@/stores/habit-data'
 const habitDataStore = useHabitDataStore()
 
 const endingOptions = [
-  { title: 'Бессрочная привычка', value: HABIT_ENDING_TYPES.INDEFINITE },
-  { title: 'Через 21 день', value: HABIT_ENDING_TYPES.AFTER_21_DAYS },
-  { title: 'Через 100 дней', value: HABIT_ENDING_TYPES.AFTER_100_DAYS },
-  { title: 'В определенную дату', value: HABIT_ENDING_TYPES.ON_DATE }
+  { title: 'xx xx', value: HABIT_ENDING_TYPES.INDEFINITE },
+  { title: 'xx 21 xx', value: HABIT_ENDING_TYPES.AFTER_21_DAYS },
+  { title: 'xx 100 xx', value: HABIT_ENDING_TYPES.AFTER_100_DAYS },
+  { title: 'xx xx xx', value: HABIT_ENDING_TYPES.ON_DATE }
 ]
 
 const currentEndingType = computed(() => habitDataStore.habit.ending_type_id)

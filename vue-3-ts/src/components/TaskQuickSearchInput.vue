@@ -35,7 +35,7 @@
     <Transition name="fade">
       <ButtonCircleClear
         v-if="expanded && modelValue.length > 0"
-        title="Очистить"
+        title="xx"
         class="absolute right-10 shift-center-y"
         type="button"
         @click="clear"

@@ -34,7 +34,7 @@ export const OrderActiveModalDeliveryInfo: FC<Props> = ({ order }) => {
     [
       `${
         deliveryTimeDate.isToday()
-          ? 'сегодня'
+          ? 'xx'
           : deliveryTimeDate.format('DD MMMM')
       }, `,
       `${deliveryTimeDate.format('HH:mm')}`
@@ -50,7 +50,7 @@ export const OrderActiveModalDeliveryInfo: FC<Props> = ({ order }) => {
           {order.delivery_method.id === DELIVERY_METHOD.COURIER && (
             <>
               <div className="mt-30 text-center text-black/50 text-regular-15 md:text-regular-17">
-                Примерное время доставки
+                xx xx xx
               </div>
 
               {message && (

@@ -32,15 +32,15 @@ type SettingsRadioGroupItem = RadioGroupItem & {
 const settingsPages: SettingsRadioGroupItem[] = [
   {
     path: settingsRoutes.profile.path,
-    label: 'Профиль'
+    label: 'xx'
   },
   {
     path: settingsRoutes.preferences.path,
-    label: 'Настройки'
+    label: 'xx'
   },
   {
     path: settingsRoutes.feedback.path,
-    label: 'Обратная связь'
+    label: 'xx xx'
   }
 ]
 

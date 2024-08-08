@@ -1,14 +1,14 @@
 <template>
   <ModalBase ref="modal" width="496px">
     <p class="mb-8 text-blue">
-      Для восстановления пароля обратитесь в службу поддержки
+      xx xx xx xx xx xx xx
       <a :href="supportPhoneLink" class="">{{ SUPPORT_PHONE.DISPLAYED }}</a>
     </p>
     <p class="mb-57 text-description text-black opacity-50">
-      Будьте готовы назвать ИНН, название организации и номер договора с XXX
+      xx xx xx xx, xx xx xx xx xx xx XXX
     </p>
 
-    <Button gradient size="sm" @click="hide">Понятно</Button>
+    <Button gradient size="sm" @click="hide">xx</Button>
   </ModalBase>
 </template>
 

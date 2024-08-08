@@ -46,7 +46,7 @@ const formComponentConfigByMode = computed<FormComponentConfig>(() => {
       return {
         component: DaylogChronologyFormTimer,
         componentAttrs: {
-          title: 'Добавление',
+          title: 'xx',
           timerOptions: props.timers,
           section: {
             startDatetime: getInitialStartDate(),
@@ -64,7 +64,7 @@ const formComponentConfigByMode = computed<FormComponentConfig>(() => {
       return {
         component: DaylogChronologyFormTimer,
         componentAttrs: {
-          title: 'Редактирование',
+          title: 'xx',
           timerOptions: props.timers,
           section: props.section,
           mode: props.mode

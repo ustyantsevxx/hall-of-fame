@@ -2,7 +2,7 @@
   <div class="flex select-none items-center border-b border-black/10">
     <div
       tabindex="0"
-      title="Установить значение"
+      title="xx xx"
       class="group flex flex-grow cursor-pointer items-center overflow-x-hidden py-8"
       :class="{ 'pr-10': value }"
       @click="emit('edit')"
@@ -38,7 +38,7 @@
     </div>
 
     <div v-if="value" class="ml-auto flex">
-      <ButtonCircleClear title="Очистить значение" @click="emit('reset')" />
+      <ButtonCircleClear title="xx xx" @click="emit('reset')" />
     </div>
   </div>
 </template>

@@ -3,7 +3,7 @@
     <section v-if="bonusCards.length > 1">
       <InputSelect
         v-model="filters.bonusCard"
-        label="Выберите карту"
+        label="xx xx"
         :options="bonusCardsOptions"
       />
     </section>
@@ -11,8 +11,8 @@
     <section>
       <InputSelect
         v-model.number="dateFilterModeId"
-        label="Фильтр по датам"
-        title="Диапазон дат"
+        label="xx xx xx"
+        title="xx xx"
         :options="dateFilterModeOptions"
         @change="changeDateFilterMode"
       />
@@ -22,8 +22,8 @@
       <section v-if="rangeModeSelected">
         <InputDateRange
           v-model="filters.dateRange"
-          label="Укажите диапазон дат"
-          placeholder="Выберите диапазон"
+          label="xx xx xx"
+          placeholder="xx xx"
         />
       </section>
     </Transition>
@@ -64,7 +64,7 @@ export default class HistoryPageFilters extends mixins(DateFilterMixin) {
 
     return [
       {
-        label: 'Показать по всем картам',
+        label: 'xx xx xx xx',
         value: null
       },
       ...bonusCardsOptions

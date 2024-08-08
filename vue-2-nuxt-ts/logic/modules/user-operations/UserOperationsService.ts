@@ -13,7 +13,7 @@ export class _UserOperationsService extends BaseService<_UserOperationsApi> {
 
   public getOperationName(operation: UserOperation): string | null {
     if (operation.is_debit) {
-      return `Платежное поручение №:${operation.number} от ${xDayjs
+      return `xx xx №:${operation.number} xx ${xDayjs
         .unix(operation.date)
         .format('DD.MM.YYYY')}`
     }

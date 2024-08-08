@@ -44,7 +44,7 @@ export const useValidation = ({
     try {
       await submitCallback()
     } catch {
-      actions.setFieldError(ERROR_FIELD_KEY, 'Что-то пошло не так')
+      actions.setFieldError(ERROR_FIELD_KEY, 'xx-xx xx xx xx')
     }
   })
 

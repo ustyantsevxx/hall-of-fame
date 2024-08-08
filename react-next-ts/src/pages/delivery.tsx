@@ -29,7 +29,7 @@ const DeliveryPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('Доставка')}</title>
+        <title>{constructPageTitle('xx')}</title>
       </Head>
 
       <Script
@@ -39,7 +39,7 @@ const DeliveryPage: NextPageWithGetLayout = () => {
       />
 
       <div className="container mt-4 md:mt-28">
-        <PageTitle title="Доставка" />
+        <PageTitle title="xx" />
 
         <div className="-mx-16 mt-32 md:mx-0">
           <DeliveryInfo />

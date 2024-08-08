@@ -17,7 +17,7 @@
           <template v-if="request.station">
             {{ request.station.name }} ({{ request.station.address }})
           </template>
-          <template v-else>Адрес АЗС не указан</template>
+          <template v-else>xx xx xx xx</template>
         </address>
       </slot>
     </div>
@@ -37,7 +37,7 @@
         <span v-if="request.last_message_text">
           {{ request.last_message_text }}
         </span>
-        <span v-else class="text-gray">Прикрепленные файлы</span>
+        <span v-else class="text-gray">xx xx</span>
       </p>
     </div>
   </article>

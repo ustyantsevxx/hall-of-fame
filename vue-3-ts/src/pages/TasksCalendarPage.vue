@@ -27,7 +27,7 @@
       </template>
 
       <template v-else>
-        <div class="text-black/40">Список задач пуст</div>
+        <div class="text-black/40">xx xx xx</div>
       </template>
 
       <Button
@@ -37,7 +37,7 @@
         @click="openDrawerWithCreateForm"
       >
         <SvgPlus class="h-24 w-24 laptop:h-20 laptop:w-20" />
-        <span class="ml-4">Создать новую задачу</span>
+        <span class="ml-4">xx xx xx</span>
       </Button>
     </template>
   </div>

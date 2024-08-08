@@ -69,7 +69,7 @@ export const DeliverySelectAddressModal: FC<Props> = ({ onClose, opened }) => {
   return (
     <>
       <AppModal
-        title="Адрес доставки"
+        title="xx xx"
         contentWrapperClassName="grow flex flex-col"
         panelClassName="md:max-w-[710px]"
         emptyFocusTrap
@@ -80,7 +80,7 @@ export const DeliverySelectAddressModal: FC<Props> = ({ onClose, opened }) => {
               className="hidden text-green text-regular-15 md:block"
               onClick={goToRestaurantsInfo}
             >
-              Точки самовывоза
+              xx xx
             </button>
           </>
         }
@@ -88,8 +88,8 @@ export const DeliverySelectAddressModal: FC<Props> = ({ onClose, opened }) => {
         onClose={onClose}
       >
         <p className="mt-4 max-w-[385px] text-black/50 text-regular-15">
-          Удостоверьтесь, что ваш район входит в зону действия доставки
-          ресторана
+          xx, xx xx xx xx xx xx xx xx
+          xx
         </p>
 
         <div className="mt-20 h-50">
@@ -106,23 +106,23 @@ export const DeliverySelectAddressModal: FC<Props> = ({ onClose, opened }) => {
 
         <div className="mt-14 h-24">
           {deliveryInfoLoading ? (
-            <span>Загрузка...</span>
+            <span>xx...</span>
           ) : (
             <>
               {!placemark ? (
-                <span>Введите адрес доставки</span>
+                <span>xx xx xx</span>
               ) : (
                 <>
                   {deliveryInfo?.hasDelivery ? (
                     <div className="flex items-center">
                       <MarkSvg className="text-green" height={24} width={24} />
                       <div className="ml-6 font-bold">
-                        Доставка ~{deliveryInfo.time} мин
+                        xx ~{deliveryInfo.time} xx
                       </div>
                     </div>
                   ) : (
                     <span className="text-red">
-                      Ресторан не доставляет по данному адресу
+                      xx xx xx xx xx xx
                     </span>
                   )}
                 </>

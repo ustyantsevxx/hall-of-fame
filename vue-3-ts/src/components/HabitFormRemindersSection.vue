@@ -1,6 +1,6 @@
 <template>
   <div class="-ml-35">
-    <p class="block pl-35 text-black/40 text-17 laptop:text-14">Напоминания</p>
+    <p class="block pl-35 text-black/40 text-17 laptop:text-14">xx</p>
 
     <div class="-mr-35 mt-10 flex space-x-15 overflow-x-auto py-4 pl-35">
       <div
@@ -24,7 +24,7 @@
         type="button"
         @click="addReminder"
       >
-        Добавить время
+        xx xx
       </button>
     </div>
   </div>

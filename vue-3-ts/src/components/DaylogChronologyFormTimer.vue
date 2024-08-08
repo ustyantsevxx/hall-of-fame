@@ -12,7 +12,7 @@
           :model-value="formData.owner?.id"
           :options="timerOptions"
           track-by="id"
-          placeholder="Выберите таймер"
+          placeholder="xx xx"
           variant="elevated"
           @update:model-value="handleTimerChange"
         />
@@ -39,7 +39,7 @@
                 <Textarea
                   v-model="formData.comment"
                   class="h-full w-full"
-                  placeholder="Комментарий к таймеру"
+                  placeholder="xx xx xx"
                 />
               </div>
             </DaylogChronologyFormSection>
@@ -55,7 +55,7 @@
         <ButtonIcon
           v-if="mode === DaylogChronologySectionMode.Edit"
           color="#FF8181"
-          title="Удалить"
+          title="xx"
           class="mr-15"
           @click="remove"
         >
@@ -68,7 +68,7 @@
             variant="primary"
             class="w-full laptop:!py-6 laptop:!text-[14px] laptop:!leading-[25px]"
           >
-            Сохранить
+            xx
           </Button>
         </div>
       </div>
@@ -76,19 +76,19 @@
 
     <ModalConfirmationDelete
       :ref="registerDeleteModalSafeRef"
-      title="Внимание!"
-      description="Вы точно хотите удалить этот интервал?"
+      title="xx!"
+      description="xx xx xx xx xx xx?"
       classes="flex justify-center items-center"
       :max-width="350"
     />
 
     <ModalConfirmation
       :ref="registerConfirmationModalSafeRef"
-      title="Внимание"
-      description="Сохранение изменений приведет к изменению границ или удалению соседних отрезков. Продолжить?"
+      title="xx"
+      description="xx xx xx xx xx xx xx xx xx xx. xx?"
       classes="flex justify-center items-center"
-      confirm-text="Да"
-      cancel-text="Нет"
+      confirm-text="xx"
+      cancel-text="xx"
       :max-width="350"
     />
   </Card>

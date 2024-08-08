@@ -5,11 +5,11 @@
     @next="$emit('next')"
     @show-info="$emit('show-info')"
   >
-    <template #card-type>Скидочная карта</template>
+    <template #card-type>xx xx</template>
     <template #card-number>№{{ card.number }}</template>
     <template #value>{{ value }}</template>
-    <template #value-unit>скидка</template>
-    <template #value-unit-hint>На все товары*</template>
+    <template #value-unit>xx</template>
+    <template #value-unit-hint>xx xx xx*</template>
   </IndexPageCardTemplate>
 </template>
 

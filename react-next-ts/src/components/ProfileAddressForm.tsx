@@ -19,7 +19,7 @@ export const ProfileAddressForm = forwardRef<HTMLDivElement, Props>(
     const errorMessage =
       error &&
       (error.response?.data?.[0].description ||
-        'Произошла ошибка. Попробуйте позже')
+        'xx xx. xx xx')
 
     const { mutateAsync: addAddressMutation, isLoading } = useAddressAdd({
       onError: error => {
@@ -35,7 +35,7 @@ export const ProfileAddressForm = forwardRef<HTMLDivElement, Props>(
     return (
       <div ref={ref} className={clsx(className)}>
         <h3 className="text-black/50 text-regular-17">
-          Добавление нового адреса
+          xx xx xx
         </h3>
 
         <AddressForm

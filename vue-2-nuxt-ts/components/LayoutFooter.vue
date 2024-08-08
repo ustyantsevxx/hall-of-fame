@@ -3,27 +3,27 @@
     <div class="container grid grid-cols-12 gap-x-30 text-description">
       <div class="col-span-4">
         <p class="inline-block text-gray">
-          &copy; ООО «XXX», 2012—{{ currentYear }}
+          &copy; xx «XXX», 2012—{{ currentYear }}
         </p>
         <Link :href="PRIVACY_POLICY_LINK" class="inline-block mt-10">
-          Политика конфиденциальности
+          xx xx
         </Link>
       </div>
 
       <div class="flex col-span-5 col-start-5 items-start">
-        <Link :href="MAIN_WEBSITE_LINK">Перейти на основной сайт</Link>
+        <Link :href="MAIN_WEBSITE_LINK">xx xx xx xx</Link>
       </div>
 
       <div class="flex col-span-3 justify-end items-start">
-        <span class="mr-20 text-gray">Наши страницы:</span>
+        <span class="mr-20 text-gray">xx xx:</span>
         <div class="flex items-center space-x-24">
-          <Link :href="SOCIAL_LINKS.OK" title="Страница в Одноклассниках">
+          <Link :href="SOCIAL_LINKS.OK" title="xx xx xx">
             <OkSVG />
           </Link>
-          <Link :href="SOCIAL_LINKS.VK" title="Страница в ВК">
+          <Link :href="SOCIAL_LINKS.VK" title="xx xx xx">
             <VkSVG />
           </Link>
-          <Link :href="SOCIAL_LINKS.INSTAGRAM" title="Страница в Инстаграм">
+          <Link :href="SOCIAL_LINKS.INSTAGRAM" title="xx xx xx">
             <InstagramSVG />
           </Link>
         </div>

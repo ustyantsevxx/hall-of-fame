@@ -21,7 +21,7 @@
             :disabled="timeLeft !== 0"
             @click="sendCodeAgain"
           >
-            Отправить код еще раз
+            xx xx xx xx
             <template v-if="timeLeft !== 0">({{ formattedTimeLeft }})</template>
           </Button>
         </div>
@@ -40,7 +40,7 @@
             type="submit"
             class="mr-30"
           >
-            Войти в личный кабинет
+            xx xx xx xx
           </Button>
         </div>
       </form>
@@ -155,7 +155,7 @@ export default class LoginPageCodeForm extends Vue {
       this.serverValidationMessage =
         error.response.status !== 500
           ? error.response.data[0].description
-          : 'Сообщение не было отправлено. Обратитесь в службу поддержки'
+          : 'xx xx xx xx. xx xx xx xx'
       this.resetCode()
       this.$auth.options.redirect = authRedirectDefaultState
     }

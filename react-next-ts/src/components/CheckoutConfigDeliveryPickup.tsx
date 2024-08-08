@@ -51,7 +51,7 @@ export const CheckoutConfigDeliveryPickup: FC<Props> = ({ className }) => {
     <div className={clsx(className, 'mt-20')}>
       <AppTransition show={!isLoading}>
         <AppSelect
-          label="Адрес самовывоза"
+          label="xx xx"
           options={restaurantsOptions}
           value={selectedOption}
           onChange={option => selectOption(+option.key)}
@@ -59,7 +59,7 @@ export const CheckoutConfigDeliveryPickup: FC<Props> = ({ className }) => {
       </AppTransition>
 
       {isLoading && (
-        <p className="mt-11 h-25 text-black/50 text-regular-17">Загрузка...</p>
+        <p className="mt-11 h-25 text-black/50 text-regular-17">xx...</p>
       )}
     </div>
   )

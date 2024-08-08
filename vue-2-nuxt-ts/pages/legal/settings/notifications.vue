@@ -11,7 +11,7 @@
         :disabled="formDisabled"
       >
         <template #first-column-header>
-          <span>Уведомления</span>
+          <span>xx</span>
           <InputSwitch
             :value="notificationEnabled"
             :width="51"
@@ -30,7 +30,7 @@
           :max-count="MAX_PHONE_COUNT"
           :disabled="formDisabled"
           :validation-list="$v.phones"
-          button-title="Добавить номер телефона"
+          button-title="xx xx xx"
           class="mt-48"
         />
 
@@ -40,7 +40,7 @@
           :max-count="MAX_EMAIL_COUNT"
           :disabled="formDisabled"
           :validation-list="$v.emails"
-          button-title="Добавить email"
+          button-title="xx email"
           class="mt-48"
         />
 
@@ -54,18 +54,18 @@
           </span>
 
           <span v-if="$v.phones.$anyError">
-            Указан некорректный номер телефона
+            xx xx xx xx
             <br />
           </span>
 
           <span v-if="$v.emails.$anyError">
-            Указан некорректный email
+            xx xx email
             <br />
           </span>
         </p>
 
         <Button class="mt-40" outline :disabled="loading || formDisabled">
-          Сохранить
+          xx
         </Button>
       </div>
     </form>
@@ -169,8 +169,8 @@ export default class LegalSettingsNotificationsPage extends mixins(
   emails: string[] = []
 
   phoneInputProps = {
-    label: 'Номер телефона',
-    placeholder: '+7 (ХХХ) ХХХ ХХ ХХ',
+    label: 'xx xx',
+    placeholder: '+7 (xx) xx xx xx',
     mask: '+7 (###) ### ## ##',
     style: 'width: 185px'
   }
@@ -216,7 +216,7 @@ export default class LegalSettingsNotificationsPage extends mixins(
       )
 
     if (!response.success) {
-      this.showToastMessage('Произошла ошибка.')
+      this.showToastMessage('xx xx.')
       this.notificationEnabled = !enabledState
     }
 
@@ -227,8 +227,8 @@ export default class LegalSettingsNotificationsPage extends mixins(
 
   showNotificationEnabledStateChanged() {
     const notificationMessage = this.notificationEnabled
-      ? 'Уведомления включены'
-      : 'Уведомления выключены'
+      ? 'xx xx'
+      : 'xx xx'
     this.showToastMessage(notificationMessage)
   }
 
@@ -257,7 +257,7 @@ export default class LegalSettingsNotificationsPage extends mixins(
         })
 
       if (response.success) {
-        this.showToastMessage('Настройки уведомлений успешно сохранены.')
+        this.showToastMessage('xx xx xx xx.')
       } else {
         this.handleServerError(response.error as any)
       }

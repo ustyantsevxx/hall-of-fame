@@ -3,7 +3,7 @@
     <ArticleView
       :article="article"
       :stations="stations"
-      go-back-text="Акции и новости"
+      go-back-text="xx xx xx"
       article-list-path="/articles"
     >
       <template #right-column>

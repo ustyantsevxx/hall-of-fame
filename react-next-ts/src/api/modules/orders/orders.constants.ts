@@ -25,23 +25,23 @@ export const ORDERED_STATUS_IDS = [
 ]
 
 export const ORDER_STATUS_NAMES = {
-  [ORDER_STATUS.REQUEST_PROCESSING]: 'Принят',
-  [ORDER_STATUS.COOKING]: 'Готовят',
-  [ORDER_STATUS.DELIVERING]: 'У курьера',
-  [ORDER_STATUS.DELIVERED]: 'Доставлен',
-  [ORDER_STATUS.CANCELED]: 'Отменен',
-  [ORDER_STATUS.READY_TO_PICKUP]: 'Готов к выдаче'
+  [ORDER_STATUS.REQUEST_PROCESSING]: 'xx',
+  [ORDER_STATUS.COOKING]: 'xx',
+  [ORDER_STATUS.DELIVERING]: 'xx xx',
+  [ORDER_STATUS.DELIVERED]: 'xx',
+  [ORDER_STATUS.CANCELED]: 'xx',
+  [ORDER_STATUS.READY_TO_PICKUP]: 'xx xx xx'
 }
 
 export const ORDER_STATUS_NAMES_PASSED = {
-  [ORDER_STATUS.REQUEST_PROCESSING]: 'Принят',
-  [ORDER_STATUS.COOKING]: 'Готовят',
-  [ORDER_STATUS.DELIVERING]: 'Доставлен',
-  [ORDER_STATUS.READY_TO_PICKUP]: 'Готов к выдаче'
+  [ORDER_STATUS.REQUEST_PROCESSING]: 'xx',
+  [ORDER_STATUS.COOKING]: 'xx',
+  [ORDER_STATUS.DELIVERING]: 'xx',
+  [ORDER_STATUS.READY_TO_PICKUP]: 'xx xx xx'
 }
 
 export const ORDER_STATUS_DESCRIPTION = {
-  [ORDER_STATUS.REQUEST_PROCESSING]: 'Ждём подтверждение заказа'
+  [ORDER_STATUS.REQUEST_PROCESSING]: 'xxёxx xx xx'
 }
 
 export const ORDER_STATUS_ACTIONS = {
@@ -51,12 +51,12 @@ export const ORDER_STATUS_ACTIONS = {
   [ORDER_STATUS.DELIVERING]: [OrderActions.REPEAT, OrderActions.CANCEL],
   [ORDER_STATUS.DELIVERED]: [
     OrderActions.REPEAT
-    // TODO добавить когда будут реализованы отзывы
+    // TODO xx xx xx xx xx
     // OrderActions.RATE
   ],
   [ORDER_STATUS.READY_TO_PICKUP]: [
     OrderActions.REPEAT
-    // TODO добавить когда будут реализованы отзывы
+    // TODO xx xx xx xx xx
     // OrderActions.RATE
   ]
 }

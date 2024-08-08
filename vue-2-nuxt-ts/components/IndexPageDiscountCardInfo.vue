@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1 class="text-h1">Условия скидочной карты</h1>
+    <h1 class="text-h1">xx xx xx</h1>
 
     <p class="mt-26 text-subtitle">
-      Если у вас возник вопрос по условиям вашей карты, обратитесь в службу
-      поддержки.
+      xx xx xx xx xx xx xx xx xx, xx xx xx
+      xx.
     </p>
 
-    <h2 class="mt-51 text-h2">Топливо</h2>
+    <h2 class="mt-51 text-h2">xx</h2>
 
     <Table
       class="mt-16"
@@ -15,7 +15,7 @@
       :items="limits.fuel_type_limits"
     />
 
-    <h2 class="mt-51 text-h2">Товары и услуги</h2>
+    <h2 class="mt-51 text-h2">xx xx xx</h2>
 
     <Table
       class="mt-36"
@@ -25,13 +25,13 @@
 
     <div class="mt-30" style="width: 660px">
       <p class="text-description text-gray">
-        Указан минимальный процент скидки. Он может быть выше в зависимости от
-        настроек вашей карты или по условиям акций.
+        xx xx xx xx. xx xx xx xx xx xx xx
+        xx xx xx xx xx xx xx.
       </p>
 
       <p class="mt-20 text-description text-gray">
-        Администрация оставляет за собой право изменять условия или исключать
-        некоторые товары/услуги из скидочно-бонусной системы.
+        xx xx xx xx xx xx xx xx xx
+        xx xx/xx xx xx-xx xx.
       </p>
     </div>
   </div>
@@ -60,31 +60,31 @@ export default class IndexPageDiscountCardInfo extends Vue {
     return [
       {
         key: 'fuel_name',
-        title: 'Марка',
+        title: 'xx',
         formatter: item => item.fuel_type?.name
       },
       {
         key: 'discount',
-        title: 'Скидка, %',
+        title: 'xx, %',
         formatter: (item: BonusCardFuelLimit) => item.discount?.toFixed(1)
       },
       {
         key: 'day_limit',
-        title: 'Суточный лимит, Л',
+        title: 'xx xx, xx',
         classList: 'w-75'
       },
       {
         key: 'limit',
-        title: 'Общий лимит, Л',
+        title: 'xx xx, xx',
         classList: 'w-65'
       },
       {
         key: 'pay_type',
-        title: 'Вид оплаты'
+        title: 'xx xx'
       },
       {
         key: 'end_at',
-        title: 'Срок окончания действия',
+        title: 'xx xx xx',
         formatter: item => (item.end_at ? this.formatDate(item.end_at) : null),
         style: { display: 'inline-block', width: '120px' }
       }
@@ -95,18 +95,18 @@ export default class IndexPageDiscountCardInfo extends Vue {
     return [
       {
         key: 'product_name',
-        title: 'Группа',
+        title: 'xx',
         formatter: (item: IBonusCardProductLimit) => item.product_group?.name
       },
       {
         key: 'discount',
-        title: 'Бонусный коэффициент, %',
+        title: 'xx xx, %',
         formatter: (item: IBonusCardProductLimit) => item.discount?.toFixed(1)
       },
 
       {
         key: 'end_at',
-        title: 'Срок окончания действия',
+        title: 'xx xx xx',
         formatter: item => (item.end_at ? this.formatDate(item.end_at) : null)
       }
     ]

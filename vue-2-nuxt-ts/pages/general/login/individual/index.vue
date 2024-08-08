@@ -1,24 +1,24 @@
 <template>
   <main class="container">
     <div class="flex justify-between mt-40">
-      <h1 class="self-center text-h1">Авторизация</h1>
-      <Link headless :href="MAIN_WEBSITE_LINK" title="XXX Основной сайт">
+      <h1 class="self-center text-h1">xx</h1>
+      <Link headless :href="MAIN_WEBSITE_LINK" title="XXX xx xx">
         <LogoSVG />
       </Link>
     </div>
 
     <template v-if="!phoneSubmitted">
       <p class="text-subtitle" style="width: 730px">
-        Для авторизации укажите номер телефона, на который вы регистрировали
-        бонусную карту
+        xx xx xx xx xx, xx xx xx xx
+        xx xx
       </p>
       <PhoneForm @code-sent="submitPhone" />
     </template>
 
     <template v-else>
       <p class="text-subtitle" style="width: 730px">
-        На указанный номер {{ formattedPhone }} мы отправили четырехзначный
-        СМС-код, введите его здесь:
+        xx xx xx {{ formattedPhone }} xx xx xx
+        xx-xx, xx xx xx:
       </p>
       <CodeForm :phone="phone" />
     </template>
@@ -44,7 +44,7 @@ import { formatPhone } from '~/logic/utils/phone'
   },
 
   head: {
-    title: 'Авторизация'
+    title: 'xx'
   },
 
   auth: 'guest',

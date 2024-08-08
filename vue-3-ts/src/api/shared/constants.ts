@@ -21,7 +21,7 @@ export const COLORS = [
 
 export const ICON_SETS = [
   {
-    name: 'Активность',
+    name: 'xx',
     icons: [
       'basketball',
       'football',

@@ -65,7 +65,7 @@ export const Checkout: FC = () => {
   })
 
   const handleServerError = (error: any) => {
-    const defaultMessage = 'Произошла ошибка. Попробуйте позже'
+    const defaultMessage = 'xx xx. xx xx'
     const firstErrorMessage =
       error.response.status !== 500
         ? error.response?.data?.[0].description || defaultMessage

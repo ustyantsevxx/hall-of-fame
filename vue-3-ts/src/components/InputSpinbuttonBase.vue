@@ -16,8 +16,8 @@ import ButtonCircleArrow from '@/components/ButtonCircleArrow.vue'
 const props = defineProps({
   modelValue: { type: Object as PropType<unknown>, default: undefined },
   displayFormatter: { type: Function, default: (v: unknown) => v },
-  nextTitle: { type: String, default: 'Выбрать след.' },
-  prevTitle: { type: String, default: 'Выбрать пред.' },
+  nextTitle: { type: String, default: 'xx xx.' },
+  prevTitle: { type: String, default: 'xx xx.' },
   nextFn: { type: Function, required: true },
   prevFn: { type: Function, required: true }
 })

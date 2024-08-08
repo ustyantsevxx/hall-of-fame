@@ -25,19 +25,19 @@ export type SettingMenuItemType = {
 export const menuDictionary = {
   details: {
     url: 'details',
-    label: 'Договор и реквизиты'
+    label: 'xx xx xx'
   },
   password: {
     url: 'password',
-    label: 'Смена пароля'
+    label: 'xx xx'
   },
   contactPerson: {
     url: 'contact-person',
-    label: 'Контактное лицо'
+    label: 'xx xx'
   },
   notifications: {
     url: 'notifications',
-    label: 'Уведомления'
+    label: 'xx'
   }
 }
 @Component({
@@ -49,7 +49,7 @@ export default class LegalSettingsMenu extends Vue {
   menuList: SettingMenuItemType[] = [
     menuDictionary.notifications,
     menuDictionary.password,
-    // TODO вернуть обратно
+    // TODO xx xx
     // menuDictionary.contactPerson,
     menuDictionary.details
   ]

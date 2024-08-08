@@ -34,7 +34,7 @@ describe('Login page', () => {
   })
 
   it('Renders login form', () => {
-    cy.get('h1').contains('Авторизация')
+    cy.get('h1').contains('xx')
     cy.get('form')
   })
 
@@ -45,12 +45,12 @@ describe('Login page', () => {
 
   it('Displays error message when wrong password', () => {
     login(VERIFIED_USER_EMAIL, '1')
-    cy.contains('Неверный логин или пароль')
+    cy.contains('xx xx xx xx')
   })
 
   it('Displays error message when not registered email', () => {
     login('extraemaildfakds@emaisdvfdsvl.com', 'password')
-    cy.contains('Неверный логин или пароль')
+    cy.contains('xx xx xx xx')
   })
 
   it('Displays form native error when incorrect email format', () => {
@@ -63,7 +63,7 @@ describe('Login page', () => {
   it('Displays error when email is not verified', () => {
     login(NOT_VERIFIED_USER_EMAIL, NOT_VERIFIED_USER_PASSWORD)
 
-    cy.contains('Email не подтвержден')
+    cy.contains('Email xx xx')
   })
 
   it('Password input toggles symbols visibility', () => {

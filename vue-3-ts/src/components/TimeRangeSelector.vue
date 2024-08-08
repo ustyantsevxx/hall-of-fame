@@ -2,8 +2,8 @@
   <div class="space-y-15">
     <div class="flex items-center justify-between">
       <div class="text-15 laptop:text-14">
-        <span class="hidden lg:inline">Начало</span>
-        <span class="lg:hidden">Нач</span>
+        <span class="hidden lg:inline">xx</span>
+        <span class="lg:hidden">xx</span>
       </div>
       <InputTimeSelector
         :model-value="timeStart"
@@ -16,8 +16,8 @@
 
     <div class="flex items-center justify-between">
       <div class="text-15 laptop:text-14">
-        <span class="hidden lg:inline">Конец</span>
-        <span class="lg:hidden">Кон</span>
+        <span class="hidden lg:inline">xx</span>
+        <span class="lg:hidden">xx</span>
       </div>
       <InputTimeSelector
         :model-value="timeEnd"
@@ -29,7 +29,7 @@
     </div>
 
     <div class="flex items-center justify-between">
-      <div class="text-15 laptop:text-14">Общее время</div>
+      <div class="text-15 laptop:text-14">xx xx</div>
       <div class="flex items-end space-x-10">
         <div v-for="timeBlock in differenceTimeBlocks" :key="timeBlock.label">
           <span class="text-medium-23 laptop:text-medium-16">
@@ -75,11 +75,11 @@ const differenceTimeBlocks = computed(() => {
 
   return [
     {
-      label: 'ч',
+      label: 'xx',
       value: hours
     },
     {
-      label: 'м',
+      label: 'xx',
       value: minutes
     }
   ]

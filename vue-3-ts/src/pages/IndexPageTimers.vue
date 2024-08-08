@@ -26,7 +26,7 @@
           >
             <SvgPlus class="h-24 w-24 laptop:h-20 laptop:w-20" />
             <span class="ml-4 text-17 laptop:text-[14px] laptop:leading-[25px]">
-              Добавить таймер
+              xx xx
             </span>
           </button>
         </div>
@@ -36,9 +36,7 @@
 
   <Drawer
     v-model:opened="drawerOpened"
-    :title="
-      timerDataStore.editing ? 'Редактирование таймера' : 'Создание таймера'
-    "
+    :title="timerDataStore.editing ? 'xx xx' : 'xx xx'"
   >
     <TimerForm
       class="mt-15"
@@ -67,7 +65,7 @@ const { timers, createTimer, updateTimer, deleteTimer } = useTimers()
 const [drawerOpened, { setTrue: openDrawer, setFalse: closeDrawer }] =
   useBoolean(false)
 
-// TODO доделать логику когда будут подключены подписки
+// TODO xx xx xx xx xx xx
 const timerCreatingRestricted = computed(() => false)
 
 const timersWithoutActive = computed(

@@ -30,7 +30,7 @@ import { MetaPagination } from '~/logic/types/api-meta'
   },
 
   head: {
-    title: 'Акции и новости'
+    title: 'xx xx xx'
   },
 
   watchQuery: ['p']

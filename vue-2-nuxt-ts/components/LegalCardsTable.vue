@@ -102,27 +102,27 @@ export default class LegalCardsTable extends Vue {
       // },
       {
         key: 'card',
-        title: 'Карта',
+        title: 'xx',
         width: 225
       },
       {
         key: 'status',
-        title: 'Статус',
+        title: 'xx',
         width: 130
       },
       {
         key: 'marks',
-        title: 'Марки НП',
+        title: 'xx xx',
         width: 130
       },
       {
         key: 'limitType',
-        title: 'Тип лимита',
+        title: 'xx xx',
         width: 120
       },
       {
         key: 'limit',
-        title: 'Лимит',
+        title: 'xx',
         thClass: 'text-right',
         width: 95
       },
@@ -130,13 +130,13 @@ export default class LegalCardsTable extends Vue {
         ? [
             {
               key: 'rest_limit_rubles',
-              title: 'Остаток по лимиту',
+              title: 'xx xx xx',
               thClass: 'text-right whitespace-nowrap',
               width: 140
             },
             {
               key: 'balance',
-              title: 'Баланс',
+              title: 'xx',
               thClass: 'text-right whitespace-nowrap',
               width: 105
             }
@@ -144,7 +144,7 @@ export default class LegalCardsTable extends Vue {
         : [
             {
               key: 'balance',
-              title: 'Остаток по лимиту',
+              title: 'xx xx xx',
               thClass: 'text-right whitespace-nowrap',
               width: 140
             }

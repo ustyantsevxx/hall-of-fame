@@ -5,7 +5,7 @@
     <div class="mt-20">
       <Input
         :model-value="userStore.user.username"
-        placeholder="Имя пользователя"
+        placeholder="xx xx"
         readonly
       />
       <Input
@@ -21,7 +21,7 @@
         @click="logout"
       >
         <SvgLogout class="h-24 w-24" />
-        <span class="ml-10">Выйти из аккаунта</span>
+        <span class="ml-10">xx xx xx</span>
       </Button>
 
       <SettingsProfilePageNewPasswordForm class="mt-33" />

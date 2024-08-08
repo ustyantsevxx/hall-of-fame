@@ -12,8 +12,8 @@ export const DeliveryLegendCourier: FC = () => {
   const formattedZones =
     deliveryZones?.map(zone => ({
       id: zone.id,
-      title: `Минимальный заказ от ${formatRuble(zone.min_order)}`,
-      subtitle: `Бесплатная доставка за ${zone.delivery_time} мин`,
+      title: `xx xx xx ${formatRuble(zone.min_order)}`,
+      subtitle: `xx xx xx ${zone.delivery_time} xx`,
       indicatorColor: zone.color
     })) || []
 
@@ -36,7 +36,7 @@ export const DeliveryLegendCourier: FC = () => {
         className="mt-16 w-full md:mt-36"
         onClick={() => setModalOpened(true)}
       >
-        Указать мой адрес
+        xx xx xx
       </AppButton>
     </div>
   )

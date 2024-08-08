@@ -38,7 +38,7 @@
             <div class="flex justify-end py-10 px-15">
               <Button link @click="toggleTimePanelVisible">
                 <span class="font-normal">
-                  {{ timePanelVisible ? 'Выбрать дату' : 'Выбрать время' }}
+                  {{ timePanelVisible ? 'xx xx' : 'xx xx' }}
                 </span>
               </Button>
             </div>
@@ -65,18 +65,18 @@ import { IDateRange } from '~/logic/types/dates'
 import { xDayjs } from '~/logic/utils/datetime'
 
 const months = [
-  'Январь',
-  'Февраль',
-  'Март',
-  'Апрель',
-  'Май',
-  'Июнь',
-  'Июль',
-  'Август',
-  'Сентябрь',
-  'Октябрь',
-  'Ноябрь',
-  'Декабрь'
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx',
+  'xx'
 ]
 
 @Component({
@@ -105,16 +105,16 @@ export default class InputDateRange extends Vue {
       months,
       monthsShort: months,
       weekdays: [
-        'воскресенье',
-        'понедельник',
-        'вторник',
-        'среда',
-        'четверг',
-        'пятница',
-        'суббота'
+        'xx',
+        'xx',
+        'xx',
+        'xx',
+        'xx',
+        'xx',
+        'xx'
       ],
-      weekdaysShort: ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
-      weekdaysMin: ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
+      weekdaysShort: ['xx', 'xx', 'xx', 'xx', 'xx', 'xx', 'xx'],
+      weekdaysMin: ['xx', 'xx', 'xx', 'xx', 'xx', 'xx', 'xx'],
       firstDayOfWeek: 1,
       firstWeekContainsDate: 1
     }

@@ -5,9 +5,9 @@ export const REQUEST_STATUSES = {
 }
 
 export const REQUEST_STATUS_NAMES = {
-  [REQUEST_STATUSES.NEW]: 'Новое',
-  [REQUEST_STATUSES.ACTIVE]: 'Активное',
-  [REQUEST_STATUSES.CLOSE]: 'Закрытое'
+  [REQUEST_STATUSES.NEW]: 'xx',
+  [REQUEST_STATUSES.ACTIVE]: 'xx',
+  [REQUEST_STATUSES.CLOSE]: 'xx'
 }
 
 export const SOCKET_EVENTS = {

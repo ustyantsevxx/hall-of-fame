@@ -21,7 +21,7 @@ class DadataServiceClass extends BaseService {
       url: this.getPath('streets'),
       params: {
         q: query,
-        // пока что только санкт-петербург
+        // xx xx xx xx-xx
         city_fias_id: SAINT_PETERSBURG_FIAS_ID
       }
     })

@@ -46,9 +46,9 @@ export const IndexPagePaymentErrorHandler: FC = ({}) => {
   return (
     <>
       <ModalConfirmation
-        title="Ошибка"
-        description={`Ваш заказ не удалось оформить. Попробуйте еще раз.`}
-        confirmButtonText="Повторить заказ"
+        title="xx"
+        description={`xx xx xx xx xx. xx xx xx.`}
+        confirmButtonText="xx xx"
         opened={modalOpened}
         contentContainerClassName="md:max-w-[300px] mx-auto"
         onClose={() => setModalOpened(false)}

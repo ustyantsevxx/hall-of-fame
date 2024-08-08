@@ -105,7 +105,7 @@ const drawerOpened = computed(() =>
 
 const drawerTitle = computed(() => {
   const config = {
-    [DaylogChronologySectionMode.Edit]: 'Редактирование'
+    [DaylogChronologySectionMode.Edit]: 'xx'
   }
 
   return config[activeChronologySectionMode.value] || ''

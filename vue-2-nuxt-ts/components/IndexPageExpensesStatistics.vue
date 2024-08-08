@@ -6,7 +6,7 @@
       </figure>
 
       <div class="mt-12 ml-30">
-        <p class="text-gray">Общая сумма расходов</p>
+        <p class="text-gray">xx xx xx</p>
         <p class="mt-10 font-bold">{{ totalFormatted }} ₽</p>
       </div>
     </div>
@@ -16,7 +16,7 @@
       to="/history"
       class="flex justify-center items-center mt-28 mb-10 space-x-11 w-full"
     >
-      <span>История и статистика</span>
+      <span>xx xx xx</span>
       <SlimArrowRightSVG />
     </Link>
   </section>

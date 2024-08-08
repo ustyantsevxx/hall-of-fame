@@ -72,7 +72,7 @@ export const OrderActiveModal: FC<Props> = ({
                   as="h3"
                   className="sticky mx-16 block border-b border-black/10 pt-22 pb-16 text-center text-regular-15 md:mx-30 md:text-regular-17"
                 >
-                  Заказ {order?.id}
+                  xx {order?.id}
                 </Dialog.Title>
 
                 <button
@@ -88,7 +88,7 @@ export const OrderActiveModal: FC<Props> = ({
 
                 <div className="mt-30 flex-grow bg-gray px-16 pt-20 pb-30 md:mx-0 md:px-30 md:pt-26">
                   <p className="text-black/50 text-regular-15 md:text-regular-17">
-                    Ваш заказ на {formatRuble(order.order_price)}
+                    xx xx xx {formatRuble(order.order_price)}
                   </p>
                   <OrderListTable
                     items={orderListItems}
@@ -101,7 +101,7 @@ export const OrderActiveModal: FC<Props> = ({
                       className="mt-30 hidden md:block"
                       onClick={handleCancelButtonClick}
                     >
-                      Отменить заказ
+                      xx xx
                     </AppButton>
                   )}
                 </div>
@@ -115,7 +115,7 @@ export const OrderActiveModal: FC<Props> = ({
                   className="w-full max-w-full"
                   onClick={handleCancelButtonClick}
                 >
-                  Отменить заказ
+                  xx xx
                 </AppButton>
               </div>
             )}

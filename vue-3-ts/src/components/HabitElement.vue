@@ -3,14 +3,14 @@
     <div
       class="relative flex h-55 w-55 flex-col items-center justify-center space-y-2 rounded-15 border-4 border-white/50 text-white"
       role="button"
-      title="Просмотр привычки"
+      title="xx xx"
       tabindex="0"
       :aria-label="habit.name"
       :style="{ backgroundColor: habit.color }"
       @click="value => emit('click', value)"
       @keypress.enter.space="value => emit('click', value)"
     >
-      <!--  Подогнать под новый размер   -->
+      <!--  xx xx xx xx   -->
       <!--      <svg-->
       <!--        class="absolute brightness-95"-->
       <!--        width="55"-->
@@ -70,7 +70,7 @@ const emit = defineEmits<{
 
 const habitProgress = computed(() => {
   return props.habit.type_id === HABIT_TYPES.TIME
-    ? '0ч 0м'
+    ? '0xx 0xx'
     : props.habit.type_id === HABIT_TYPES.COUNTER
     ? `0/${props.habit.current_goal}`
     : undefined

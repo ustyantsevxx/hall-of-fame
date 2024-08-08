@@ -82,12 +82,12 @@ const formattedDuration = computed(() => {
 
   const items = [
     {
-      suffix: 'ч',
+      suffix: 'xx',
       value: hours,
       visible: hours > 0
     },
     {
-      suffix: 'мин',
+      suffix: 'xx',
       value: minutes,
       visible: minutes > 0
     }

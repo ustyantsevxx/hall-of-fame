@@ -32,7 +32,7 @@ const CheckoutPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('Оформление заказа')}</title>
+        <title>{constructPageTitle('xx xx')}</title>
       </Head>
 
       <Checkout />

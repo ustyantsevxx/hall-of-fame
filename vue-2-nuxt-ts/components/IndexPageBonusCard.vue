@@ -5,12 +5,12 @@
     @next="$emit('next')"
     @show-info="$emit('show-info')"
   >
-    <template #card-type>Бонусная карта</template>
+    <template #card-type>xx xx</template>
     <template #card-number>№{{ card.number }}</template>
     <template #status>{{ cardStatus }}</template>
     <template #value>{{ value }}</template>
     <template #value-unit>{{ bonusUnitsFormatted }}</template>
-    <template #value-unit-hint>1 балл = 1 рубль</template>
+    <template #value-unit-hint>1 xx = 1 xx</template>
   </IndexPageCardTemplate>
 </template>
 
@@ -33,7 +33,7 @@ export default class IndexPageBonusCard extends Vue {
   @Prop({ type: Object, required: true }) card!: BonusCard
 
   get bonusUnitsFormatted() {
-    return plural(this.card.bonus?.value ?? 0, 'балл', 'балла', 'баллов')
+    return plural(this.card.bonus?.value ?? 0, 'xx', 'xx', 'xx')
   }
 
   get cardStatus() {

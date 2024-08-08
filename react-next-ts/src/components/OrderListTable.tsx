@@ -19,9 +19,9 @@ export const OrderListTable: FC<Props> = ({
     <table className={clsx('table-auto', className)}>
       <thead className="sr-only">
         <tr>
-          <th>Название</th>
-          <th>Количество</th>
-          <th>Стоимость</th>
+          <th>xx</th>
+          <th>xx</th>
+          <th>xx</th>
         </tr>
       </thead>
 
@@ -42,7 +42,7 @@ export const OrderListTable: FC<Props> = ({
                 cellClassName
               )}
             >
-              {`${orderItem.quantity} шт`}
+              {`${orderItem.quantity} xx`}
             </td>
             <td
               className={clsx(

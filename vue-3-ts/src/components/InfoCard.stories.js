@@ -8,8 +8,8 @@ export default {
 
   argTypes: {
     labelFirst: { control: 'boolean' },
-    label: { control: 'text', defaultValue: 'Всего' },
-    value: { control: 'text', defaultValue: '35ч' }
+    label: { control: 'text', defaultValue: 'xx' },
+    value: { control: 'text', defaultValue: '35xx' }
   }
 }
 

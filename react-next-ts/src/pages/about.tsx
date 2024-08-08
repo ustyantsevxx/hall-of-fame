@@ -39,11 +39,11 @@ const AboutPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('О нас')}</title>
+        <title>{constructPageTitle('xx xx')}</title>
       </Head>
 
       <section className="container mt-4 md:mt-28">
-        <PageTitle title="О нас" />
+        <PageTitle title="xx xx" />
 
         <div className="mt-20 grid grid-cols-12 gap-x-16 md:mt-32">
           <div className="col-span-full md:col-span-6">
@@ -81,10 +81,10 @@ const AboutPage: NextPageWithGetLayout = () => {
 
         <div className="mt-20 space-y-10 text-black/50 text-regular-17 md:mt-0 md:ml-100">
           {content?.legal_name && <p>{content?.legal_name}</p>}
-          {content?.inn && <p>ИНН {content?.inn}</p>}
-          {content?.legal_address && <p>Адрес: {content?.legal_address}</p>}
+          {content?.inn && <p>xx {content?.inn}</p>}
+          {content?.legal_address && <p>xx: {content?.legal_address}</p>}
           {content?.legal_phone && (
-            <p>Телефон: {formatPhoneNumber(content?.legal_phone ?? '')}</p>
+            <p>xx: {formatPhoneNumber(content?.legal_phone ?? '')}</p>
           )}
         </div>
       </section>

@@ -8,12 +8,12 @@
     @before-open="initForm"
     @closed="reset"
   >
-    <p class="text-blue">Смена статуса</p>
+    <p class="text-blue">xx xx</p>
 
     <form @submit.prevent="save">
       <InputSelect
         v-model.number="cardStatusId"
-        title="Статус карты"
+        title="xx xx"
         class="mt-17"
         size="md"
         style="width: 128px"
@@ -25,8 +25,8 @@
         v-if="cardStatusCommentInputVisible"
         v-model="cardStatusComment"
         :max-length="BONUS_CARD_STATUS_COMMENT_MAX_LENGTH"
-        label="Причина блокировки"
-        placeholder="Здесь вы можете отразить причину"
+        label="xx xx"
+        placeholder="xx xx xx xx xx"
         size="md"
         class="mt-15"
         hide-label
@@ -46,7 +46,7 @@
         class="mt-60"
         :disabled="loading"
       >
-        Применить
+        xx
       </Button>
     </form>
   </ModalBase>

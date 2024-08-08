@@ -44,7 +44,7 @@ export const CheckoutConfigPaymentMethod: FC<Props> = ({ className }) => {
     <div className={clsx(className)}>
       <AppTransition show={!isLoading}>
         <AppRadioGroup
-          label="Способ оплаты"
+          label="xx xx"
           value={selectedPaymentMethodOption}
           options={paymentMethodOptions}
           onChange={option => selectPaymentMethod(+option.key)}
@@ -54,7 +54,7 @@ export const CheckoutConfigPaymentMethod: FC<Props> = ({ className }) => {
           PAYMENT_METHOD.CASH_UPON_RECEIPT && (
           <AppInput
             className="mt-20 w-full md:w-[367px]"
-            placeholder="Введите купюру для сдачи"
+            placeholder="xx xx xx xx"
             value={billField.value || ''}
             type="number"
             min={0}
@@ -64,7 +64,7 @@ export const CheckoutConfigPaymentMethod: FC<Props> = ({ className }) => {
       </AppTransition>
 
       {isLoading && (
-        <p className="mt-11 h-25 text-black/50 text-regular-17">Загрузка...</p>
+        <p className="mt-11 h-25 text-black/50 text-regular-17">xx...</p>
       )}
     </div>
   )

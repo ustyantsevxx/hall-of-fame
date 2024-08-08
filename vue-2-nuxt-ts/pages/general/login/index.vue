@@ -1,15 +1,15 @@
 <template>
   <main class="container">
     <div class="flex justify-between mt-40">
-      <h1 class="self-center text-h1">Личный кабинет</h1>
-      <Link headless :href="MAIN_WEBSITE_LINK" title="XXX Основной сайт">
+      <h1 class="self-center text-h1">xx xx</h1>
+      <Link headless :href="MAIN_WEBSITE_LINK" title="XXX xx xx">
         <LogoSVG />
       </Link>
     </div>
 
     <p class="text-subtitle" style="width: 730px">
-      Вход в кабинет доступен для держателей бонусных карт и организаций с
-      активным договором. Войти как:
+      xx xx xx xx xx xx xx xx xx xx xx
+      xx xx. xx xx:
     </p>
 
     <div class="flex justify-between mt-48" style="width: 880px">
@@ -23,12 +23,12 @@
 
           <template #title>
             <span class="text-purple group-hover:text-white transition-colors">
-              Физическое лицо
+              xx xx
             </span>
           </template>
 
           <template #description>
-            Статистика операций по вашей бонусной или скидочной карте
+            xx xx xx xx xx xx xx xx
           </template>
         </CardAuth>
       </NuxtLink>
@@ -43,12 +43,12 @@
 
           <template #title>
             <span class="text-blue group-hover:text-white transition-colors">
-              Юридическое лицо
+              xx xx
             </span>
           </template>
 
           <template #description>
-            Управление топливными картами вашей организации
+            xx xx xx xx xx
           </template>
         </CardAuth>
       </NuxtLink>
@@ -80,7 +80,7 @@ import { MAIN_WEBSITE_LINK } from '~/logic/constants'
   },
 
   head: {
-    title: 'Авторизация'
+    title: 'xx'
   },
 
   auth: 'guest',

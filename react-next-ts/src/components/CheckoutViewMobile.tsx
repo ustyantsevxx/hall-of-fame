@@ -28,7 +28,7 @@ export const CheckoutViewMobile: FC<Props> = ({ className, submitButton }) => {
   return (
     <div className={clsx('h-full', className, hasActiveOrders && 'pb-100')}>
       <PageTitle
-        title="Оформление заказа"
+        title="xx xx"
         goBackHref="/"
         goBackClickHandler={handleGoBackClick}
       />
@@ -51,7 +51,7 @@ export const CheckoutViewMobile: FC<Props> = ({ className, submitButton }) => {
               className="w-full"
               onClick={() => setConfigFormVisible(true)}
             >
-              Ввести данные
+              xx xx
             </AppButton>
           </div>
         </div>

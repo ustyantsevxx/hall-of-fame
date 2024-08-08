@@ -9,8 +9,8 @@
       <span class="ml-10 text-description text-red">
         {{
           actionsVisible
-            ? 'Сообщение не отправлено:'
-            : 'Сообщение не отправлено'
+            ? 'xx xx xx:'
+            : 'xx xx xx'
         }}
       </span>
     </button>
@@ -20,13 +20,13 @@
         class="py-2 px-10 text-description text-blue rounded-18 border border-blue"
         @click="deleteErroredMessage"
       >
-        Удалить
+        xx
       </button>
       <button
         class="py-2 px-10 text-description text-blue rounded-18 border border-blue"
         @click="sendErroredAgain"
       >
-        Повторить отправку
+        xx xx
       </button>
     </div>
   </div>

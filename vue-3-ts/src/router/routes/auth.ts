@@ -8,25 +8,25 @@ export const authRoutes: Array<RouteRecordRaw> = [
         {
           path: '/auth/login',
           component: () => import('@/pages/AuthLoginPage.vue'),
-          meta: { guest: true, title: 'Авторизация' }
+          meta: { guest: true, title: 'xx' }
         },
 
         {
           path: '/auth/register',
           component: () => import('@/pages/AuthRegisterPage.vue'),
-          meta: { guest: true, title: 'Регистрация' }
+          meta: { guest: true, title: 'xx' }
         },
 
         {
           path: '/auth/password/restore',
           component: () => import('@/pages/AuthPasswordRestorePage.vue'),
-          meta: { guest: true, title: 'Забыли пароль?' }
+          meta: { guest: true, title: 'xx xx?' }
         },
 
         {
           path: '/auth/password/new',
           component: () => import('@/pages/AuthPasswordNewPage.vue'),
-          meta: { guest: true, title: 'Восстановление пароля' }
+          meta: { guest: true, title: 'xx xx' }
         }
       ]
     : []),
@@ -34,6 +34,6 @@ export const authRoutes: Array<RouteRecordRaw> = [
   {
     path: '/auth/email/verify',
     component: () => import('@/pages/AuthEmailVerifyPage.vue'),
-    meta: { skipAuthGuard: true, title: 'Подтверждение email' }
+    meta: { skipAuthGuard: true, title: 'xx email' }
   }
 ]

@@ -11,17 +11,17 @@ import { CheckoutFormData } from './Checkout.types'
 export const checkoutFormSchema: SchemaOf<CheckoutFormData> = object({
   personalInfo: object({
     name: string(),
-    phone: string().length(12, 'Введите корректный номер телефона.')
+    phone: string().length(12, 'xx xx xx xx.')
   }).required(),
   deliveryMethod: object({
-    typeId: number().required('Выберите способ доставки.'),
+    typeId: number().required('xx xx xx.'),
     addressId: number().when('typeId', {
       is: DELIVERY_METHOD.COURIER,
-      then: number().required('Выберите адрес доставки.')
+      then: number().required('xx xx xx.')
     }),
     restaurantId: number().when('type', {
       is: DELIVERY_METHOD.PICKUP,
-      then: number().required('Выберите адрес самовывоза.')
+      then: number().required('xx xx xx.')
     }),
     newAddress: object().when(['typeId', 'addressId'], {
       is: (typeId: number | undefined, addressId: number | undefined) => {
@@ -30,10 +30,10 @@ export const checkoutFormSchema: SchemaOf<CheckoutFormData> = object({
         )
       },
       then: object({
-        street: string().required('Введите улицу.'),
-        house: string().required('Введите номер дома.'),
+        street: string().required('xx xx.'),
+        house: string().required('xx xx xx.'),
         full_name: string()
-      }).required('Введите адрес доставки.'),
+      }).required('xx xx xx.'),
       otherwise: object()
     }) as any,
     addressCoords: object().when(['typeId'], {
@@ -41,7 +41,7 @@ export const checkoutFormSchema: SchemaOf<CheckoutFormData> = object({
         return typeId === DELIVERY_METHOD.COURIER
       },
       then: object({
-        lat: number().required('Введите адрес доставки.'),
+        lat: number().required('xx xx xx.'),
         lng: number().required()
       })
     })
@@ -50,11 +50,11 @@ export const checkoutFormSchema: SchemaOf<CheckoutFormData> = object({
     typeId: number().required(),
     exactTime: string().when('typeId', {
       is: DELIVERY_TIME_TYPE.EXACT_TIME,
-      then: string().required('Выберите точное время доставки.')
+      then: string().required('xx xx xx xx.')
     })
   }).required(),
   paymentMethod: object({
-    typeId: number().required('Выберите способ оплаты.'),
+    typeId: number().required('xx xx xx.'),
     changeBanknote: number().nullable()
   }).required(),
   bonusCoinsToUse: number(),

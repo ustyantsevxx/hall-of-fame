@@ -107,7 +107,7 @@
         <button
           v-if="!editingMode"
           type="button"
-          title="Редактировать"
+          title="xx"
           class="flex justify-center items-center w-30 h-30 hover:text-black transition-colors active:text-black/70 text-black/50"
           @click="requestStartEditing"
         >
@@ -116,11 +116,11 @@
         <Button
           v-else
           type="button"
-          title="Завершить редактирование"
+          title="xx xx"
           blue
           @click="requestStopEditing"
         >
-          Готово
+          xx
         </Button>
       </div>
     </LegalCardsTableTd>

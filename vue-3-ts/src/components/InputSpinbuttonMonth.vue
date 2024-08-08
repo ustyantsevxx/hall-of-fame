@@ -1,7 +1,7 @@
 <template>
   <InputSpinbuttonBase
-    next-title="Выбрать следующий месяц"
-    prev-title="Выбрать предыдущий месяц"
+    next-title="xx xx xx"
+    prev-title="xx xx xx"
     :next-fn="v => dayjs(v).add(1, 'month').startOf('month')"
     :prev-fn="v => dayjs(v).subtract(1, 'month').startOf('month')"
     :display-formatter="v => capitalize(v.format('MMMM YYYY'))"

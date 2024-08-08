@@ -10,7 +10,7 @@
         >
           xxx
         </span>
-        <span class="ml-12" title="Синхронизация выключена">
+        <span class="ml-12" title="xx xx">
           <SvgCloudSubtract
             class="h-19 w-19 text-main-light-blue 2xl:h-24 2xl:w-24"
           />
@@ -57,11 +57,11 @@ import BannerSyncData from '@/components/BannerSyncData.vue'
 import DefaultLayoutNavbarUserBlock from '@/layouts/DefaultLayoutNavbarUserBlock.vue'
 
 const links = computed(() => [
-  { path: '/', title: 'Таймеры', icon: SvgTabBarTimer },
-  { path: '/daylog', title: 'Журнал дня', icon: SvgTabBarDaylog },
-  { path: '/tasks', title: 'Задачи', icon: SvgTabBarTasks },
-  { path: '/stats', title: 'Статистика', icon: SvgTabBarStats },
-  { path: '/settings', title: 'Настройки', icon: SvgTabBarSettings }
+  { path: '/', title: 'xx', icon: SvgTabBarTimer },
+  { path: '/daylog', title: 'xx xx', icon: SvgTabBarDaylog },
+  { path: '/tasks', title: 'xx', icon: SvgTabBarTasks },
+  { path: '/stats', title: 'xx', icon: SvgTabBarStats },
+  { path: '/settings', title: 'xx', icon: SvgTabBarSettings }
 ])
 </script>
 

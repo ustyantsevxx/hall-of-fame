@@ -18,11 +18,11 @@ type FooterLink = {
 }
 
 const links: FooterLink[] = [
-  { name: 'О нас', href: '/about' },
-  { name: 'Акции', href: '/stocks' },
-  { name: 'Доставка', href: '/delivery' }
-  // { name: 'Вакансии', href: '/' }, // TODO: Add correct links
-  // { name: 'Отзывы', href: '/' } // TODO: Add correct links
+  { name: 'xx xx', href: '/about' },
+  { name: 'xx', href: '/stocks' },
+  { name: 'xx', href: '/delivery' }
+  // { name: 'xx', href: '/' }, // TODO: Add correct links
+  // { name: 'xx', href: '/' } // TODO: Add correct links
 ]
 
 const currentYear = dayjs().year()
@@ -47,7 +47,7 @@ export const LayoutDefaultFooter: FC<Props> = ({ className }) => {
                   {formatPhoneNumber(restaurantInfo?.phone)}
                 </p>
                 <p className="mt-2 text-black/50 text-regular-15">
-                  Позвоните нам
+                  xx xx
                 </p>
               </a>
             )}
@@ -72,7 +72,7 @@ export const LayoutDefaultFooter: FC<Props> = ({ className }) => {
             href="/"
             passHref
           >
-            <a className="lg:order-2">Правовая информация</a>
+            <a className="lg:order-2">xx xx</a>
           </Link>
 
           <p>NEXTJS_TS &copy; {currentYear}</p>

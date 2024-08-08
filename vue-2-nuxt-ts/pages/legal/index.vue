@@ -1,13 +1,13 @@
 <template>
   <main class="container">
     <div class="flex justify-between">
-      <h1 class="text-h1">Транзакции</h1>
+      <h1 class="text-h1">xx</h1>
 
       <Button
         link
         outline
         class="group"
-        title="Экспортировать данные за выбранный период в Excel"
+        title="xx xx xx xx xx xx Excel"
         :loading="exportLoading"
         @click="exportToExcel"
       >
@@ -25,7 +25,7 @@
     />
 
     <div v-if="statistics" class="flex justify-end items-center mt-25">
-      <span class="mr-5 text-description text-gray-500">Сумма за период:</span>
+      <span class="mr-5 text-description text-gray-500">xx xx xx:</span>
       <span class="text-subtitle text-black">{{ prettifiedTotal }} ₽</span>
     </div>
 
@@ -40,7 +40,7 @@
     </template>
 
     <p v-else class="mt-60 text-subtitle text-gray">
-      За указанный период нет данных
+      xx xx xx xx xx
     </p>
   </main>
 </template>
@@ -75,7 +75,7 @@ import { ShowToastMessageMixin } from '~/mixins/show-toast-message-mixin'
   },
 
   head: {
-    title: 'Транзакции'
+    title: 'xx'
   },
 
   layout: 'legal'
@@ -175,7 +175,7 @@ export default class LegalTransactionsPage extends mixins(
       if (response.success) {
         downloadFileToDevice(response.data.file, response.data.fileName)
       } else {
-        this.showToastMessage('Ошибка генерации отчета.')
+        this.showToastMessage('xx xx xx.')
       }
     } finally {
       this.exportLoading = false

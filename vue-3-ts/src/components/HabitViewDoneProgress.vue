@@ -5,18 +5,18 @@
   >
     <div class="space-y-5">
       <div>
-        <div class="text-15">Всего выполнено</div>
-        <div class="text-subcolor-palet-blue text-17">21 день</div>
+        <div class="text-15">xx xx</div>
+        <div class="text-subcolor-palet-blue text-17">21 xx</div>
       </div>
 
       <div>
-        <div class="text-15">Подряд</div>
-        <div class="text-subcolor-green-done text-17">21 день</div>
+        <div class="text-15">xx</div>
+        <div class="text-subcolor-green-done text-17">21 xx</div>
       </div>
 
       <div>
-        <div class="text-15">Пропущено</div>
-        <div class="text-subcolor-rose text-17">5 дней</div>
+        <div class="text-15">xx</div>
+        <div class="text-subcolor-rose text-17">5 xx</div>
       </div>
     </div>
 

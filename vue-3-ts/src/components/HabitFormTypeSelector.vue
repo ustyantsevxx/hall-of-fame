@@ -1,7 +1,7 @@
 <template>
   <RadioGroup v-model="habitDataStore.habit.type_id">
     <RadioGroupLabel class="text-black/40 text-17 laptop:text-14">
-      Тип привычки
+      xx xx
     </RadioGroupLabel>
 
     <div class="mt-13 flex space-x-11 laptop:mt-8">
@@ -43,17 +43,17 @@ const habitDataStore = useHabitDataStore()
 const typeOptions = [
   {
     value: HABIT_TYPES.COUNTER,
-    title: 'Подсчет повторений',
+    title: 'xx xx',
     iconComponent: SvgHabitTypeCounter
   },
   {
     value: HABIT_TYPES.CHECK,
-    title: 'Проверка деятельности',
+    title: 'xx xx',
     iconComponent: SvgHabitTypeCheck
   },
   {
     value: HABIT_TYPES.TIME,
-    title: 'Подсчет времени',
+    title: 'xx xx',
     iconComponent: SvgHabitTypeTime
   }
 ]

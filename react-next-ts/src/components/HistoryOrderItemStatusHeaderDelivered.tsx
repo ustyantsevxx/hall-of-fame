@@ -13,7 +13,7 @@ export const HistoryOrderItemStatusHeaderDelivered: FC<Props> = ({
   className,
   order
 }) => {
-  // TODO выводить корректное время доставки
+  // TODO xx xx xx xx
   const dateString = rawTimeToCalendarString(order.created_at)
 
   return (
@@ -24,29 +24,29 @@ export const HistoryOrderItemStatusHeaderDelivered: FC<Props> = ({
       )}
     >
       <div className="md:flex">
-        <div className="whitespace-nowrap text-green">Доставлен</div>
+        <div className="whitespace-nowrap text-green">xx</div>
         <div className="mt-4 flex items-center space-x-4 text-black/50 md:mt-0 md:ml-8">
           <div>{dateString}</div>
 
           {/* 
-          TODO Доделать когда добавят отзыв на бэке
+          TODO xx xx xx xx xx xx
           {order &&
             (order ? (
               <>
                 <div className="mt-2 text-[36px] text-black/30">&#183;</div>
-                <div>Понравился</div>
+                <div>xx</div>
               </>
             ) : (
               <>
                 <div className="mt-2 text-[36px] text-black/30">&#183;</div>
-                <div>Не понравился</div>
+                <div>xx xx</div>
               </>
             ))} */}
         </div>
       </div>
 
       {/*
-       TODO Доделать когда добавят отзыв на бэке
+       TODO xx xx xx xx xx xx
        <div className="flex h-40 w-40 items-center justify-center rounded-full bg-gray text-regular-20">
         <div className="mt-4">{order && (order ? <>😊</> : <>😣</>)}</div>
       </div> */}

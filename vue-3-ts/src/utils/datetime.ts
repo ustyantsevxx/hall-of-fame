@@ -60,4 +60,4 @@ export const getDates = ({ from, count }: { from: Date; count: number }) => {
   })
 }
 
-export const shortWeekDays = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС']
+export const shortWeekDays = ['xx', 'xx', 'xx', 'xx', 'xx', 'xx', 'xx']

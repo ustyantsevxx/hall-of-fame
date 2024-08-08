@@ -1,10 +1,10 @@
 <template>
   <main class="container history">
     <PageHeader>
-      <template #title>История заправок</template>
+      <template #title>xx xx</template>
       <template #subtitle>
-        Здесь вы можете посмотреть историю операций, а также статистику по вашей
-        бонусной карте. Выберите необходимый период:
+        xx xx xx xx xx xx, xx xx xx xx xx
+        xx xx. xx xx xx:
       </template>
     </PageHeader>
 
@@ -21,7 +21,7 @@
     </template>
 
     <p v-else class="mt-60 text-subtitle text-gray">
-      За указанный период нет данных
+      xx xx xx xx xx
     </p>
   </main>
 </template>
@@ -51,7 +51,7 @@ import { dateFilterModes } from '~/mixins/date-filter-mixin'
   },
 
   head: {
-    title: 'История заправок'
+    title: 'xx xx'
   }
 })
 export default class extends Vue {

@@ -12,7 +12,7 @@
     <template #icon>
       <button
         type="button"
-        title="Переключить отображение пароля"
+        title="xx xx xx"
         class="flex justify-center items-center w-full h-full"
         @click="togglePasswordRevealed"
       >

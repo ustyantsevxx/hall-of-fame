@@ -9,7 +9,7 @@
           class="px-5 pb-14 font-normal text-center"
           :class="{ 'opacity-50': disabled }"
         >
-          СМС
+          xx
         </th>
         <th
           class="px-5 pb-14 font-normal text-center"
@@ -72,7 +72,7 @@
         <tr>
           <td colspan="3">
             <div class="flex justify-center">
-              <span>Нет доступных уведомлений</span>
+              <span>xx xx xx</span>
             </div>
           </td>
         </tr>

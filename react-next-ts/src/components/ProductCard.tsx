@@ -47,7 +47,7 @@ export const ProductCard: FC<Props> = ({ product, onClick }) => {
               </div>
             ) : (
               <div className="flex h-full w-full items-center justify-center text-black/50">
-                Нет изображения
+                xx xx
               </div>
             )}
 
@@ -93,7 +93,7 @@ export const ProductCard: FC<Props> = ({ product, onClick }) => {
                     size="mini"
                     onClick={handleAddToCartClick}
                   >
-                    <span className="hidden sm:block">Добавить</span>
+                    <span className="hidden sm:block">xx</span>
                     <span className="sm:hidden">
                       {formatRuble(product.sale_price || product.price)}
                     </span>

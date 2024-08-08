@@ -18,12 +18,12 @@ const ProfilePage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('Профиль')}</title>
+        <title>{constructPageTitle('xx')}</title>
       </Head>
 
       <div className="container mt-18 md:mt-33">
         <PageTitle
-          title="Профиль"
+          title="xx"
           goBackHref="/"
           after={
             <AppButton
@@ -32,7 +32,7 @@ const ProfilePage: NextPageWithGetLayout = () => {
               className="ml-auto -mr-16 self-stretch !border-transparent !font-medium !text-danger hover:!bg-transparent md:ml-24 md:w-[102px] md:self-center md:!border-danger"
               onClick={logout}
             >
-              Выйти
+              xx
             </AppButton>
           }
         />
@@ -43,7 +43,7 @@ const ProfilePage: NextPageWithGetLayout = () => {
           <ProfileAddressList className="order-2 w-full md:order-none md:w-[512px]" />
 
           <div className="order-4 w-full grow items-center md:order-none md:flex md:space-x-20">
-            <h2 className="text-medium-20">История заказов</h2>
+            <h2 className="text-medium-20">xx xx</h2>
             <Link href={'/profile/orders'} passHref>
               <a
                 className={clsx(
@@ -52,7 +52,7 @@ const ProfilePage: NextPageWithGetLayout = () => {
                   buttonStyles.normal
                 )}
               >
-                Посмотреть
+                xx
               </a>
             </Link>
           </div>

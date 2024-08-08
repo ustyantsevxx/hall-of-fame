@@ -1,6 +1,6 @@
 <template>
   <main class="container">
-    <h1 class="text-h1">Карты</h1>
+    <h1 class="text-h1">xx</h1>
 
     <div class="mt-25 mb-28">
       <section>
@@ -9,8 +9,8 @@
           :input-classes="{
             'pr-40': true
           }"
-          label="Поиск"
-          placeholder="Наименование или № карты"
+          label="xx"
+          placeholder="xx xx № xx"
           style="width: 350px"
         >
           <template #icon>
@@ -33,14 +33,14 @@
         </template>
 
         <p v-else class="mt-60 text-subtitle text-center text-gray">
-          Список карт пуст
+          xx xx xx
         </p>
 
         <p
           v-if="searchString && filteredCards.length === 0"
           class="mt-60 text-subtitle text-center text-gray"
         >
-          Такие карты не найдены
+          xx xx xx xx
         </p>
       </div>
     </div>
@@ -81,7 +81,7 @@ const bonusCardsPriorityByStatus = {
   },
 
   head: {
-    title: 'Карты'
+    title: 'xx'
   },
 
   layout: 'legal'

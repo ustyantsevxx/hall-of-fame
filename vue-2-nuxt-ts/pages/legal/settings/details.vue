@@ -1,30 +1,30 @@
 <template>
   <div class="pl-32" style="width: 660px">
     <p class="flex items-center mb-15">
-      <span class="text-description text-gray-500">Номер договора:</span>
+      <span class="text-description text-gray-500">xx xx:</span>
       <span class="ml-5 text-subtitle">
         {{ agreementNumber }}
       </span>
     </p>
 
     <div class="flex flex-col space-y-24">
-      <LabeledInfo :value="organizationName" label="Название организации" />
+      <LabeledInfo :value="organizationName" label="xx xx" />
 
-      <LabeledInfo :value="userInfo.legal_address" label="Юридический адрес" />
+      <LabeledInfo :value="userInfo.legal_address" label="xx xx" />
 
-      <LabeledInfo :value="userInfo.postal_address" label="Почтовый адрес" />
+      <LabeledInfo :value="userInfo.postal_address" label="xx xx" />
 
       <div class="grid grid-cols-2 gap-37">
-        <LabeledInfo :value="userInfo.inn" label="ИНН" />
-        <LabeledInfo :value="userInfo.kpp" label="КПП" />
+        <LabeledInfo :value="userInfo.inn" label="xx" />
+        <LabeledInfo :value="userInfo.kpp" label="xx" />
       </div>
 
-      <LabeledInfo :value="userInfo.rs" label="Расчетный счет" />
+      <LabeledInfo :value="userInfo.rs" label="xx xx" />
 
-      <LabeledInfo :value="userInfo.ks" label="Корреспондентский счет" />
+      <LabeledInfo :value="userInfo.ks" label="xx xx" />
 
       <div class="grid grid-cols-2 gap-37">
-        <LabeledInfo :value="userInfo.bik" label="БИК" />
+        <LabeledInfo :value="userInfo.bik" label="xx" />
       </div>
     </div>
 
@@ -34,8 +34,8 @@
       <NotificationCircledSVG class="w-25 h-25 text-blue" />
 
       <p>
-        Об изменениях в реквизитах сообщите в
-        <Link to="/support">службу поддержки</Link>
+        xx xx xx xx xx xx
+        <Link to="/support">xx xx</Link>
       </p>
     </div>
   </div>

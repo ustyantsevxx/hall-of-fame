@@ -23,11 +23,11 @@ import Switch from '@/components/Switch.vue'
 
 const settings = ref([
   {
-    title: 'Включить уведомления',
+    title: 'xx xx',
     value: false
   },
   {
-    title: 'Изменить время начала дня',
+    title: 'xx xx xx xx',
     value: false
   }
 ])

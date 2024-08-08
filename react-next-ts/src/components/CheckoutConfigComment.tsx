@@ -15,7 +15,7 @@ export const CheckoutConfigComment: FC<Props> = ({ className }) => {
   return (
     <AppTextarea
       className={clsx(className, 'h-[112px] resize-none')}
-      placeholder="Комментарий"
+      placeholder="xx"
       {...register('comment')}
     />
   )

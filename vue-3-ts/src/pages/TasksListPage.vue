@@ -19,7 +19,7 @@
         @click="openDrawerWithCreateForm"
       >
         <SvgPlus class="h-24 w-24 laptop:h-20 laptop:w-20" />
-        <span class="ml-4">Создать новую задачу</span>
+        <span class="ml-4">xx xx xx</span>
       </Button>
     </template>
   </TasksListPageGroups>
@@ -58,7 +58,7 @@ const ALL_TIMERS_FILTER = 'all'
 const { timers } = useTimers()
 const defaultTimerFilters = {
   [ALL_TIMERS_FILTER]: {
-    label: 'Все',
+    label: 'xx',
     value: ALL_TIMERS_FILTER,
     filterFn: () => true
   }

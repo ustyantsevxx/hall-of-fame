@@ -34,7 +34,7 @@ export const StoriesSliderItem: FC<Props> = ({ item, onClick }) => {
             />
           ) : (
             <p className="text-center text-black/50 text-regular-13 md:text-regular-15">
-              Нет изображения
+              xx xx
             </p>
           )}
         </div>

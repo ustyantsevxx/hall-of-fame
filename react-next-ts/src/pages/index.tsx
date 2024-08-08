@@ -46,10 +46,10 @@ const IndexPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle('Меню')}</title>
+        <title>{constructPageTitle('xx')}</title>
       </Head>
 
-      <h1 className="sr-only">Меню</h1>
+      <h1 className="sr-only">xx</h1>
 
       <div className="container mt-8 md:mt-15">
         <StoriesSlider className="!-mx-16 xl:!mx-0" />

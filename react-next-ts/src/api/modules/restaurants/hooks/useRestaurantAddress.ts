@@ -7,10 +7,10 @@ export const useRestaurantAddress = () => {
     return ''
   }
 
-  let result = `г. ${info?.city.name}, ${info?.street}, д. ${info?.house}`
+  let result = `xx. ${info?.city.name}, ${info?.street}, xx. ${info?.house}`
 
   if (info?.block) {
-    result += `, к. ${info.block}`
+    result += `, xx. ${info.block}`
   }
 
   return result

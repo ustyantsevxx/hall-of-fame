@@ -5,7 +5,7 @@
         v-if="file.status === fileStatuses.FINISHED"
         :href="file.url"
         class="flex content-center items-center space-x-15 cursor-pointer"
-        :title="`Скачать файл '${file.filename}'`"
+        :title="`xx xx '${file.filename}'`"
       >
         <DownloadDocumentSVG />
         <span class="text-white">{{ file.filename }}</span>

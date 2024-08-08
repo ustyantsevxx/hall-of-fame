@@ -16,11 +16,11 @@ export const CheckoutConfigTime: FC<Props> = ({ className }) => {
   const deliveryMethodOptions: RadioGroupOption[] = [
     {
       key: DELIVERY_TIME_TYPE.SOON.toString(),
-      name: 'В ближайшее время'
+      name: 'xx xx xx'
     },
     {
       key: DELIVERY_TIME_TYPE.EXACT_TIME.toString(),
-      name: 'Точное время'
+      name: 'xx xx'
     }
   ]
 
@@ -40,7 +40,7 @@ export const CheckoutConfigTime: FC<Props> = ({ className }) => {
   return (
     <div className={clsx(className)}>
       <AppRadioGroup
-        label="Время доставки"
+        label="xx xx"
         value={selectedMethodOption}
         options={deliveryMethodOptions}
         onChange={option => selectMethodOption(+option.key)}

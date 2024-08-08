@@ -2,16 +2,16 @@
   <header class="pt-20 pb-19 border-b border-gray-100">
     <div class="container flex justify-between items-end">
       <div class="flex items-end">
-        <Link headless to="/" class="pb-5" title="На главную">
+        <Link headless to="/" class="pb-5" title="xx xx">
           <LogoSVG />
         </Link>
         <Link
           headless
           to="/"
           class="ml-10 text-description text-gray"
-          title="На главную"
+          title="xx xx"
         >
-          <span>Личный кабинет</span>
+          <span>xx xx</span>
         </Link>
       </div>
 
@@ -38,7 +38,7 @@
           </Link>
 
           <Link link to="/support" class="mt-3 text-description">
-            Служба поддержки
+            xx xx
           </Link>
         </div>
 
@@ -48,7 +48,7 @@
           </Link>
 
           <Button link class="block mt-3 text-description" @click="logout">
-            Выйти из профиля
+            xx xx xx
           </Button>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <AuthWrapper title="Регистрация">
+  <AuthWrapper title="xx">
     <form v-if="!registered" class="mt-25" @submit.prevent="onSubmit">
       <AuthLoginPageSocialButtons />
 
@@ -21,7 +21,7 @@
           <InputPassword
             v-model="password"
             :invalid="passwordInvalid"
-            placeholder="Пароль"
+            placeholder="xx"
             autocomplete="new-password"
             variant="primary"
             data-test="password-input"
@@ -35,43 +35,34 @@
             class="w-full"
             data-test="submit-button"
           >
-            Зарегистрироваться
+            xx
           </Button>
 
           <p class="!font-sans text-[15px] leading-[18px] text-white/80">
-            Нажимая «Продолжить через Facebook/Google/Apple/Email»,
-            вы&nbsp;соглашаетесь с&nbsp;
-            <RouterLink to="#" class="underline">
-              Политикой конфиденциальности
-            </RouterLink>
-            и&nbsp;
-            <RouterLink to="#" class="underline">
-              Условиями пользовательского соглашения
-            </RouterLink>
+            xx «xx xx Facebook/Google/Apple/Email», xx&nbsp;xx xx&nbsp;
+            <RouterLink to="#" class="underline">xx xx</RouterLink>
+            xx&nbsp;
+            <RouterLink to="#" class="underline">xx xx xx</RouterLink>
           </p>
         </div>
       </div>
 
       <div class="mb-15 flex justify-center pt-35">
-        <p>Уже зарегистрированы?</p>
+        <p>xx xx?</p>
         &nbsp;
-        <RouterLink to="/auth/login" class="underline">
-          Войти в систему
-        </RouterLink>
+        <RouterLink to="/auth/login" class="underline">xx xx xx</RouterLink>
       </div>
     </form>
 
     <div v-else class="mt-10 divide-y divide-white divide-opacity-20">
       <p class="text-[15px] leading-[18px]">
-        Ссылка для подтверждения регистрации отправлена
+        xx xx xx xx xx
         <br />
-        на ваш Email
+        xx xx Email
       </p>
 
       <div class="mb-15 mt-30 flex justify-center pt-35">
-        <RouterLink to="/auth/login" class="underline">
-          Войти в систему
-        </RouterLink>
+        <RouterLink to="/auth/login" class="underline">xx xx xx</RouterLink>
       </div>
     </div>
   </AuthWrapper>

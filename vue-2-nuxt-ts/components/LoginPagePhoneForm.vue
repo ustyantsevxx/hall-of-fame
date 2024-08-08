@@ -12,10 +12,10 @@
 
       <div class="flex items-center mt-40">
         <Button gradient :disabled="dirtyAndIncorrect" class="mr-30">
-          Отправить код
+          xx xx
         </Button>
         <p class="flex-1 mt-4 text-gray" style="width: 280px">
-          Мы отправим вам СМС-код для подтверждения
+          xx xx xx xx-xx xx xx
         </p>
       </div>
     </form>
@@ -48,7 +48,7 @@ export default class LoginPagePhoneForm extends Vue {
 
   get errorMessage() {
     if (this.dirtyAndIncorrect) {
-      return 'Указан некорректный номер телефона'
+      return 'xx xx xx xx'
     } else if (this.serverValidationMessage) {
       return this.serverValidationMessage
     }

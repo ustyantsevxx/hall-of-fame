@@ -64,7 +64,7 @@ export const CheckoutConfigTimeExact: FC<Props> = ({ className }) => {
     <div className={clsx('flex items-center space-x-20', className)}>
       <AppSelect
         className="w-[246px]"
-        label="Дата доставки "
+        label="xx xx "
         value={selectedDateOption}
         options={deliveryDateOptions}
         optionsContainerClassName="grid-cols-2"
@@ -74,7 +74,7 @@ export const CheckoutConfigTimeExact: FC<Props> = ({ className }) => {
       <AppSelect
         disabled={!date}
         className="w-[246px]"
-        label="Точное время"
+        label="xx xx"
         value={selectedExactTimeOption}
         options={timeOptions}
         optionsContainerClassName="grid-cols-2"

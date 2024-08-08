@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageHeader>
-      <template #title>Служба поддержки</template>
+      <template #title>xx xx</template>
 
       <template #subtitle-raw>
         <p class="text-subtitle text-gray">
@@ -11,7 +11,7 @@
     </PageHeader>
 
     <Link :to="createNewPath" gradient class="mt-32">
-      Создать новое обращение
+      xx xx xx
     </Link>
 
     <section class="grid grid-cols-3 gap-30 mt-60">
@@ -71,8 +71,8 @@ export default class SupportRequestList extends Vue {
 
   get subtitleText() {
     return this.requests.length > 0
-      ? 'Список ваших обращений в службу поддержки'
-      : 'У вас еще не было обращений в службу поддержки'
+      ? 'xx xx xx xx xx xx'
+      : 'xx xx xx xx xx xx xx xx xx'
   }
 
   handlePageChange(page) {

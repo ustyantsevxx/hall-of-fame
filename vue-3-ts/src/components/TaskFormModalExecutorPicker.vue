@@ -13,19 +13,16 @@
           <SvgPerson />
         </div>
 
-        <div class="ml-10 truncate text-medium-17">Исполнитель</div>
+        <div class="ml-10 truncate text-medium-17">xx</div>
 
-        <TaskFormModalDatePickerClearButton
-          title="Очистить значение"
-          class="ml-auto"
-        />
+        <TaskFormModalDatePickerClearButton title="xx xx" class="ml-auto" />
       </div>
 
       <div class="mt-16">
         <Input
           v-model="searchString"
           variant="outline"
-          placeholder="Введите email"
+          placeholder="xx email"
         />
       </div>
 
@@ -49,9 +46,9 @@
           type="button"
           @click="cancel"
         >
-          Отменить
+          xx
         </Button>
-        <Button variant="primary" class="ml-12 flex-grow">Назначить</Button>
+        <Button variant="primary" class="ml-12 flex-grow">xx</Button>
       </div>
     </form>
   </Modal>

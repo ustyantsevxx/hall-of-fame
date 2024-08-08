@@ -6,10 +6,10 @@
       <PromoPhoneSVG class="mx-auto" />
     </figure>
 
-    <p class="mt-23 text-subtitle text-center">Скачайте наше приложение</p>
+    <p class="mt-23 text-subtitle text-center">xx xx xx</p>
 
     <p class="mt-20 mb-23 text-center text-gray">
-      Легко копить и тратить бонусы, участвовать в акциях и получать подарки
+      xx xx xx xx xx, xx xx xx xx xx xx
     </p>
 
     <div class="mb-30 space-y-20">
@@ -17,7 +17,7 @@
         headless
         :href="APP_LINKS.APP_STORE"
         class="block"
-        title="Скачать в App Store"
+        title="xx xx App Store"
       >
         <AppStoreDownloadSVG />
       </Link>
@@ -27,7 +27,7 @@
         :href="APP_LINKS.GOOGLE_PLAY"
         target="_blank"
         class="block"
-        title="Скачать в Google Play"
+        title="xx xx Google Play"
       >
         <GooglePlayDownloadSVG />
       </Link>
@@ -37,7 +37,7 @@
           width="180"
           height="180"
           src="~/assets/images/index-qr.png"
-          alt="Приложения XXX"
+          alt="xx XXX"
         />
       </figure>
     </div>

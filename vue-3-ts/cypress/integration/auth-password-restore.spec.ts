@@ -15,7 +15,7 @@ describe('Password restore page', () => {
   it('Performs restore password flow', () => {
     typeEmail(VERIFIED_USER_EMAIL)
     clickSubmit()
-    cy.contains('Ссылка для восстановления пароля отправлена на ваш Email')
+    cy.contains('xx xx xx xx xx xx xx Email')
   })
 
   it('Does not allow to submit if email is empty', () => {

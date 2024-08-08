@@ -23,7 +23,7 @@
               <template v-if="request.topic">
                 {{ request.topic.name }}
               </template>
-              <template v-else>Тема не указана</template>
+              <template v-else>xx xx xx</template>
             </p>
           </template>
         </SupportRequestCard>
@@ -54,7 +54,7 @@ import { MetaPagination } from '~/logic/types/api-meta'
 
   head() {
     return {
-      title: 'Служба поддержки'
+      title: 'xx xx'
     }
   },
 

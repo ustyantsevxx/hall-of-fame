@@ -1,7 +1,7 @@
 <template>
   <InputSpinbuttonBase
-    next-title="Выбрать следующий год"
-    prev-title="Выбрать предыдущий год"
+    next-title="xx xx xx"
+    prev-title="xx xx xx"
     :next-fn="v => dayjs(v).add(1, 'year').startOf('year')"
     :prev-fn="v => dayjs(v).subtract(1, 'year').startOf('year')"
     :display-formatter="v => v.year().toString()"

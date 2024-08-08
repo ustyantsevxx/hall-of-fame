@@ -25,12 +25,12 @@ export const DeliveryLegend: FC<Props> = ({ className }) => {
   const tabs: AppTab[] = [
     {
       key: DELIVERY_LEGEND_TAB.DELIVERY,
-      name: 'Доставка',
+      name: 'xx',
       panelContent: <DeliveryLegendCourier />
     },
     {
       key: DELIVERY_LEGEND_TAB.PICKUP,
-      name: 'Самовывоз',
+      name: 'xx',
       panelContent: <DeliveryLegendPickup />
     }
   ]

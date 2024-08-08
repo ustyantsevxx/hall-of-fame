@@ -49,18 +49,18 @@ const dataByVariant: Record<
 > = {
   'day-7': {
     icon: SvgAchievementsDays7,
-    title: '7 дней <br> без пропусков',
-    subtitle: '45 дней'
+    title: '7 xx <br> xx xx',
+    subtitle: '45 xx'
   },
   'day-21': {
     icon: SvgAchievementsDays21,
-    title: '21 день <br> без пропусков',
-    subtitle: '45 дней'
+    title: '21 xx <br> xx xx',
+    subtitle: '45 xx'
   },
   'day-30': {
     icon: SvgAchievementsDays30,
-    title: '30 дней <br> без пропусков',
-    subtitle: '45 дней'
+    title: '30 xx <br> xx xx',
+    subtitle: '45 xx'
   }
 }
 

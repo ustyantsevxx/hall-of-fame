@@ -12,15 +12,15 @@ type Props = {
 }
 
 const withGramsSuffix = (value: string) => {
-  return `${value} г`
+  return `${value} xx`
 }
 
 export const ProductViewAttributes: FC<Props> = ({ className, product }) => {
   return (
     <dl className={clsx(className)}>
       <ProductViewAttributesItem
-        label="Количество и вес"
-        value={`${product.count} шт / ${withGramsSuffix(product.weight)}`}
+        label="xx xx xx"
+        value={`${product.count} xx / ${withGramsSuffix(product.weight)}`}
         spread
       />
 
@@ -28,17 +28,17 @@ export const ProductViewAttributes: FC<Props> = ({ className, product }) => {
 
       <div className="flex justify-between">
         <ProductViewAttributesItem
-          label="Белки"
+          label="xx"
           value={withGramsSuffix(product.proteins)}
         />
         <ProductViewDividerVertical />
         <ProductViewAttributesItem
-          label="Жиры"
+          label="xx"
           value={withGramsSuffix(product.fats)}
         />
         <ProductViewDividerVertical />
         <ProductViewAttributesItem
-          label="Углеводы"
+          label="xx"
           value={withGramsSuffix(product.carbohydrates)}
         />
       </div>
@@ -46,8 +46,8 @@ export const ProductViewAttributes: FC<Props> = ({ className, product }) => {
       <ProductViewDividerHorizontal />
 
       <ProductViewAttributesItem
-        label="Энергетическая ценность"
-        value={`${product.calories} ккал`}
+        label="xx xx"
+        value={`${product.calories} xx`}
         spread
       />
     </dl>

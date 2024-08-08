@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex">
-      <span class="text-medium-15">Дней прошло:</span>
+      <span class="text-medium-15">xx xx:</span>
       <span class="ml-6 text-main-primary text-15">
         <span>{{ title }}</span>
       </span>
@@ -60,7 +60,7 @@ const hasEndDate = computed(() => {
 
 const title = computed(() => {
   return hasEndDate.value
-    ? `${daysGone.value} из ${daysTotal.value}`
+    ? `${daysGone.value} xx ${daysTotal.value}`
     : daysGone.value
 })
 </script>

@@ -6,7 +6,7 @@
 
     <HabitViewDoneProgress class="mt-32" />
 
-    <!--  TODO доделать когда будет готов бэкенд  -->
+    <!--  TODO xx xx xx xx xx  -->
     <!--    <HabitViewAchievements class="mt-32" />-->
 
     <HabitViewReminders v-if="remindersVisible" class="mt-42" />

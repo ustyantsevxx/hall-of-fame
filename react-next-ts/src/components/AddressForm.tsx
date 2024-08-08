@@ -25,9 +25,9 @@ type Props = {
 }
 
 const addressFormSchema: SchemaOf<AddressFormData> = object({
-  street: string().required('Введите улицу'),
-  house: string().required('Введите номер дома'),
-  full_name: string().required('Введите адрес'),
+  street: string().required('xx xx'),
+  house: string().required('xx xx xx'),
+  full_name: string().required('xx xx'),
   block: string(),
   section: string(),
   floor: string(),
@@ -129,18 +129,18 @@ export const AddressForm: FC<Props> = ({
     <form className={clsx(className)} onSubmit={onSubmit}>
       <div className="grid grid-cols-12 gap-20">
         <AppCombobox
-          label="Улица"
+          label="xx"
           className="col-span-12 md:col-span-9"
           autocompleteFn={searchStreets}
-          inputProps={{ placeholder: 'Улица' }}
+          inputProps={{ placeholder: 'xx' }}
           value={streetOption}
           onChange={id => setStreetOption(id)}
         />
 
         <AppCombobox
-          label="Дом"
+          label="xx"
           disabled={!streetOption}
-          title={!streetOption ? 'Выберите улицу' : undefined}
+          title={!streetOption ? 'xx xx' : undefined}
           className="col-span-6 md:col-span-3"
           autocompleteFn={query =>
             searchStreetBuildings({
@@ -148,38 +148,38 @@ export const AddressForm: FC<Props> = ({
               streetFiasId: streetOption?.value.fias_id
             })
           }
-          inputProps={{ placeholder: 'Дом' }}
+          inputProps={{ placeholder: 'xx' }}
           value={houseOption}
           onChange={id => setHouseOption(id)}
         />
 
         <AppInput
-          placeholder="Корпус"
+          placeholder="xx"
           className="col-span-6 md:col-span-3"
           {...register('block')}
         />
 
         <AppInput
-          placeholder="Подъезд"
+          placeholder="xx"
           className="col-span-4 md:col-span-3"
           {...register('section')}
         />
 
         <AppInput
-          placeholder="Этаж"
+          placeholder="xx"
           className="col-span-4 md:col-span-3"
           {...register('floor')}
         />
 
         <AppInput
-          placeholder="Квартира"
+          placeholder="xx"
           className="col-span-4 !pr-14 md:col-span-3"
           {...register('apartment')}
         />
 
         {!hideComment && (
           <AppTextarea
-            placeholder="Комментарий к адресу"
+            placeholder="xx xx xx"
             className="col-span-12 w-full resize-none md:h-[160px]"
             {...register('comment')}
           />
@@ -196,13 +196,13 @@ export const AddressForm: FC<Props> = ({
             type="button"
             onClick={() => onCancel?.()}
           >
-            Отменить
+            xx
           </AppButton>
           <AppButton
             className="flex-grow"
             disabled={!streetOption || !houseOption || loading}
           >
-            {loading ? <span>Загрузка...</span> : <span>Сохранить</span>}
+            {loading ? <span>xx...</span> : <span>xx</span>}
           </AppButton>
         </div>
       ) : null}

@@ -1,7 +1,7 @@
 <template>
   <InputSpinbuttonBase
-    next-title="Выбрать следующую неделю"
-    prev-title="Выбрать предыдущую неделю"
+    next-title="xx xx xx"
+    prev-title="xx xx xx"
     :next-fn="v => dayjs(v).add(1, 'week').startOf('week')"
     :prev-fn="v => dayjs(v).subtract(1, 'week').startOf('week')"
     :display-formatter="formatWeekRange"

@@ -12,7 +12,7 @@ type Props = {
 export const IndexPageWorkHours: FC<Props> = ({ className }) => {
   const { data: restaurantInfo, isLoading } = useRestaurantInfo()
 
-  const message = `Заказы на доставку и самовывоз принимаем: ${restaurantInfo?.workingHoursString}`
+  const message = `xx xx xx xx xx xx: ${restaurantInfo?.workingHoursString}`
 
   return (
     <AppTransition
@@ -25,7 +25,7 @@ export const IndexPageWorkHours: FC<Props> = ({ className }) => {
       <div className={clsx('flex', className)}>
         <AppAlert
           title={message}
-          text="Вы можете оформить предзаказ"
+          text="xx xx xx xx"
           variant="error"
         />
       </div>

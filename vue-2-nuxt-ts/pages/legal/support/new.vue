@@ -3,16 +3,16 @@
     <div class="col-span-8 mt-22">
       <Link to="/support" class="flex items-center space-x-10 w-max">
         <SlimArrowRightSVG />
-        <span>Назад</span>
+        <span>xx</span>
       </Link>
 
-      <h1 class="mt-25 text-h1">Создать обращение</h1>
+      <h1 class="mt-25 text-h1">xx xx</h1>
 
       <InputSelect
         ref="topicDropdown"
         v-model="selectedTopicId"
         class="mt-65"
-        placeholder="Тема"
+        placeholder="xx"
         :options="topicDropdownOptions"
       >
         <template v-if="ownTopicSelected" #selected-option-label>
@@ -24,8 +24,8 @@
               :title="ownTopic"
               type="text"
               class="w-full outline-none"
-              placeholder="Введите свою тему"
-              aria-label="Своя тема"
+              placeholder="xx xx xx"
+              aria-label="xx xx"
               @click.stop
               @focus="handleOwnTopicInputFocus"
             />
@@ -36,7 +36,7 @@
       <InputTextarea
         v-model="message"
         class="mt-50"
-        placeholder="Ваше сообщение..."
+        placeholder="xx xx..."
       />
 
       <div class="flex items-center mt-30 space-x-20">
@@ -51,14 +51,14 @@
             <Button outline>
               <span class="flex items-center space-x-10">
                 <ClipAngleSVG />
-                <span>Прикрепить файлы</span>
+                <span>xx xx</span>
               </span>
             </Button>
           </template>
         </InputFile>
 
         <p class="text-gray">
-          Форматы: PDF, JPG, PNG, DOC, DOCX, XLS. До 20 МБ
+          xx: PDF, JPG, PNG, DOC, DOCX, XLS. xx 20 xx
         </p>
       </div>
 
@@ -74,7 +74,7 @@
         :disabled="!submitAllowed"
         @click.prevent="createRequest"
       >
-        Создать обращение
+        xx xx
       </Button>
     </div>
   </main>
@@ -104,7 +104,7 @@ import FormWithFileUploaderMixin from '~/mixins/form-with-file-uploader-mixin'
 
 const OWN_TOPIC_ID = -1
 
-// TODO пофиксить фокус текстового поля при повторном выборе "Своя тема"
+// TODO xx xx xx xx xx xx xx "xx xx"
 
 @Component({
   components: {
@@ -121,7 +121,7 @@ const OWN_TOPIC_ID = -1
 
   head() {
     return {
-      title: 'Создать обращение'
+      title: 'xx xx'
     }
   }
 })
@@ -147,7 +147,7 @@ export default class SupportNewPage extends FormWithFileUploaderMixin {
       ...serverTopics,
       {
         value: OWN_TOPIC_ID,
-        label: 'Своя тема'
+        label: 'xx xx'
       }
     ]
   }

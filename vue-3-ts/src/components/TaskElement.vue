@@ -8,8 +8,8 @@
         :model-value="task.completed"
         :color="task.owner?.color"
         :checked-color="'#3BE88A'"
-        checked-title="Отменить задачу невыполненной"
-        title="Отменить задачу выполненной"
+        checked-title="xx xx xx"
+        title="xx xx xx"
         class="p-6"
         @click.stop
       />
@@ -66,7 +66,7 @@
         </p>
 
         <ProgressPlayPause
-          title="Запустить таймер"
+          title="xx xx"
           :class="{ grayscale: task.completed }"
         />
       </div>

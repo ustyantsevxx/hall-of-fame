@@ -9,13 +9,13 @@ type Props = {
 export const CartEmptyMessage: FC<Props> = ({ onGoToMenu }) => {
   return (
     <div className="flex h-full w-full flex-col items-center justify-center">
-      <p className="text-black/50 text-regular-17">Корзина пока пуста</p>
+      <p className="text-black/50 text-regular-17">xx xx xx</p>
       <AppButton
         variant="primary"
         className="mt-22 w-[241px] max-w-full"
         onClick={() => onGoToMenu()}
       >
-        Перейти в меню
+        xx xx xx
       </AppButton>
     </div>
   )

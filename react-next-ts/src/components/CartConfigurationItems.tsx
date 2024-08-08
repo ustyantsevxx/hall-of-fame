@@ -67,7 +67,7 @@ export const CartConfigurationItems: FC = () => {
           item={item}
           hideRemove
           hideCounter
-          priceLabel="Подарок по промокоду"
+          priceLabel="xx xx xx"
         />
       ))}
 
@@ -86,7 +86,7 @@ export const CartConfigurationItems: FC = () => {
           }}
           onRemove={cancelBirthdayProduct}
           hideCounter
-          priceLabel="Подарок на День рождения"
+          priceLabel="xx xx xx xx"
         />
       )}
     </div>

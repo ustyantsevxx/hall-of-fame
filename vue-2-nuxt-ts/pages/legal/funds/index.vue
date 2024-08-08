@@ -1,6 +1,6 @@
 <template>
   <main class="container">
-    <h1 class="text-h1">Остаток средств</h1>
+    <h1 class="text-h1">xx xx</h1>
 
     <div
       class="grid grid-cols-12 pb-75 mt-35 mb-28 border-gray-100"
@@ -15,7 +15,7 @@
 
           <div class="flex justify-end items-center mt-25">
             <span class="mr-5 text-description text-gray-500">
-              Сумма поступлений:
+              xx xx:
             </span>
             <span class="text-subtitle text-black">
               {{ prettifiedTopUpSum }}
@@ -34,7 +34,7 @@
             />
           </template>
           <p v-else class="mt-60 text-subtitle text-gray">
-            За указанный период нет данных
+            xx xx xx xx xx
           </p>
         </div>
       </div>
@@ -42,32 +42,32 @@
         class="flex flex-col col-span-5 space-y-18"
         style="padding-left: 87px"
       >
-        <h2 class="pl-30 mb-12 w-full text-h2">Текущий месяц</h2>
+        <h2 class="pl-30 mb-12 w-full text-h2">xx xx</h2>
 
         <LegalFundsCompareInfoCard
           v-if="balanceVisible"
-          title="Остаток"
+          title="xx"
           :first-field="{
             value: prettifiedFunds.now,
-            description: 'Сейчас'
+            description: 'xx'
           }"
           :second-field="{
             value: !monthStartFundsVisible ? '—' : prettifiedFunds.monthStart,
-            description: 'На начало месяца'
+            description: 'xx xx xx'
           }"
         />
 
-        <LegalFundsInfoCard title="Поступления" :value="prettifiedTopUp" />
+        <LegalFundsInfoCard title="xx" :value="prettifiedTopUp" />
 
         <LegalFundsInfoCard
-          title="Транзакции"
+          title="xx"
           :value="prettifiedTransactions"
         />
 
         <LegalFundsInfoCard
           v-if="availableFundsVisible"
-          title="Свободные"
-          description="Нераспределенные по картам средства"
+          title="xx"
+          description="xx xx xx xx"
           :value="prettifiedAvailableFunds"
         />
       </div>
@@ -116,7 +116,7 @@ import { dateFilterModes } from '~/mixins/date-filter-mixin'
   },
 
   head: {
-    title: 'Остаток средств'
+    title: 'xx xx'
   },
 
   layout: 'legal'

@@ -60,7 +60,7 @@ export const AppModal: FC<Props> = ({
         >
           <p className="text-black text-medium-20 md:text-medium-30">{title}</p>
           <button
-            title="Закрыть"
+            title="xx"
             className={clsx(
               '-mr-12 flex h-45 w-45 items-center justify-center rounded-full md:hidden',
               mobileCloseButtonClassName

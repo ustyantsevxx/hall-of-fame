@@ -58,8 +58,8 @@ const config: NuxtConfig = {
   head: {
     titleTemplate: pageTitle =>
       pageTitle
-        ? `${pageTitle} — XXX Личный кабинет`
-        : 'XXX Личный кабинет',
+        ? `${pageTitle} — XXX xx xx`
+        : 'XXX xx xx',
 
     htmlAttrs: {
       lang: 'ru'
@@ -72,15 +72,15 @@ const config: NuxtConfig = {
       {
         hid: 'description',
         name: 'description',
-        content: 'XXX Личный кабинет'
+        content: 'XXX xx xx'
       },
       {
         name: 'apple-mobile-web-app-title',
-        content: 'XXX Личный кабинет'
+        content: 'XXX xx xx'
       },
       {
         name: 'application-name',
-        content: 'XXX Личный кабинет'
+        content: 'XXX xx xx'
       },
       {
         name: 'msapplication-TileColor',

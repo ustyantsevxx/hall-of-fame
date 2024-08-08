@@ -6,9 +6,9 @@
     "
   >
     <div>
-      <p class="text-[15px] leading-[17px] text-white">Обновитесь до премиум</p>
+      <p class="text-[15px] leading-[17px] text-white">xx xx xx</p>
       <p class="mt-5 text-[15px] leading-[17px] text-white/60">
-        Узнайте о своем распорядке все
+        xx xx xx xx xx
       </p>
     </div>
 

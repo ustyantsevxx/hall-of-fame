@@ -13,7 +13,7 @@ export const HistoryOrderItemStatusHeaderCanceled: FC<Props> = ({
   className,
   order
 }) => {
-  // TODO выводить корректное время доставки
+  // TODO xx xx xx xx
   const dateString = rawTimeToCalendarString(order.created_at)
 
   return (
@@ -23,7 +23,7 @@ export const HistoryOrderItemStatusHeaderCanceled: FC<Props> = ({
         className
       )}
     >
-      <div className="whitespace-nowrap text-red">Отменён</div>
+      <div className="whitespace-nowrap text-red">xxёxx</div>
       <div className="mt-4 text-black/50 md:mt-0 md:ml-8">{dateString}</div>
     </div>
   )

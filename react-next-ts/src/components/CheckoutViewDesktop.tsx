@@ -13,7 +13,7 @@ type Props = {
 export const CheckoutViewDesktop: FC<Props> = ({ className, submitButton }) => {
   return (
     <div className={clsx(className)}>
-      <PageTitle title="Оформление заказа" goBackHref="/" />
+      <PageTitle title="xx xx" goBackHref="/" />
 
       <div className="flex justify-between">
         <div className="mt-32 flex w-full flex-col md:w-[512px]">

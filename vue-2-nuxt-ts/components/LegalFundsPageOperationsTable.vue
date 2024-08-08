@@ -30,11 +30,11 @@ export default class LegalFundsPageOperationsTable extends Vue {
     return [
       {
         key: 'paymentOrder',
-        title: 'Платежное поручение'
+        title: 'xx xx'
       },
       {
         key: 'totalPaid',
-        title: 'Сумма, ₽',
+        title: 'xx, ₽',
         width: 105,
         class: 'text-right'
       }

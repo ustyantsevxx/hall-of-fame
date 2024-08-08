@@ -41,7 +41,7 @@ export const LayoutDefaultSecondHeader = forwardRef<HTMLDivElement, Props>(
               'z-10 flex w-48 shrink-0 items-center self-stretch  overflow-hidden bg-white transition lg:w-36',
               firstHeaderScrolledUp ? 'delay-150 duration-500' : 'opacity-0'
             )}
-            title="В начало"
+            title="xx xx"
             onClick={() => animateScroll.scrollToTop({ duration: 500 })}
           >
             <GradientLogoSvg className="w-30 lg:w-36" />
@@ -67,7 +67,7 @@ export const LayoutDefaultSecondHeader = forwardRef<HTMLDivElement, Props>(
                 onClick={() => setCartOpened(true)}
               >
                 <span className={clsx({ 'pr-10': cartCountTotal > 0 })}>
-                  Корзина
+                  xx
                 </span>
                 {cartCountTotal > 0 && (
                   <span className="pl-10">{cartCountTotal}</span>

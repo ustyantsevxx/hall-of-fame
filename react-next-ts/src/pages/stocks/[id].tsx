@@ -33,11 +33,11 @@ const StockViewPage: NextPageWithGetLayout = () => {
   return (
     <>
       <Head>
-        <title>{constructPageTitle(stock?.title || 'Акция')}</title>
+        <title>{constructPageTitle(stock?.title || 'xx')}</title>
       </Head>
 
       <div className="container mt-18 md:mt-33">
-        <PageTitle goBackHref="/stocks" title="Акция" />
+        <PageTitle goBackHref="/stocks" title="xx" />
 
         {stock && (
           <div className="mt-32 grid gap-30 sm:grid-cols-12 md:gap-60">

@@ -10,8 +10,8 @@
           v-model="completed"
           :color="owner?.color"
           :disabled="owner === null"
-          checked-title="Отменить задачу невыполненной"
-          title="Отменить задачу выполненной"
+          checked-title="xx xx xx"
+          title="xx xx xx"
           class="mt-4"
         />
 
@@ -19,7 +19,7 @@
           :model-value="name"
           variant="bottom-line"
           class="ml-10"
-          placeholder="Например, написать эссе"
+          placeholder="xx, xx xx"
           multiline
           @update:modelValue="setName"
         />
@@ -52,7 +52,7 @@
               </div>
 
               <div class="ml-10 text-14">
-                <span>Статистика</span>
+                <span>xx</span>
               </div>
 
               <SvgArrowRight24
@@ -65,12 +65,12 @@
 
         <div class="mb-13 pl-35">
           <div class="flex text-15">
-            <div class="text-black/40">Все время:</div>
+            <div class="text-black/40">xx xx:</div>
             <div class="ml-4 text-main-primary">08:13:00</div>
           </div>
 
           <div class="flex text-15">
-            <div class="text-black/40">Сегодня:</div>
+            <div class="text-black/40">xx:</div>
             <div class="ml-4 text-main-primary">00:13:00</div>
           </div>
         </div>
@@ -80,12 +80,12 @@
     <template #actions>
       <div class="flex">
         <Button variant="primary" class="px-38 laptop:!px-59">
-          <span>Сохранить</span>
+          <span>xx</span>
         </Button>
 
         <ButtonIcon
           color="#FF8181"
-          title="Удалить"
+          title="xx"
           class="ml-15 laptop:!py-4 laptop:!px-8"
           @click="remove"
         >
@@ -94,8 +94,8 @@
 
         <DrawerModalConfirmationDelete
           ref="deleteModalRef"
-          title="Внимание!"
-          description="Вы точно хотите удалить эту задачу?"
+          title="xx!"
+          description="xx xx xx xx xx xx?"
         />
       </div>
     </template>

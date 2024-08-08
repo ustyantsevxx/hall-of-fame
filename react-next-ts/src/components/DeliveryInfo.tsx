@@ -37,7 +37,7 @@ export const DeliveryInfo: FC<Props> = ({ className }) => {
       {restaurantInfo?.mode && (
         <SwiperSlide className="!h-auto !w-auto">
           <DeliveryInfoBlock
-            label="Время приема заказов"
+            label="xx xx xx"
             value={restaurantInfo.mode}
             className="md:w-[388px]"
           />
@@ -47,7 +47,7 @@ export const DeliveryInfo: FC<Props> = ({ className }) => {
       {restaurantInfo?.phone && (
         <SwiperSlide className="!h-auto !w-auto">
           <DeliveryInfoBlock
-            label="Номер телефона"
+            label="xx xx"
             value={
               <a href={`tel:+${restaurantInfo?.phone}`}>
                 {formatPhoneNumber(restaurantInfo?.phone)}

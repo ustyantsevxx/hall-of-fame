@@ -7,12 +7,12 @@
     reset
     @closed="reset"
   >
-    <p class="text-blue">Управление балансом</p>
+    <p class="text-blue">xx xx</p>
 
     <form v-if="card" @submit.prevent="save">
       <InputSelect
         v-model.number="mode"
-        title="Статус карты"
+        title="xx xx"
         class="mt-17 mb-24"
         size="md"
         style="width: 128px"
@@ -36,7 +36,7 @@
             <div class="flex items-center ml-15 space-x-8">
               <InputDefault
                 v-model="limit.balance"
-                label="Количество в литрах"
+                label="xx xx xx"
                 size="sm"
                 style="width: 62px"
                 rounded
@@ -49,14 +49,14 @@
                 }"
               />
 
-              <span class="text-description text-gray-500">л</span>
+              <span class="text-description text-gray-500">xx</span>
             </div>
           </div>
         </template>
 
         <template v-else>
           <div class="flex justify-between items-center h-25">
-            <span class="text-description">Введите сумму</span>
+            <span class="text-description">xx xx</span>
 
             <div class="flex items-center ml-15 space-x-8">
               <InputDefault
@@ -92,14 +92,14 @@
           <dd class="mb-3 text-description">
             {{ formattedCardBalance }} &#8381;
           </dd>
-          <dt class="text-description text-gray-500">Текущий баланс</dt>
+          <dt class="text-description text-gray-500">xx xx</dt>
         </dl>
 
         <dl class="ml-36">
           <dd class="mb-3 text-description">
             {{ formattedAvailableFunds }} &#8381;
           </dd>
-          <dt class="text-description text-gray-500">Свободные средства</dt>
+          <dt class="text-description text-gray-500">xx xx</dt>
         </dl>
       </div>
 
@@ -110,7 +110,7 @@
         class="mt-30"
         :disabled="loading || !!displayedErrorMessage"
       >
-        Сохранить
+        xx
       </Button>
     </form>
   </ModalBase>
@@ -174,11 +174,11 @@ export default class ModalCardLimitBalanceEdit extends mixins(
     return [
       {
         value: this.MODES.WRITE_ON,
-        label: 'Пополнить'
+        label: 'xx'
       },
       {
         value: this.MODES.WRITE_OFF,
-        label: 'Списать'
+        label: 'xx'
       }
     ]
   }
@@ -188,12 +188,12 @@ export default class ModalCardLimitBalanceEdit extends mixins(
       this.mode === this.MODES.WRITE_ON &&
       this.inputValue > this.userAvailableFunds
     ) {
-      return 'Укажите сумму меньше свободных средств'
+      return 'xx xx xx xx xx'
     } else if (
       this.mode === this.MODES.WRITE_OFF &&
       this.inputValue > this.card.balance
     ) {
-      return 'Укажите сумму меньше текущего баланса'
+      return 'xx xx xx xx xx'
     }
   }
 

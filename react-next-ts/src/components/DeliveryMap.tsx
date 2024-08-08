@@ -25,9 +25,9 @@ export const DeliveryMap: FC<Props> = ({ className }) => {
         addZone({
           color: zone.color,
           coords: deliveryPolygonToCoords(polygon),
-          hint: `Доставка заказа от ${formatRuble(zone.min_order)}, ~${
+          hint: `xx xx xx ${formatRuble(zone.min_order)}, ~${
             zone.delivery_time
-          } мин`
+          } xx`
         })
       }
     }

@@ -22,12 +22,12 @@ const emailVerifyRequestSuccess = ref(false)
 const blockContent = computed(() => {
   return emailVerifyRequestSuccess.value
     ? {
-        title: 'Поздравляем!',
-        text: ' Ваш профиль успешно верифицирован, вы можете пройти в мобильное приложение для авторизации.'
+        title: 'xx!',
+        text: ' xx xx xx xx, xx xx xx xx xx xx xx xx.'
       }
     : {
-        title: 'Ошибка!',
-        text: 'Не удалось верифицировать профиль! Проверьте ссылку и попробуйте еще раз.'
+        title: 'xx!',
+        text: 'xx xx xx xx! xx xx xx xx xx xx.'
       }
 })
 

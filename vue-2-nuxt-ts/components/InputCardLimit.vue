@@ -3,9 +3,9 @@
     <div style="width: 105px">
       <InputSelect
         :value="limitTypeId"
-        title="Тип лимита"
+        title="xx xx"
         size="sm"
-        placeholder="Тип лимита"
+        placeholder="xx xx"
         hide-underline
         :selected-option-classes="{ 'text-black': true }"
         :options="limitTypeOptions"
@@ -17,7 +17,7 @@
       <template v-if="valueInputVisible">
         <InputDefault
           :value="limit"
-          label="Лимит"
+          label="xx"
           size="sm"
           style="width: 62px"
           rounded

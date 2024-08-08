@@ -11,7 +11,7 @@ type Props = HTMLAttributes<HTMLDivElement> & {
 export const AboutPageAdvantages: FC<Props> = ({ className, advantages }) => {
   return (
     <div className={clsx(className)}>
-      <h2 className="text-regular-20 md:text-regular-26">Наши преимущества</h2>
+      <h2 className="text-regular-20 md:text-regular-26">xx xx</h2>
 
       <ul className="space-y-14 pt-14 md:-mx-16 md:flex md:space-y-0 md:space-x-20 md:overflow-auto md:p-16 md:pt-32 md:pb-20">
         {advantages.map(advantage => (

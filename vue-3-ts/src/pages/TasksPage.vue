@@ -47,11 +47,11 @@ const VIEW_MODES_LIST = [VIEW_MODES.LIST, VIEW_MODES.CALENDAR]
 
 const configsByViewMode: Record<string, TasksViewMode> = {
   [VIEW_MODES.LIST]: {
-    label: 'Мои задачи',
+    label: 'xx xx',
     component: TasksListPage
   },
   [VIEW_MODES.CALENDAR]: {
-    label: 'Календарь',
+    label: 'xx',
     component: TasksCalendarPage
   }
 }

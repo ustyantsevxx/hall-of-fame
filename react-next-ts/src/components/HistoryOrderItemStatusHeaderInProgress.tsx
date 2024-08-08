@@ -15,9 +15,9 @@ export const HistoryOrderItemStatusHeaderInProgress: FC<Props> = ({
   order
 }) => {
   const labelByStatus = {
-    [ORDER_STATUS.REQUEST_PROCESSING]: 'Заказ принят',
-    [ORDER_STATUS.COOKING]: 'Заказ готовят',
-    [ORDER_STATUS.DELIVERING]: 'У курьера'
+    [ORDER_STATUS.REQUEST_PROCESSING]: 'xx xx',
+    [ORDER_STATUS.COOKING]: 'xx xx',
+    [ORDER_STATUS.DELIVERING]: 'xx xx'
   }
 
   const deliveryTimeDate =
@@ -31,7 +31,7 @@ export const HistoryOrderItemStatusHeaderInProgress: FC<Props> = ({
     deliveryTimeDate &&
     [
       !deliveryTimeDate.isToday() && deliveryTimeDate.format('DD MMMM'),
-      ` к ${deliveryTimeDate.format('HH:mm')}`
+      ` xx ${deliveryTimeDate.format('HH:mm')}`
     ]
 
       .flat()
@@ -49,7 +49,7 @@ export const HistoryOrderItemStatusHeaderInProgress: FC<Props> = ({
         {labelByStatus[order.status.id]}
       </div>
       <div className="mt-4 text-white/80 md:mt-0 md:ml-8">
-        Будет доставлен {message}
+        xx xx {message}
       </div>
     </div>
   )

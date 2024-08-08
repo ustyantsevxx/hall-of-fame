@@ -1,7 +1,7 @@
 <template>
   <div class="mt-15 flex items-center">
     <div class="ml-10 truncate text-17 laptop:text-14">
-      <span>Время</span>
+      <span>xx</span>
       <template v-if="selectedTime !== null">
         <span>:</span>
         <span class="ml-5">{{ selectedTimeAsString }}</span>
@@ -10,7 +10,7 @@
 
     <TaskFormModalDatePickerClearButton
       v-if="selectedTime !== 0"
-      title="Очистить значение времени"
+      title="xx xx xx"
       class="ml-auto"
       type="button"
       @click="reset"

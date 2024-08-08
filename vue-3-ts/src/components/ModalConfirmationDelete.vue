@@ -16,7 +16,7 @@
           type="button"
           @click="confirm"
         >
-          Удалить
+          xx
         </button>
 
         <button
@@ -24,7 +24,7 @@
           type="button"
           @click="cancel"
         >
-          Отмена
+          xx
         </button>
       </div>
     </template>

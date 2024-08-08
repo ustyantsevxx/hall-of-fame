@@ -51,11 +51,7 @@
     <template #before-close>
       <Transition name="fade" mode="out-in">
         <div v-if="drawerStatus === DrawerStatus.Info" class="mr-20 flex">
-          <button
-            type="button"
-            title="Редактировать привычку"
-            @click="startEditingHabit"
-          >
+          <button type="button" title="xx xx" @click="startEditingHabit">
             <SvgEdit29 />
           </button>
         </div>
@@ -99,9 +95,9 @@ const habitDataStore = useHabitDataStore()
 
 const drawerTitle = computed(() => {
   const titleByStatus = {
-    [DrawerStatus.Create]: 'Новая привычка',
-    [DrawerStatus.Edit]: 'Редактирование привычки',
-    [DrawerStatus.Info]: 'Привычка'
+    [DrawerStatus.Create]: 'xx xx',
+    [DrawerStatus.Edit]: 'xx xx',
+    [DrawerStatus.Info]: 'xx'
   }
 
   return titleByStatus[drawerStatus.value]

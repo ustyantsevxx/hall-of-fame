@@ -52,7 +52,7 @@ export const ModalNotification: FC<Props> = ({
 
             <div className="mt-auto px-16 pt-7 pb-11">
               <AppButton className="w-full" onClick={closeModal}>
-                Понятно
+                xx
               </AppButton>
             </div>
           </div>
